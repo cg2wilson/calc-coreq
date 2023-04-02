@@ -6,9 +6,99 @@
     <subsection xml:id="a-notation">
         <title>Function Notation</title>
 
-        <p>
-            test
-        </p>
-    </subsection>
+        <introduction>
+            <p>
+                Supplements XYZ Sections: All
+            </p>
+        </introduction>
 
+    <subsubsection xml:id="a-notation-intro">
+        <title>Function Notation Intro</title>
+
+        <example>
+            <statement>
+                <p>
+                    A function is a relation that assigns <alert>exactly one</alert> output to every input. The set of inputs is the <term>domain</term> of the function. The set of outputs is the <term>range</term> of the function.
+                </p>
+
+                <p>
+                    For a function <m>y = f(x)</m>:
+                    <ul>
+                        <li>
+                            <p>
+                                <m>f</m> is the function name
+                            </p>
+                        </li>
+                        <li>
+                            <p>
+                                <m>x</m> is the input
+                            </p>
+                        </li>
+                        <li>
+                            <p>
+                                <m>f(x)</m> is the output or <m>y-</m>value for the corresponding <m>x</m>
+                            </p>
+                        </li>
+                    </ul>
+                </p>
+                <p>
+                    An important thing to notet is that <m>f(x)</m> does not indicate multiplication between <m>f</m> and <m>x</m>. Rather, <m>f(x)</m> represents the output or <m>y-</m>value obtained by plugging the corresponding <m>x</m> value into the function <m>f</m>. A function can be represented algebraically (with a formula), graphically (with a graph), numerically (with a table), or verbally (with a description.)
+                </p>
+                <image xml:id="a-notation-intro-iodiagram">
+                    <description>
+                        A diagram describing the "function machine"- <m>x</m> is input into the machine called <m>f</m>, and <m>f(x)</m> produced the output <m>y</m>
+                    </description>
+                    <latex-image>
+                        <![CDATA[ 
+                        \begin{tikzpicture}
+                            \node[left] at (0,0) {$x$};
+                            \draw (0,0)--(.5,0)--(.5,-.5);
+                            \draw (1,0) rectangle (3,-1);
+                            \draw[white] (1,-.35)--(1,-.65);
+                            \node[draw, single arrow, minimum height=11.45mm, minimum width=1mm, single arrow head extend = 2mm] at (3.5,-.5) {};
+                            \fill[white] (2.95,-.36) rectangle (3.05,-.64);
+                            \draw[-{Latex[length=2mm, width=2mm]}] (.5,-.5)--(1,-.5);
+                            \node[right] at (4.2,-.55) {$y$};
+                        \end{tikzpicture}
+                        ]]>
+                    </latex-image>
+                </image>
+
+                <p>
+                    Another important observation is that we can use variables other than <m>x,f,</m> and <m>y</m>!
+                </p>
+
+                <p>
+                    For example, let's identify the function name, input variable, and output variable in the following expressions:
+                    <me>
+                        z = r(w)
+                    </me>
+                    Let's try one more!
+                    <me>
+                        h = x(t)
+                    </me>
+                </p>
+
+                <p>
+                    Some different types of functions with function notation:    
+                </p>
+                <tabular>
+                    <row>
+                        <cell>Linear Function: <m>f(x) = 3x+1</m></cell>
+                        <cell>Is this different than <m>y=3x+1</m>?</cell>
+                    </row>
+                    <row>
+                        <cell>Quadratic Function: <m>h(t) = 16t^2-8t+20</m></cell>
+                        <cell>Is <m>h(t)</m> the same as <m>h\cdot t</m>?</cell>
+                    </row>
+                </tabular>
+            </statement>
+            <solution>
+                <p>
+                    
+                </p>
+            </solution>
+        </example>
+    </subsubsection>
+    </subsection>
 </section>

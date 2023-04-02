@@ -31,7 +31,7 @@
 		
 	%GRAPHING
 	\usepackage{pgf,tikz,pgfplots,tikz-cd}
-		\usetikzlibrary{arrows,arrows.meta,decorations.markings,decorations.pathreplacing,calc}
+		\usetikzlibrary{arrows,arrows.meta,decorations.markings,decorations.pathreplacing,calc,shapes.arrows}
 		\pgfplotsset{compat=1.15}
 		\usepgfplotslibrary{fillbetween}
 		
@@ -155,34 +155,16 @@
 
 
 \begin{document}
-	\subfile{title-2423.tex}\newpage
-		\thispagestyle{empty}
-	\tableofcontents
-		\clearpage \newpage \thispagestyle{empty}$ $\newpage\clearpage
-		
-
-	\subfile{review.tex}\newpage
-	\subfile{39-2423.tex}\newpage
-	\subfile{41.tex}\newpage
-	\subfile{42.tex}\newpage
-	\subfile{43.tex}\newpage
-	\subfile{44.tex}\newpage
-	\subfile{45.tex}\newpage
-	\subfile{51.tex}\newpage
-	\subfile{52.tex}\newpage
-	\subfile{53.tex}\newpage
-	\subfile{61.tex}\newpage
-	\subfile{62.tex}\newpage
-	\subfile{63.tex}\newpage
-	\subfile{64.tex}\newpage
-	\subfile{66.tex}\newpage
-	\subfile{68.tex}\newpage
-	\subfile{71.tex}\newpage
-	\subfile{72.tex}\newpage
-	\subfile{73.tex}\newpage
-	\subfile{74.tex}\newpage
-	\subfile{75.tex}\newpage
-	\subfile{78.tex}
-
+	
+	\begin{tikzpicture}
+		\node[left] at (0,0) {$x$};
+		\draw (0,0)--(.5,0)--(.5,-.5);
+		\draw (1,0) rectangle (3,-1);
+		\draw[white] (1,-.35)--(1,-.65);
+		\node[draw, single arrow, minimum height=11.45mm, minimum width=1mm, single arrow head extend = 2mm] at (3.5,-.5) {};
+		\fill[white] (2.95,-.36) rectangle (3.05,-.64);
+		\draw[-{Latex[length=2mm, width=2mm]}] (.5,-.5)--(1,-.5);
+		\node[right] at (4.2,-.55) {$y$};
+	\end{tikzpicture}
 	
 \end{document}
