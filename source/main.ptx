@@ -8,6 +8,6 @@
       Corequisite Material
     </title>
     <xi:include href="functionnotation.ptx"/>
-    
+    <xi:include href="lines.ptx"/>
   </article>
 </pretext>

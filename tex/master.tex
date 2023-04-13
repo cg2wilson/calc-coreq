@@ -157,14 +157,19 @@
 \begin{document}
 	
 	\begin{tikzpicture}
-		\node[left] at (0,0) {$x$};
-		\draw (0,0)--(.5,0)--(.5,-.5);
-		\draw (1,0) rectangle (3,-1);
-		\draw[white] (1,-.35)--(1,-.65);
-		\node[draw, single arrow, minimum height=11.45mm, minimum width=1mm, single arrow head extend = 2mm] at (3.5,-.5) {};
-		\fill[white] (2.95,-.36) rectangle (3.05,-.64);
-		\draw[-{Latex[length=2mm, width=2mm]}] (.5,-.5)--(1,-.5);
-		\node[right] at (4.2,-.55) {$y$};
+		\begin{axis}[
+				axis x line = middle,
+    				axis y line = middle,
+    				every axis y label/.style= {at={(ticklabel cs:1.1)}},
+				y label style={at={(axis description cs:.5,1.1)},anchor=north},
+    					ylabel = {$y$},
+    						every axis x label/.style= {at ={(ticklabel cs:1)}},
+    						x label style={at={(axis description cs:1.1,.25)},anchor=east},
+    						xlabel = {$x$},
+				xmin = -5, xmax = 5,
+			]
+			\addplot[domain = -5:5,smooth, thick] {2*x+5};
+		\end{axis}
 	\end{tikzpicture}
 	
 \end{document}

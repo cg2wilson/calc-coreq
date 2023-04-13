@@ -18,6 +18,9 @@
         <example>
             <statement>
                 <p>
+                    <url href="https://youtu.be/Qd4R5QIzBGk">Video</url>
+                </p>
+                <p>
                     A function is a relation that assigns <alert>exactly one</alert> output to every input. The set of inputs is the <term>domain</term> of the function. The set of outputs is the <term>range</term> of the function.
                 </p>
 
@@ -93,12 +96,428 @@
                     </row>
                 </tabular>
             </statement>
+        </example>
+
+        <example>
+            <statement>
+                <p>
+                    Identify the function name, input variable, and output variable: <m>p=g(q)</m>
+                </p>
+            </statement>
+            <solution>
+                <tabular>
+                    <row>
+                        <cell>Function name:</cell>
+                        <cell><m>g</m></cell>
+                    </row>
+                    <row>
+                        <cell>Input variable:</cell>
+                        <cell><m>q</m></cell>
+                    </row>
+                    <row>
+                        <cell>Output variable:</cell>
+                        <cell><m>p</m></cell>
+                    </row>
+                </tabular>
+            </solution>
+        </example>
+
+        <example>
+            <statement>
+                <p>
+                    <m>f(x) = \sqrt{x-4}</m>
+                </p>
+                <p>
+                    <ol marker="a">
+                        <li>
+                            <p>
+                                True or False: We can divide both sides of the above equation by <m>f</m> to get <m>x = \dfrac{\sqrt{x-4}}{f}</m>
+                            </p>
+                        </li>
+                        <li>
+                            <p>
+                                What is the input variable?
+                            </p>
+                        </li>
+                        <li>
+                            <p>
+                                What is the output variable?
+                            </p>
+                        </li>
+                    </ol>
+                </p>
+            </statement>
             <solution>
                 <p>
-                    
+                    <ol marker="a">
+                        <li>
+                            <p>
+                                False: <m>f(x)</m> is not <m>f</m> times <m>x</m>. Rather, <m>f(x)</m> is function notation for the output or <m>y</m> value. Another notation for the given relation would be <m>y = \sqrt{x-4}</m>. <m>f(x)</m> is equivalent to the <m>y</m> value, just in a different notation. Dividing both sides of the equation by <m>f</m> is akin to dividing the function by itself.
+                            </p>
+                        </li>
+                        <li>
+                            <p>
+                                <m>x</m>
+                            </p>
+                        </li>
+                        <li>
+                            <p>
+                                <m>f</m>
+                            </p>
+                        </li>
+                    </ol>
                 </p>
             </solution>
         </example>
     </subsubsection>
+    </subsection>
+
+    <subsection xml:id="a-evaluation">
+        <title>Function Evaluation</title>
+
+        <introduction>
+            <p>
+                Supplements XYZ Sections: All
+            </p>
+        </introduction>
+        <subsubsection xml:id="a-evaluation-algebraic">
+            <title>Function Evaluation, Algebraic</title>
+            
+            <example>
+                <statement>
+                    <p>
+                        <url href="https://youtu.be/Nc623N6sHFM">Video</url>
+                    </p>
+                    <p>
+                        <ol marker="a">
+                            <li>
+                                <p>
+                                    Find <m>f(3)</m> given that <m>f(x) = (x-1)^2 + 5</m>
+                                </p>
+                            </li>
+                            <li>
+                                <p>
+                                    Find <m>g(-1)</m> given that <m>g(x) = x^2 + \dfrac{1}{x}</m>
+                                </p>
+                            </li>
+                            <li>
+                                <p>
+                                    Find <m>h(0)</m> given that <m>h(t) = 6</m>
+                                </p>
+                            </li>
+                        </ol>
+                    </p>
+                </statement>
+                <solution>
+                    <p>
+                        <ol marker="a">
+                            <li>
+                                <p>
+                                    <m>f(3) = 9</m>
+                                </p>
+                            </li>
+                            <li>
+                                <p>
+                                    <m>g(-1) = 0</m>
+                                </p>
+                            </li>
+                            <li>
+                                <p>
+                                    <m>h(0) = 6</m>
+                                </p>
+                            </li>
+                        </ol>
+                    </p>
+                </solution>
+            </example>
+
+            <example>
+                <statement>
+                    <p>
+                        <ol marker="a">
+                            <li>
+                                <p>
+                                    Find <m>f(-2)</m> given that <m>f(x) = 3x^2-7</m>
+                                </p>
+                            </li>
+                            <li>
+                                <p>
+                                    Find <m>g(1)</m> given that <m>g(z) = \sqrt{z+8}</m>
+                                </p>
+                            </li>
+                            <li>
+                                <p>
+                                    Find <m>f(10)</m> given that <m>f(x) = -1</m>
+                                </p>
+                            </li>
+                        </ol>
+                    </p>
+                </statement>
+                <solution>
+                    <p>
+                        <ol marker="a">
+                            <li>
+                                <p>
+                                    <m>f(-2) = 5</m>
+                                </p>
+                            </li>
+                            <li>
+                                <p>
+                                    <m>g(1) = 3</m>
+                                </p>
+                            </li>
+                            <li>
+                                <p>
+                                    <m>f(10) = -1</m>
+                                </p>
+                            </li>
+                        </ol>
+                    </p>
+                </solution>
+            </example>
+        </subsubsection>
+
+        <subsubsection xml:id="a-evaluation-piecewise">
+            <title>Function Evaluation, Algebraic Piecewise</title>
+            
+            <example>
+                <statement>
+                    <p>
+                        <url href="https://youtu.be/ebO4nlbE5oI">Video</url>
+                    </p>
+                    <p>
+                        <me>
+                            f(x) = \begin{cases} -(x+1)^2 + 3 &amp; -3\leq x \lt 1 \\ 5 &amp; x=1 \\ x-3 &amp; x \gt 1 \end{cases}
+                        </me>
+                        Find <m>f(-1),f(1)</m>, and <m>f(10)</m>
+                    </p>
+                </statement>
+                <solution>
+                    <p>
+                        <m>f(-1) = 3</m>, <m>f(1) = 5</m>, and <m>f(10) = 7</m>
+                    </p>
+                </solution>
+            </example>
+
+            <example>
+                <statement>
+                    <p>
+                        <me>
+                            f(x) = \begin{cases} \sqrt{6-x} &amp; x\lt 6\\ -2 &amp; x=6\\ x^2 &amp; 6\lt x\leq 10 \end{cases}
+                        </me>
+                        Find <m>f(-3), f(6)</m>, and <m>f(7)</m>
+                    </p>
+                </statement>
+                <solution>
+                    <p>
+                        <m>f(-3) = 3</m>, <m>f(6) = -2</m>, and <m>f(7) = 49</m>
+                    </p>
+                </solution>
+            </example>
+        </subsubsection>
+
+        <subsubsection xml:id="a-evaluation-graphical">
+            <title>Function Evaluation, Graphical</title>
+            
+            <example>
+                <statement>
+                    <p>
+                        <url href="https://youtu.be/1PtpQxttg_0">Video</url>
+                    </p>
+                    <p>
+                        The graph of <m>y = f(t)</m> is given.
+                    </p>
+                    <image source="a1.jpg"/>
+                    <p>
+                        Find <m>f(-5)</m>, <m>f(-1)</m>, <m>f(0)</m>, <m>f(3)</m>, and <m>f(5)</m>
+                    </p>
+                </statement>
+                <solution>
+                    <p>
+                        <m>f(-5) = 1</m>, <m>f(-1) = 1</m>, <m>f(0) = 1</m>, <m>f(3) = 2</m>, <m>f(5)</m> DNE
+                    </p>
+                </solution>
+            </example>
+
+            <example>
+                <statement>
+                    <p>
+                        The graph of <m>y=g(x)</m> is given. Find <m>f(-3)</m>, <m>f(-1)</m>, <m>f(0)</m>, <m>f(1)</m>, and <m>f(2)</m>.
+                    </p>
+                    <image source="a2.png"/>
+                </statement>
+                <solution>
+                    <p>
+                        <m>f(-3) = -1</m>, <m>f(-1) = DNE</m>, <m>f(0) = 2</m>, <m>f(1) = -2</m>, and <m>f(2)=0</m>.
+                    </p>
+                </solution>
+            </example>
+        </subsubsection>
+
+        <subsubsection xml:id="a-evaluation-numerical">
+            <title>Function Evaluation, Numerical</title>
+            
+            <example>
+                <statement>
+                    <p>
+                        <url href="https://youtu.be/TEr5EeEHzQE">Video</url>
+                    </p>
+                    <tabular>
+                        <row>
+                            <cell><m>x</m></cell>
+                            <cell>1</cell>
+                            <cell>2</cell>
+                            <cell>3</cell>
+                            <cell>4</cell>
+                            <cell>5</cell>
+                        </row>
+                        <row>
+                            <cell><m>f(x)</m></cell>
+                            <cell><m>-1</m></cell>
+                            <cell>3.7</cell>
+                            <cell>4.2</cell>
+                            <cell>3.9</cell>
+                            <cell>7.4</cell>
+                        </row>
+                        <row>
+                            <cell><m>g(x)</m></cell>
+                            <cell>0</cell>
+                            <cell>0</cell>
+                            <cell>5</cell>
+                            <cell>0</cell>
+                            <cell><m>-1</m></cell>
+                        </row>
+                    </tabular>
+                    <p>
+                        Find <m>f(3)</m>, <m>g(5)</m>, <m>f(2)-g(5)</m>, and <m>g(4)+f(1)</m>
+                    </p>
+                </statement>
+                <solution>
+                    <p>
+                        <m>f(3) = 4.2</m>, <m>g(5)=-1</m>, <m>f(2)-g(5)=3.7-(-1) = 4.7</m>, and <m>g(4)+f(1)=0 + (-1.1) = -1.1</m>
+                    </p>
+                </solution>
+            </example>
+
+            <example>
+                <statement>
+                    <p>
+                        <url href="https://youtu.be/mpE2r0pGWhE">Video</url>
+                    </p>
+                    <tabular>
+                        <row>
+                            <cell><m>x</m></cell>
+                            <cell><m>-1</m></cell>
+                            <cell>1</cell>
+                            <cell>3</cell>
+                            <cell>5</cell>
+                            <cell>7</cell>
+                        </row>
+                        <row>
+                            <cell><m>f(x)</m></cell>
+                            <cell>7</cell>
+                            <cell>6</cell>
+                            <cell>5</cell>
+                            <cell>4</cell>
+                            <cell>3</cell>
+                        </row>
+                        <row>
+                            <cell><m>g(x)</m></cell>
+                            <cell><m>-3.14</m></cell>
+                            <cell>15.9</cell>
+                            <cell><m>-2.6</m></cell>
+                            <cell>5.3</cell>
+                            <cell><m>-5.8</m></cell>
+                        </row>
+                    </tabular>
+                    <p>
+                        Find <m>f(-1)</m>, <m>g(3)</m>, <m>g(1)-f(5)</m>, and <m>g(-1)\cdot f(7)</m>.
+                    </p>
+                </statement>
+                <solution>
+                    <p>
+                        <m>f(-1) = 7</m>, <m>g(3)=-2.6</m>, <m>g(1)-f(5)=15.9-4 = 11.9</m>, and <m>g(-1)\cdot f(7) = -3.14\cdot 3 = -9.42</m>.
+                    </p>
+                </solution>
+            </example>
+        </subsubsection>
+
+        <subsubsection xml:id="a-evaluation-symbolic">
+            <title>Function Evaluation, Symbolic</title>
+            
+            <example>
+                <statement>
+                    <p>
+                        <url href="https://youtu.be/RwkwmhJ79GI">Video</url>
+                    </p>
+                    <p>
+                        <m>f(x) = x^2+5</m>. Find <m>f(a)</m>, <m>-f(x)</m>, <m>f(x+h)</m>, and <m>f(3+h)-f(3)</m>.
+                    </p>
+                </statement>
+                <solution>
+                    <p>
+                        <m>f(a) = a^2 +5</m>, <m>-f(x) = -x^2-5</m>, <m>f(x+h) = x^2 + 2xh + h^2 + 5</m>, and <m>f(3+h)-f(3) = 6h + h^2</m>.
+                    </p>
+                </solution>
+            </example>
+
+            <example>
+                <statement>
+                    <p>
+                        <m>f(x) = 3x^2</m>. Find the following:
+                    </p>
+                    <p>
+                        <ol marker="a">
+                            <li>
+                                <p>
+                                    <m>f(c)</m>
+                                </p>
+                            </li>
+                            <li>
+                                <p>
+                                    <m>f(-x)</m>
+                                </p>
+                            </li>
+                            <li>
+                                <p>
+                                    <m>f(x+h)</m>
+                                </p>
+                            </li>
+                            <li>
+                                <p>
+                                    <m>f(1+h)-f(1)</m>
+                                </p>
+                            </li>
+                        </ol>
+                    </p>
+                </statement>
+                <solution>
+                    <p>
+                        <ol marker="a">
+                            <li>
+                                <p>
+                                    <m>f(c) = 3c^2</m>
+                                </p>
+                            </li>
+                            <li>
+                                <p>
+                                    <m>f(-x) = 3(-x)^2 = 3x^2</m>
+                                </p>
+                            </li>
+                            <li>
+                                <p>
+                                    <m>f(x+h) = 3(x+h)^2 = 3(x^2+2xh+h^2) = 3x^2+6xh+3h^2</m>
+                                </p>
+                            </li>
+                            <li>
+                                <p>
+                                    <m>f(1+h)-f(1) = 3(1+h)^2 -3(1)^2 = 3(1+2h+h^2)-3 = 3+6h+3h^2-3 = 6h + 3h^2</m>
+                                </p>
+                            </li>
+                        </ol>
+                    </p>
+                </solution>
+            </example>
+        </subsubsection>
     </subsection>
 </section>

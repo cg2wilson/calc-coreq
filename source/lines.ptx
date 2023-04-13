@@ -1,0 +1,400 @@
+<?xml version='1.0' encoding='utf-8'?>
+
+<section xml:id="b" xmlns:xi="http://www.w3.org/2001/XInclude">
+    <title>B. Lines and Solving Linear Equations</title>
+
+    <subsection xml:id="b-lines">
+        <title>Lines</title>
+
+        <introduction>
+            <p>
+                Supplements XYZ Sections: All
+            </p>
+        </introduction>
+
+    <subsubsection xml:id="a-notation-slope">
+        <title>Slope</title>
+
+        <example>
+            <statement>
+                <p>
+                    <url href="https://www.youtube.com/watch?v=_o6b8-yZ1m0">Video</url>
+                </p>
+                <p>
+                    The <term>slope</term> of a line measures the <term>rate of change</term> of the line (rise over run). Given two points on a line <m>(x_1,y_1)</m> and <m>(x_2,y_2)</m>, we can calculate the slope using the following:
+                    <me>
+                        m = \dfrac{y_2-y_1}{x_2-x_1}
+                    </me>                  
+                </p>
+
+                <p>
+                    Find the slope of the line that goes through the points <m>(-3,6)</m> and <m>(1,5)</m>.
+                </p>
+                <p>
+                    We can also find the slope of a line from its graph.
+                </p>
+
+                <image source = "b-ex11.jpg"/>
+            </statement>
+        </example>
+
+        <example>
+            <statement>
+                <p>
+                    Find the slope of the line that goes through the points <m>(-2,5)</m> and <m>(1,7)</m>.
+                </p>
+            </statement>
+            <solution>
+                <p>
+                    <m>\dfrac{2}{3}</m>
+                </p>
+            </solution>
+        </example>
+
+        <example>
+            <statement>
+                <p>
+                    What is the slope of the line graphed below?
+                </p>
+                <image source="b-c11b.png"/>
+            </statement>
+            <solution>
+                <p>
+                    <m>\dfrac{5}{4}</m>
+                </p>
+            </solution>
+        </example>
+    </subsubsection>
+
+        <subsubsection xml:id="b-lines-slopeintercept">
+            <title>Slope-Intercept Form</title>
+            
+            <example>
+                <statement>
+                    <p>
+                        <url href="https://youtu.be/wRFtnGNT4KU">Video</url>
+                    </p>
+                    <p>
+                        The equation of a line in <term>slope-intercept form</term> is:
+                        <me>
+                            y = mx+b
+                        </me>
+                        where <m>m</m> is the slope and <m>b</m> is <m>y-</m>intercept
+                    </p>
+                    <p>
+                        Identify the slope and <m>y-</m>intercept for <m>y = 2x+5</m>. Sketch the graph of <m>y</m>. Is the graph of <m>y</m> an increasing, decreasing, or horizontal line?
+                    </p>
+                    <p>
+                        <ul>
+                            <li>
+                                <p>
+                                    The slope of an increasing line is <term>positive</term>
+                                </p>
+                            </li>
+                            <li>
+                                <p>
+                                    The slope of a decreasing line is <term>negatitve</term>
+                                </p>
+                            </li>
+                            <li>
+                                <p>
+                                    The slope of a horizontal line is <term>zero</term>
+                                </p>
+                            </li>
+                            <li>
+                                <p>
+                                    The slope of a vertical line is <term>undefined</term>
+                                </p>
+                            </li>
+                        </ul>
+                    </p>
+                </statement>
+                <solution>
+                    <p>
+                        The slope is 2 and the <m>y-</m>intercept is <m>(0,5)</m>. The graph is an increasing line:
+                    </p>
+                    <image>
+                        <description>
+                            The graph of <m>y=2x+5</m> on <m>[-5,5]</m>
+                        </description>
+                        <latex-image>
+                            <![CDATA[ 
+                            \begin{tikzpicture}
+                                \begin{axis}[
+                                        axis x line = middle,
+                                            axis y line = middle,
+                                            every axis y label/.style= {at={(ticklabel cs:1.1)}},
+                                        y label style={at={(axis description cs:.5,1.1)},anchor=north},
+                                                ylabel = {$y$},
+                                                    every axis x label/.style= {at ={(ticklabel cs:1)}},
+                                                    x label style={at={(axis description cs:1.1,.25)},anchor=east},
+                                                    xlabel = {$x$},
+                                        xmin = -5, xmax = 5,
+                                    ]
+                                    \addplot[domain = -5:5,smooth, thick] {2*x+5};
+                                \end{axis}
+                            \end{tikzpicture}
+                            ]]>
+                        </latex-image>
+                    </image>
+                </solution>
+            </example>
+
+            <example>
+                <statement>
+                    <p>
+                        Identify the slope and <m>y-</m>intercept of <m>f(x) =-3x-1</m>. Sketch the graph of <m>f(x)</m>. Is the graph of <m>f(x)</m> an increasing, decreasing, or horizontal line?
+                    </p>
+                </statement>
+                <solution>
+                    <p>
+                        The slope is <m>-3</m> and the <m>y-</m>intercept is <m>(0,-1)</m>. The graph is a decreasing line:
+                    </p>
+                    <image source="b-c12a.png"/>
+                </solution>
+            </example>
+            
+            <example>
+                <statement>
+                    <p>
+                        Identify the slope and <m>y-</m>intercept of <m>y=3</m>. Sketch the graph of <m>y</m>. Is <m>y</m> an increasing, decreasing, or horizontal line?
+                    </p>
+                </statement>
+                <solution>
+                    <p>
+                        The slope is 0 and the <m>y-</m>intercept is <m>(0,3)</m>. The graph is a horizontal line:
+                    </p>
+                    <image source="b-c12b.png"/>
+                </solution>
+            </example>
+        </subsubsection>
+
+        <subsubsection xml:id="b-lines-equation">
+            <title>Finding an Equation of a Line in Slope-Intercept Form</title>
+            
+            <example>
+                <statement>
+                    <p>
+                        <url href="https://youtu.be/uQHk3gQo-HI">Video</url>
+                    </p>
+                    <p>
+                        Find the equation of the line that passes through the points <m>(-7,2)</m> and <m>(5,8)</m> in slope-intercept form.
+                    </p>
+                </statement>
+                <solution>
+                    <p>
+                        <m>y = \dfrac{1}{2}x+\dfrac{11}{2}</m>
+                    </p>
+                </solution>
+            </example>
+
+            <example>
+                <statement>
+                    <p>
+                        Find the equation of the line that passes through the points <m>(-1,10)</m> and <m>(2,8)</m> in slope-intercept form.
+                    </p>
+                </statement>
+                <solution>
+                    <p>
+                        <m>y = -\dfrac{2}{3}x + \dfrac{28}{3}</m>
+                    </p>
+                </solution>
+            </example>
+
+            <example>
+                <statement>
+                    <p>
+                        Find the equation of the line that passes through the points <m>(-2,5)</m> and <m>(7,5)</m> in slope-intercept form.
+                    </p>
+                </statement>
+                <solution>
+                    <p>
+                        <m>y=5</m>
+                    </p>
+                </solution>
+            </example>
+        </subsubsection>
+
+        <subsubsection xml:id="b-lines-pointslope">
+            <title>Point-Slope Form</title>
+            
+            <example>
+                <statement>
+                    <p>
+                        <url href="https://youtu.be/ng8NDCSwT_o">Video</url>
+                    </p>
+                    <p>
+                        The equation of a line in <term>point-slope form</term> is:
+                        <me>
+                            y = m(x-x_1)+y_1
+                        </me>
+                        where <m>m</m> is the slope and <m>(x_1,y_1)</m> is any point on the line.
+                    </p>
+                    <p>
+                        Identify the slope of <m>y=3(x-4)-7</m>. What point on <m>y</m> can we identify without any calculation? Rewrite <m>y</m> in slope-intercept form and identify the <m>y-</m>intercept
+                    </p>
+                </statement>
+                <solution>
+                    <p>
+                        The slope is 3, and the point is <m>(4,-7)</m>. In slope intercept form, the line is <m>y=3x-19</m> and the <m>y-</m>intercept is <m>(0,-19)</m>
+                    </p>
+                </solution>
+            </example>
+
+            <example>
+                <statement>
+                    <p>
+                        For <m>y=2(x+1)+5</m>, (a) identify the slope, (b) identify a point on <m>y</m> without doing any calculations, and (c) rewrite <m>y</m> in slope-intercept form
+                    </p>
+                </statement>
+                <solution>
+                    <p>
+                        <ol marker="a">
+                            <li>
+                                <p>
+                                    2
+                                </p>
+                            </li>
+                            <li>
+                                <p>
+                                    <m>(-1,5)</m>
+                                </p>
+                            </li>
+                            <li>
+                                <p>
+                                    <m>y=2x+7</m>
+                                </p>
+                            </li>
+                        </ol>
+                    </p>
+                </solution>
+            </example>
+
+            <example>
+                <statement>
+                    <p>
+                        Find the equation of the line with slope <m>-\dfrac{1}{3}</m> that passes through the point <m>\lrpar{3,\dfrac{5}{2}}</m> in point-slope form.
+                    </p>
+                </statement>
+                <solution>
+                    <p>
+                        <m>y=-\dfrac{1}{3}(x-3)+\dfrac{5}{2}</m>
+                    </p>
+                </solution>
+            </example>
+        </subsubsection>
+    </subsection>
+
+    <subsection xml:id="b-solving">
+        <title>Solving Linear Equations</title>
+        
+        <example>
+            <statement>
+                <p>
+                    <url href="https://youtu.be/PK0tFPqUHHk">Video</url>
+                </p>
+                <p>
+                    Solve the following linear equations for <m>x</m>
+                </p>
+                <p>
+                    <ol marker="a">
+                        <li>
+                            <p>
+                                <m>3.2x+3.6=-9.18</m>
+                            </p>
+                        </li>
+                        <li>
+                            <p>
+                                <m>\dfrac{x+1}{3} = 10</m>
+                            </p>
+                        </li>
+                        <li>
+                            <p>
+                                <m>\dfrac{7}{3}x-\dfrac{1}{2}=1</m>
+                            </p>
+                        </li>
+                        <li>
+                            <p>
+                                <m>2x+\sqrt{3} = 0</m>
+                            </p>
+                        </li>
+                    </ol>
+                </p>
+            </statement>
+            <solution>
+                <p>
+                    <ol marker="a">
+                        <li>
+                            <p>
+                                <m>x = -3.99375</m>
+                            </p>
+                        </li>
+                        <li>
+                            <p>
+                                <m>x = 29</m>
+                            </p>
+                        </li>
+                        <li>
+                            <p>
+                                <m>x = \dfrac{9}{14}</m>
+                            </p>
+                        </li>
+                        <li>
+                            <p>
+                                <m>x = -\dfrac{\sqrt{3}}{2}</m>
+                            </p>
+                        </li>
+                    </ol>
+                </p>
+            </solution>
+        </example>
+
+        <example>
+            <statement>
+                <p>
+                    Solve the following linear equations for <m>x</m>
+                </p>
+                <p>
+                    <ol marker="a">
+                        <li>
+                            <p>
+                                <m>\dfrac{3}{5}x + 7 = 9</m>
+                            </p>
+                        </li>
+                        <li>
+                            <p>
+                                <m>-0.16(x-1)-5.18=3.14</m>
+                            </p>
+                        </li>
+                        <li>
+                            <p>
+                                <m>-2x+\sqrt{2} = 0</m>
+                            </p>
+                        </li>
+                    </ol>
+                </p>
+            </statement>
+            <solution>
+                <p>
+                    <ol marker="a">
+                        <li>
+                            <p>
+                                <m>x=\dfrac{10}{3}</m>
+                            </p>
+                        </li>
+                        <li>
+                            <p>
+                                <m>x = -51</m>
+                            </p>
+                        </li>
+                        <li>
+                            <p>
+                                <m>x=\dfrac{\sqrt{2}}{2}</m>
+                            </p>
+                        </li>
+                    </ol>
+                </p>
+            </solution>
+        </example>
+    </subsection>
+</section>
