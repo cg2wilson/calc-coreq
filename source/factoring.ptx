@@ -1,0 +1,571 @@
+<?xml version='1.0' encoding='utf-8'?>
+
+<section xml:id="c" xmlns:xi="http://www.w3.org/2001/XInclude">
+    <title>C. Factoring and Solving Quadratics</title>
+
+    <subsection xml:id="c-factoring">
+        <title>Factoring and Solving Quadratics</title>
+
+        <introduction>
+            <p>
+                Supplements XYZ Sections: 2.3 Algebraic Limits, 2.4 Continuity
+            </p>
+        </introduction>
+
+    <subsubsection xml:id="c-factoring-quadratics">
+        <title>Factoring Quadratics</title>
+
+        <example>
+            <statement>
+                <p>
+                    <url href="https://youtu.be/-0iuMpy39gs">Video</url>
+                </p>
+                <p>
+                    <ol marker="a">
+                        <li>
+                            <p>
+                                Factor <m>y=x^2-2x</m>
+                            </p>
+                        </li>
+                        <li>
+                            <p>
+                                Factor <m>f(x) =3x^2+12x</m>
+                            </p>
+                        </li>
+                    </ol>
+                </p>
+            </statement>
+            <solution>
+                <p>
+                    <ol marker="a">
+                        <li>
+                            <p>
+                                <m>x^2-2x = x(x-2)</m>
+                            </p>
+                        </li>
+                        <li>
+                            <p>
+                                <m>3x^2+12x = 3x(x+4)</m>
+                            </p>
+                        </li>
+                    </ol>
+                </p>
+            </solution>
+        </example>
+
+        <example>
+            <statement>
+                <p>
+                    Factor <m>y=x^2+10x</m>
+                </p>
+            </statement>
+            <solution>
+                <p>
+                    <m>x^2+10x=x(x+10)</m>
+                </p>
+            </solution>
+        </example>
+    </subsubsection>
+
+    <subsubsection xml:id="c-factoring-diffsquares">
+        <title>Factoring: Difference of Squares</title>
+        
+        <example>
+            <statement>
+                <p>
+                    <url href="https://youtu.be/2Pp4VspI3AM">Video</url>
+                </p>
+                <p>
+                    <ol marker="a">
+                        <li>
+                            <p>
+                                Difference of squares format
+                            </p>
+                        </li>
+                        <li>
+                            <p>
+                                Factor <m>g(x) = x^2-4</m>
+                            </p>
+                        </li>
+                    </ol>
+                </p>
+            </statement>
+            <solution>
+                <p>
+                    <ol marker="a">
+                        <li>
+                            <p>
+                                Difference of squares format
+                            </p>
+                        </li>
+                        <li>
+                            <p>
+                                <m>x^2-4 = (x+2)(x-2)</m>
+                            </p>
+                        </li>
+                    </ol>
+                </p>
+            </solution>
+        </example>
+
+        <example>
+            <statement>
+                <p>
+                    Factor <m>f(x) = x^2-49</m>
+                </p>
+            </statement>
+            <solution>
+                <p>
+                    <m>x^2-49 = (x-7)(x+7)</m>
+                </p>
+            </solution>
+        </example>
+    </subsubsection>
+
+    <subsubsection xml:id="c-factoring-monic">
+        <title>Factoring: Lead Coefficient <m>=1</m> (<m>+/-</m> subcases)</title>
+        
+        <example>
+            <statement>
+                <p>
+                    <url href="https://youtu.be/GqSmWmFatYY">Video</url>
+                </p>
+                <p>
+                    <ol marker="a">
+                        <li>
+                            <p>
+                                Factor <m>y=x^2+5x+6</m>
+                            </p>
+                        </li>
+                        <li>
+                            <p>
+                                Factor <m>y=x^2-7x+10</m>
+                            </p>
+                        </li>
+                        <li>
+                            <p>
+                                Factor <m>y=x^2-4x-12</m>
+                            </p>
+                        </li>
+                    </ol>
+                </p>
+            </statement>
+            <solution>
+                <p>
+                    <ol marker="a">
+                        <li>
+                            <p>
+                                <m>y=x^2+5x+6=(x+2)(x+3)</m>
+                            </p>
+                        </li>
+                        <li>
+                            <p>
+                                <m>y=x^2-7x+10=(x-2)(x-7)</m>
+                            </p>
+                        </li>
+                        <li>
+                            <p>
+                                <m>y=x^2-4x-12=(x-6)(x+2)</m>
+                            </p>
+                        </li>
+                    </ol>
+                </p>
+            </solution>
+        </example>
+
+        <example>
+            <statement>
+                <p>
+                    Factor all.
+                </p>
+                <p>
+                    <ol marker="a">
+                        <li>
+                            <p>
+                                <m>y=x^2+8x+15</m>
+                            </p>
+                        </li>
+                        <li>
+                            <p>
+                                <m>y=x^2-x-2</m>
+                            </p>
+                        </li>
+                        <li>
+                            <p>
+                                <m>y=x^2+2x-8</m>
+                            </p>
+                        </li>
+                    </ol>
+                </p>
+            </statement>
+            <solution>
+                <p>
+                    <ol marker="a">
+                        <li>
+                            <p>
+                                <m>x^2+8x+15=(x+3)(x+5)</m>
+                            </p>
+                        </li>
+                        <li>
+                            <p>
+                                <m>x^2-x-2=(x-2)(x+1)</m>
+                            </p>
+                        </li>
+                        <li>
+                            <p>
+                                <m>x^2+2x-8=(x+4)(x-2)</m>
+                            </p>
+                        </li>
+                    </ol>
+                </p>
+            </solution>
+        </example>
+    </subsubsection>
+
+    <subsubsection xml:id="c-factoring-nonmonic">
+        <title>Factoring: Lead Coefficient <m>\neq 1</m> ("magic X" method)</title>
+        
+        <example>
+            <statement>
+                <p>
+                    <url href="https://youtu.be/DxBhqGh3C3g">Video</url>
+                </p>
+                <p>
+                    <ol marker="a">
+                        <li>
+                            <p>
+                                Factor <m>f(x) = 2x^2+13x+15</m>
+                            </p>
+                        </li>
+                        <li>
+                            <p>
+                                Factor <m>h(t) = 6t^2-5t+1</m>
+                            </p>
+                        </li>
+                    </ol>
+                </p>
+            </statement>
+            <solution>
+                <p>
+                    <ol marker="a">
+                        <li>
+                            <p>
+                                <m>2x^2+13x+15 = (2x+3)(x+5)</m>
+                            </p>
+                        </li>
+                        <li>
+                            <p>
+                                <m>6t^2-5t+1 = (2t-1)(3t-1)</m>
+                            </p>
+                        </li>
+                    </ol>
+                </p>
+            </solution>
+        </example>
+
+        <example>
+            <statement>
+                <p>
+                    Factor <m>g(x)=4x^2+19x-5</m>
+                </p>
+            </statement>
+            <solution>
+                <p>
+                    <m>4x^2+19x-5 = (4x-1)(x+5)</m>
+                </p>
+            </solution>
+        </example>
+    </subsubsection>
+    </subsection>
+
+    <subsection xml:id="c-solving">
+        <title>Solving Quadratic Equations</title>
+        
+        <introduction>
+            <p>
+                Supplements XYZ Sections: 3.4 Derivatives as Rates of Change, 4.4 Mean Value Theorem, 4.4 First and Second Derivative Test
+            </p>
+        </introduction>
+
+        <subsubsection xml:id="c-solving-factoring">
+            <title>Solve by Factoring</title>
+            
+            <example>
+                <statement>
+                    <p>
+                        <url href="https://youtu.be/pPpT6CKe3zA">Video</url>
+                    </p>
+                    <p>
+                        Find where <m>f(x)=0</m> given <m>f(x) =x^2-3x+2</m>
+                    </p>
+                </statement>
+                <solution>
+                    <p>
+                        <m>x=1,x=2</m>
+                    </p>
+                </solution>
+            </example>
+
+            <example>
+                <statement>
+                    <p>
+                        Solve <m>x^2+7x=-6</m>
+                    </p>
+                </statement>
+                <solution>
+                    <p>
+                        Add 6 to both sides (one side must be zero):
+                        <me>
+                            x^2+7x+6=0
+                        </me>
+                        Factor:
+                        <me>
+                            (x+6)(x+1)=0
+                        </me>
+                        Set each factor equal to zero and solve:
+                        <md>
+                            <mrow>x + 6 = 0 \amp\rightarrow x=-6 </mrow>
+                            <mrow>x + 1 = 0 \amp\rightarrow x=-1 </mrow>
+                        </md>
+                        
+                    </p>
+                </solution>
+            </example>
+        </subsubsection>
+
+        <subsubsection xml:id="c-solving-root">
+            <title>Root Method</title>
+            
+            <example>
+                <statement>
+                    <p>
+                        <url href="https://youtu.be/xEpQk-tenYY">Video</url>
+                    </p>
+                    <p>
+                        <ol marker="a">
+                            <li>
+                                <p>
+                                    Solve <m>x^2-7=0</m> for <m>x</m> exactly.
+                                </p>
+                            </li>
+                            <li>
+                                <p>
+                                    Solve <m>4(x-1)^2=18</m> for <m>x</m> exactly.
+                                </p>
+                            </li>
+                        </ol>
+                    </p>
+                </statement>
+                <solution>
+                    <p>
+                        <ol marker="a">
+                            <li>
+                                <p>
+                                    <m>x=\pm \sqrt{7}</m>
+                                </p>
+                            </li>
+                            <li>
+                                <p>
+                                    <m>x = 1\pm \dfrac{3}{\sqrt{2}}</m>
+                                </p>
+                            </li>
+                        </ol>
+                    </p>
+                </solution>
+            </example>
+
+            <example>
+                <statement>
+                    <p>
+                        Solve <m>2x^2-6=0</m> for <m>x</m> exactly.
+                    </p>
+                </statement>
+                <solution>
+                    <p>
+                        Isolate the squared term:
+                        <me>
+                            2x^2=6\rightarrow x^2=3
+                        </me>
+                        Square root both sides:
+                        <me>
+                            x=\pm \sqrt{3}
+                        </me>
+                        
+                        
+                    </p>
+                </solution>
+            </example>
+        </subsubsection>
+
+        <subsubsection xml:id="c-solving-quadraticformula">
+            <title>Quadratic Formula</title>
+            
+            <example>
+                <statement>
+                    <p>
+                        <url href="https://youtu.be/zOK9iViWEm8">Video</url>
+                    </p>
+                    <p>
+                        For a quadratic equation of the form <m>ax^2+bx+c=0</m>, we can solve using the quadratic formula:
+                        <me>
+                            x = \dfrac{-b\pm \sqrt{b^2-4ac}}{2a}
+                        </me>
+                    </p>
+                    <p>
+                        <ul>
+                            <li>
+                                <p>
+                                    2 real solutions if <m>b^2-4ac \gt 0</m>
+                                </p>
+                            </li>
+                            <li>
+                                <p>
+                                    1 real solution if <m>b^2-4ac = 0</m>
+                                </p>
+                            </li>
+                            <li>
+                                <p>
+                                    0 real solutions if <m>b^2-4ac \lt 0</m>
+                                </p>
+                            </li>
+                        </ul>
+                    </p>
+                    <p>
+                        <ol marker="a">
+                            <li>
+                                <p>
+                                    Solve <m>2.1x^2+5.2x=1.3</m> for <m>x</m>. Round to the nearest hundredth.
+                                </p>
+                            </li>
+                            <li>
+                                <p>
+                                    Solve <m>3t^2-7t-1=0</m> for <m>t</m>. Round to the nearest hundredth.
+                                </p>
+                            </li>
+                        </ol>
+                    </p>
+
+                </statement>
+                <solution>
+                    <p>
+                        <ol marker="a">
+                            <li>
+                                <p>
+                                   <m>x=0.23, x=-2.71</m>
+                                </p>
+                            </li>
+                            <li>
+                                <p>
+                                    <m>x=2.47, x=-0.14</m>
+                                </p>
+                            </li>
+                        </ol>
+                    </p>
+                </solution>
+            </example>
+
+            <example>
+                <statement>
+                    <p>
+                        <ol marker="a">
+                            <li>
+                                <p>
+                                    Solve <m>x^2-11x-2=0</m> for <m>x</m>. Round to the nearest hundredth.
+                                </p>
+                            </li>
+                            <li>
+                                <p>
+                                    Solve <m>1.9x^2+7.2x=-2.1</m> for <m>x</m>. Round to the nearest hundredth.
+                                </p>
+                            </li>
+                        </ol>
+                    </p>
+                </statement>
+                <solution>
+                    <p>
+                        <ol marker="a">
+                            <li>
+                                <p>
+                                    <me>
+                                        x=\dfrac{-(-11)\pm \sqrt{(-11)^2-4(1)(-2)}}{2(1)}\approx -0.18,11.18
+                                    </me>
+                                    
+                                </p>
+                            </li>
+                            <li>
+                                <p>
+                                    <me>
+                                        x=\dfrac{-7.2\pm \sqrt{(7.2)^2-4(1.9)(2.1)}}{2(1.9)}\approx -3.47,-0.32
+                                    </me>
+                                </p>
+                            </li>
+                        </ol>
+                    </p>
+                </solution>
+            </example>
+        </subsubsection>
+
+        <subsubsection xml:id="c-solving-graphing">
+            <title>Graphing</title>
+            
+            <example>
+                <statement>
+                    <p>
+                        <url href="https://youtu.be/mk65NCO7nSc">Video</url>
+                    </p>
+                    <p>
+                        The solutions of <m>2x^2-7x+5=0</m> are the same thing as the <term>zeros</term>/<term>x-intercepts</term> of <m>f(x)=2x^2-7x+5</m>. We can find these solutions/zeros/intercepts graphically.
+                    </p>
+                    <p>
+                        We can also find the solution to something like <m>2x^2-7x+5=5</m> by graphing and finding the intersection of <m>f(x) = 2x^2-7x+5</m> and <m>y=5</m>
+                    </p>
+                    
+                </statement>
+
+                <solution>
+                    <p>
+                        <url href="https://www.desmos.com/calculator/liwpn9joze">Desmos Graph</url>
+                    </p>
+                </solution>
+            </example>
+
+            <example>
+                <statement>
+                    <p>
+                        <ol marker="a">
+                            <li>
+                                <p>
+                                    Use <url href="http://www.desmos.com/calculator">Desmos</url> to solve <m>16x^2+8x-20=-17</m> for <m>x</m>
+                                </p>
+                            </li>
+                            <li>
+                                <p>
+                                    Use <url href="http://www.desmos.com/calculator">Desmos</url> to find the zeros/<m>x-</m>intercepts of <m>f(x)=-2.5x^2-1.2x+9.1</m>
+                                </p>
+                            </li>
+                        </ol>
+                    </p>
+                </statement>
+                <solution>
+                    <p>
+                        <ol marker="a">
+                            <li>
+                                <p>
+                                    Graph <m>f(x)=16x^2+8x-20</m> and <m>y=-17</m>. Click on the intersections to get <m>x=-0.75</m> and <m>x=0.25</m>
+                                </p>
+                                <p>
+                                    Alternate strategy: Add 17 to both sides of the equation. This will yield <m>16x^2+8x-3=0</m>. Graph and find the zeros.
+                                </p>
+                            </li>
+                            <li>
+                                <p>
+                                    <m>x\approx -2.163</m> and <m>x\approx 1.683</m>
+                                </p>
+                            </li>
+                        </ol>
+                    </p>
+                </solution>
+            </example>
+        </subsubsection>
+    </subsection>
+</section>

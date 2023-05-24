@@ -1,0 +1,618 @@
+<?xml version='1.0' encoding='utf-8'?>
+
+<section xml:id="d" xmlns:xi="http://www.w3.org/2001/XInclude">
+    <title>D. Solving Nonlinear Equations</title>
+
+    <subsection xml:id="d-nonlinear">
+        <title>Solving Nonlinear Equations</title>
+
+        <introduction>
+            <p>
+                Supplements XYZ Sections: All
+            </p>
+        </introduction>
+
+        <subsubsection xml:id="d-nonlinear-rational">
+            <title>Solving Rational Equations</title>
+            
+            <example>
+                <statement>
+                    <p>
+                        <url href="https://youtu.be/Jc7_wqSJNUw">Video for a</url>
+                        <url href="https://youtu.be/f0iajfC7-2o">Video for b</url>
+                        <url href="https://youtu.be/l5eyQJc0Ls0">Video for c</url>
+                        <url href="https://youtu.be/cXqkMVxsWMM">Video for d</url>
+                        <url href="https://youtu.be/MNzy35_ehIo">Video for e</url>
+                    </p>
+                    <p>
+                        Solve the following equations:
+                    </p>
+                    <p>
+                        <ol marker="a">
+                            <li>
+                                <p>
+                                    <m>\dfrac{1}{x+1}=\dfrac{3}{10}</m>
+                                </p>
+                            </li>
+                            <li>
+                                <p>
+                                   <m>\dfrac{8}{2x} = x-3</m> 
+                                </p>
+                            </li>
+                            <li>
+                                <p>
+                                    <m>\dfrac{1}{z-5} = 0</m>
+                                </p>
+                            </li>
+                            <li>
+                                <p>
+                                    <m>\dfrac{t-2}{t+3} = 0</m>
+                                </p>
+                            </li>
+                            <li>
+                                <p>
+                                    <m>\dfrac{1}{y-1}+\dfrac{1}{y+3} = \dfrac{2}{y}</m>
+                                </p>
+                            </li>
+                        </ol>
+                    </p>
+                </statement>
+                <solution>
+                    <p>
+                        <ol marker="a">
+                            <li>
+                                <p>
+                                    <m>x = \dfrac{7}{3}</m>
+                                </p>
+                            </li>
+                            <li>
+                                <p>
+                                   <m>x = 4, x= -1</m> 
+                                </p>
+                            </li>
+                            <li>
+                                <p>
+                                    No solution
+                                </p>
+                            </li>
+                            <li>
+                                <p>
+                                    <m>t=2</m>
+                                </p>
+                            </li>
+                            <li>
+                                <p>
+                                    <m>y = \dfrac{-1\pm \sqrt{5}}{2}</m>
+                                </p>
+                            </li>
+                        </ol>
+                    </p>
+                </solution>
+            </example>
+
+            <example>
+                <statement>
+                    <p>
+                        Solve the following equations
+                    </p>
+                    <p>
+                        <ol marker="a">
+                            <li>
+                                <p>
+                                    <m>\dfrac{2}{x} + 5 = 7</m>
+                                </p>
+                            </li>
+                            <li>
+                                <p>
+                                    <m>\dfrac{t}{2} = \dfrac{4t}{3t-1}</m>
+                                </p>
+                            </li>
+                            <li>
+                                <p>
+                                    <m>\dfrac{z^2+1}{z} = 0</m>
+                                </p>
+                            </li>
+                        </ol>
+                    </p>
+                </statement>
+                <solution>
+                    <p>
+                        <ol marker="a">
+                            <li>
+                                <p>
+                                    <m>x=1</m>
+                                </p>
+                            </li>
+                            <li>
+                                <p>
+                                    <m>t=0,3</m>
+                                </p>
+                            </li>
+                            <li>
+                                <p>
+                                    No solution
+                                </p>
+                            </li>
+                        </ol>
+                    </p>
+                </solution>
+            </example>
+
+            <example>
+                <statement>
+                    <p>
+                        Solve the following equations
+                    </p>
+                    <p>
+                        <ol marker="a">
+                            <li>
+                                <p>
+                                    <m>\dfrac{2x+1}{x+10}=0</m>
+                                </p>
+                            </li>
+                            <li>
+                                <p>
+                                    <m>\dfrac{2}{y+2} + \dfrac{1}{y-10} = 1</m>
+                                </p>
+                            </li>
+                        </ol>
+                    </p>
+                </statement>
+                <solution>
+                    <p>
+                        <ol marker="a">
+                            <li>
+                                <p>
+                                    <m>x=-\dfrac{1}{2}</m>
+                                </p>
+                            </li>
+                            <li>
+                                <p>
+                                    <m>y=-0.179,11.179</m>
+                                </p>
+                            </li>
+                        </ol>
+                    </p>
+                </solution>
+            </example>
+        </subsubsection>
+
+        <subsubsection xml:id="d-nonlinear-squareroot">
+            <title>Solving Square Root Equations</title>
+            
+            <example>
+                <statement>
+                    <p>
+                        <url href="https://youtu.be/FpXF7S6GjLk">Video for a</url>
+                        <url href="https://youtu.be/GvicBVsJuzs">Video for b</url>
+                        <url href="https://youtu.be/99zOOubnZHM">Video for c</url>
+                        <url href="https://youtu.be/CRfu026irtg">Video for d</url>
+                    </p>
+                    <p>
+                        Solve the following equations
+                    </p>
+                    <p>
+                        <ol marker="a">
+                            <li>
+                                <p>
+                                   <m>\sqrt{3x-1} + 7 = 10</m> 
+                                </p>
+                            </li>
+                            <li>
+                                <p>
+                                   <m>2\sqrt{x+20} = -8</m> 
+                                </p>
+                            </li>
+                            <li>
+                                <p>
+                                    <m>\sqrt{6-x} = x</m>
+                                </p>
+                            </li>
+                            <li>
+                                <p>
+                                    <m>t-3 = \sqrt{12t-36}</m>
+                                </p>
+                            </li>
+                        </ol>
+                    </p>
+                </statement>
+                <solution>
+                    <p>
+                        <ol marker="a">
+                            <li>
+                                <p>
+                                   <m>x=\dfrac{10}{3}</m> 
+                                </p>
+                            </li>
+                            <li>
+                                <p>
+                                   No solution
+                                </p>
+                            </li>
+                            <li>
+                                <p>
+                                    <m>x=2</m>
+                                </p>
+                            </li>
+                            <li>
+                                <p>
+                                    <m>x=3,15</m>
+                                </p>
+                            </li>
+                        </ol>
+                    </p>
+                </solution>
+            </example>
+
+            <example>
+                <statement>
+                    <p>
+                        Solve the following equations
+                    </p>
+                    <p>
+                        <ol marker="a">
+                            <li>
+                                <p>
+                                    <m>7\sqrt{x-4}=16=-2</m>
+                                </p>
+                            </li>
+                            <li>
+                                <p>
+                                    <m>2\sqrt{3x}+1=0</m>
+                                </p>
+                            </li>
+                        </ol>
+                    </p>
+                </statement>
+                <solution>
+                    <p>
+                        <ol marker="a">
+                            <li>
+                                <p>
+                                    <m>x=8</m>
+                                </p>
+                            </li>
+                            <li>
+                                <p>
+                                    No solution
+                                </p>
+                            </li>
+                        </ol>
+                    </p>
+                </solution>
+            </example>
+
+            <example>
+                <statement>
+                    <p>
+                        Solve the following equations
+                    </p>
+                    <p>
+                        <ol marker="a">
+                            <li>
+                                <p>
+                                    <m>\sqrt{x+3}=2x</m>
+                                </p>
+                            </li>
+                            <li>
+                                <p>
+                                    <m>t-2=\sqrt{8t-16}</m>
+                                </p>
+                            </li>
+                        </ol>
+                    </p>
+                </statement>
+                <solution>
+                    <p>
+                        <ol marker="a">
+                            <li>
+                                <p>
+                                    <m>x=1</m>
+                                </p>
+                            </li>
+                            <li>
+                                <p>
+                                    <m>t=2,10</m>
+                                </p>
+                            </li>
+                        </ol>
+                    </p>
+                </solution>
+            </example>
+        </subsubsection>
+
+        <subsubsection xml:id="d-nonlinear-cuberoot">
+            <title>Solving Cube Root Equations</title>
+            
+            <example>
+                <statement>
+                    <p>
+                        <url href="https://youtu.be/02wDdsCmRAc">Video for a</url>
+                        <url href="https://youtu.be/mX9wpoIBqEI">Video for b</url>
+                    </p>
+                    <p>
+                        Solve the following equations
+                    </p>
+                    <p>
+                        <ol marker="a">
+                            <li>
+                                <p>
+                                    <m>\sqrt[3]{x} + 4 = 9</m>
+                                </p>
+                            </li>
+                            <li>
+                                <p>
+                                    <m>\sqrt[3]{2x+5} - 3 = 1</m>
+                                </p>
+                            </li>
+                        </ol>
+                    </p>
+                </statement>
+                <solution>
+                    <p>
+                        <ol marker="a">
+                            <li>
+                                <p>
+                                    <m>x = 125</m>
+                                </p>
+                            </li>
+                            <li>
+                                <p>
+                                    <m>x = \dfrac{59}{2}</m>
+                                </p>
+                            </li>
+                        </ol>
+                    </p>
+                </solution>
+            </example>
+
+            <example>
+                <statement>
+                    <p>
+                        Solve the following equations
+                    </p>
+                    <p>
+                        <ol marker="a">
+                            <li>
+                                <p>
+                                    <m>\sqrt[3]{x} - 3 = -6</m>
+                                </p>
+                            </li>
+                            <li>
+                                <p>
+                                    <m>\sqrt[3]{5x} = 2</m>
+                                </p>
+                            </li>
+                        </ol>
+                    </p>
+                </statement>
+                <solution>
+                    <p>
+                        <ol marker="a">
+                            <li>
+                                <p>
+                                    <m>x = -27</m>
+                                </p>
+                            </li>
+                            <li>
+                                <p>
+                                    <m>x = \dfrac{8}{5}</m>
+                                </p>
+                            </li>
+                        </ol>
+                    </p>
+                </solution>
+            </example>
+        </subsubsection>
+
+        <subsubsection xml:id="d-nonlinear-exponential">
+            <title>Solving Exponential Equations</title>
+            
+            <example>
+                <statement>
+                    <p>
+                        <url href="https://youtu.be/P5Ap-TezO1E">Video for a</url>
+                        <url href="https://youtu.be/9IhrxsOGubs">Video for b</url>
+                        <url href="https://youtu.be/pAjR4KOwrN8">Video for c</url>
+                    </p>
+                    <p>
+                        Solve the following equations
+                    </p>
+                    <p>
+                        <ol>
+                            <li>
+                                <p>
+                                   <m>e^{x/2} - 1 = 5</m> 
+                                </p>
+                            </li>
+                            <li>
+                                <p>
+                                    <m>4\cdot 2^{5x} = 12</m>
+                                </p>
+                            </li>
+                            <li>
+                                <p>
+                                    <m>e^x = 3^{x+1}</m>
+                                </p>
+                            </li>
+                        </ol>
+                    </p>
+                </statement>
+                <solution>
+                    <p>
+                        <ol>
+                            <li>
+                                <p>
+                                   <m>x=2\ln 6\approx 3.584</m> 
+                                </p>
+                            </li>
+                            <li>
+                                <p>
+                                    <m>x=\dfrac{\log_2(3)}{5}\approx 0.317</m>
+                                </p>
+                            </li>
+                            <li>
+                                <p>
+                                    <m>x=\dfrac{\ln 3}{1-\ln 3}\approx -11.141</m>
+                                </p>
+                            </li>
+                        </ol>
+                    </p>
+                </solution>
+            </example>
+
+            <example>
+                <statement>
+                    <p>
+                        Solve the following equations
+                    </p>
+                    <p>
+                        <ol marker="a">
+                            <li>
+                                <p>
+                                    <m>5.7e^t = 11.2</m>
+                                </p>
+                            </li>
+                            <li>
+                                <p>
+                                    <m>3^{2x-7}+3=9</m>
+                                </p>
+                            </li>
+                            <li>
+                                <p>
+                                    <m>e^x = 7^{5-x}</m>
+                                </p>
+                            </li>
+                        </ol>
+                    </p>
+                </statement>
+                <solution>
+                    <p>
+                        <ol marker="a">
+                            <li>
+                                <p>
+                                    <m>t = \ln\lrpar{\dfrac{11.2}{5.7}}\approx 0.675</m>
+                                </p>
+                            </li>
+                            <li>
+                                <p>
+                                    <m>x = \dfrac{\log_3(6)+7}{2}\approx 4.315</m>
+                                </p>
+                            </li>
+                            <li>
+                                <p>
+                                    <m>x = \dfrac{5\ln 7}{1+\ln 7}\approx 3.303</m>
+                                </p>
+                            </li>
+                        </ol>
+                    </p>
+                </solution>
+            </example>
+        </subsubsection>
+
+        <subsubsection xml:id="d-nonlinear-logarithmic">
+            <title>Solving Logarithmic Equations</title>
+            
+            <example>
+                <statement>
+                    <p>
+                        <url href="https://youtu.be/H_BeY5b_L4k">Video for a</url>
+                        <url href="https://youtu.be/L5dZzJnY14A">Video for b</url>
+                        <url href="https://youtu.be/AncL3ZQRlzk">Video for c</url>
+                    </p>
+                    <p>
+                        Solve the following equations
+                    </p>
+                    <p>
+                        <ol marker="a">
+                            <li>
+                                <p>
+                                    <m>\ln(7-x) = 2</m>
+                                </p>
+                            </li>
+                            <li>
+                                <p>
+                                    <m>\log(x) + \log(x-5) = 0</m>
+                                </p>
+                            </li>
+                            <li>
+                                <p>
+                                    <m>3.5\log_2(x^2+0.8) + 1.2 = 7.9</m>
+                                </p>
+                            </li>
+                        </ol>
+                    </p>
+                </statement>
+                <solution>
+                    <p>
+                        <ol marker="a">
+                            <li>
+                                <p>
+                                    <m>x=7-e^2\approx -0.389</m>
+                                </p>
+                            </li>
+                            <li>
+                                <p>
+                                    No solution
+                                </p>
+                            </li>
+                            <li>
+                                <p>
+                                    <m>x\approx 1.723,-1.723</m>
+                                </p>
+                            </li>
+                        </ol>
+                    </p>
+                </solution>
+            </example>
+
+            <example>
+                <statement>
+                    <p>
+                        Solve the following equations
+                    </p>
+                    <p>
+                        <ol marker="a">
+                            <li>
+                                <p>
+                                    <m>3\ln\lrpar{\dfrac{x}{2}} - 1 = 5</m>
+                                </p>
+                            </li>
+                            <li>
+                                <p>
+                                    <m>\log(x) -\log(x+4) = -1</m>
+                                </p>
+                            </li>
+                            <li>
+                                <p>
+                                    <m>-4.5\log_2(x^2-1.1) = 6.2</m>
+                                </p>
+                            </li>
+                        </ol>
+                    </p>
+                </statement>
+                <solution>
+                    <p>
+                        <ol marker="a">
+                            <li>
+                                <p>
+                                    <m>x=2e^2\approx 14.778</m>
+                                </p>
+                            </li>
+                            <li>
+                                <p>
+                                    <m>x = \dfrac{4}{9}\approx 0.444</m>
+                                </p>
+                            </li>
+                            <li>
+                                <p>
+                                    <m>x\approx \pm 1.219</m>
+                                </p>
+                            </li>
+                        </ol>
+                    </p>
+                </solution>
+            </example>
+        </subsubsection>
+    </subsection>
+</section>

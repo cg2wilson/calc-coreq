@@ -9,5 +9,7 @@
     </title>
     <xi:include href="functionnotation.ptx"/>
     <xi:include href="lines.ptx"/>
+    <xi:include href="factoring.ptx"/>
+    <xi:include href="nonlinear.ptx"/>
   </article>
 </pretext>
