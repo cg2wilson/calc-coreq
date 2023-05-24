@@ -260,6 +260,276 @@ var ptx_lunr_docs = [
   "number": "2.2.2",
   "title": "",
   "body": "  Solve the following linear equations for                                            "
+},
+{
+  "id": "c",
+  "level": "1",
+  "url": "c.html",
+  "type": "Section",
+  "number": "3",
+  "title": "C. Factoring and Solving Quadratics",
+  "body": " C. Factoring and Solving Quadratics   Factoring and Solving Quadratics   Supplements XYZ Sections: 2.3 Algebraic Limits, 2.4 Continuity    Factoring Quadratics     Video      Factor     Factor                          Factor            Factoring: Difference of Squares     Video      Difference of squares format    Factor           Difference of squares format              Factor            Factoring: Lead Coefficient ( subcases)     Video      Factor     Factor     Factor                               Factor all.                                              Factoring: Lead Coefficient (\"magic X\" method)     Video      Factor     Factor                          Factor             Solving Quadratic Equations   Supplements XYZ Sections: 3.4 Derivatives as Rates of Change, 4.4 Mean Value Theorem, 4.4 First and Second Derivative Test    Solve by Factoring     Video   Find where given            Solve     Add 6 to both sides (one side must be zero): Factor: Set each factor equal to zero and solve:       Root Method     Video      Solve for exactly.    Solve for exactly.                         Solve for exactly.    Isolate the squared term: Square root both sides:       Quadratic Formula     Video   For a quadratic equation of the form , we can solve using the quadratic formula:      2 real solutions if     1 real solution if     0 real solutions if         Solve for . Round to the nearest hundredth.    Solve for . Round to the nearest hundredth.                            Solve for . Round to the nearest hundredth.    Solve for . Round to the nearest hundredth.                         Graphing     Video   The solutions of are the same thing as the zeros \/ x-intercepts of . We can find these solutions\/zeros\/intercepts graphically.  We can also find the solution to something like by graphing and finding the intersection of and      Desmos Graph          Use Desmos to solve for     Use Desmos to find the zeros\/ intercepts of           Graph and . Click on the intersections to get and   Alternate strategy: Add 17 to both sides of the equation. This will yield . Graph and find the zeros.     and          "
+},
+{
+  "id": "example-28",
+  "level": "2",
+  "url": "c.html#example-28",
+  "type": "Example",
+  "number": "3.1.1",
+  "title": "",
+  "body": "   Video      Factor     Factor                       "
+},
+{
+  "id": "example-29",
+  "level": "2",
+  "url": "c.html#example-29",
+  "type": "Example",
+  "number": "3.1.2",
+  "title": "",
+  "body": "  Factor         "
+},
+{
+  "id": "example-30",
+  "level": "2",
+  "url": "c.html#example-30",
+  "type": "Example",
+  "number": "3.1.3",
+  "title": "",
+  "body": "   Video      Difference of squares format    Factor           Difference of squares format           "
+},
+{
+  "id": "example-31",
+  "level": "2",
+  "url": "c.html#example-31",
+  "type": "Example",
+  "number": "3.1.4",
+  "title": "",
+  "body": "  Factor         "
+},
+{
+  "id": "example-32",
+  "level": "2",
+  "url": "c.html#example-32",
+  "type": "Example",
+  "number": "3.1.5",
+  "title": "",
+  "body": "   Video      Factor     Factor     Factor                            "
+},
+{
+  "id": "example-33",
+  "level": "2",
+  "url": "c.html#example-33",
+  "type": "Example",
+  "number": "3.1.6",
+  "title": "",
+  "body": "  Factor all.                                           "
+},
+{
+  "id": "example-34",
+  "level": "2",
+  "url": "c.html#example-34",
+  "type": "Example",
+  "number": "3.1.7",
+  "title": "",
+  "body": "   Video      Factor     Factor                       "
+},
+{
+  "id": "example-35",
+  "level": "2",
+  "url": "c.html#example-35",
+  "type": "Example",
+  "number": "3.1.8",
+  "title": "",
+  "body": "  Factor         "
+},
+{
+  "id": "example-36",
+  "level": "2",
+  "url": "c.html#example-36",
+  "type": "Example",
+  "number": "3.2.1",
+  "title": "",
+  "body": "   Video   Find where given         "
+},
+{
+  "id": "example-37",
+  "level": "2",
+  "url": "c.html#example-37",
+  "type": "Example",
+  "number": "3.2.2",
+  "title": "",
+  "body": "  Solve     Add 6 to both sides (one side must be zero): Factor: Set each factor equal to zero and solve:    "
+},
+{
+  "id": "example-38",
+  "level": "2",
+  "url": "c.html#example-38",
+  "type": "Example",
+  "number": "3.2.3",
+  "title": "",
+  "body": "   Video      Solve for exactly.    Solve for exactly.                      "
+},
+{
+  "id": "example-39",
+  "level": "2",
+  "url": "c.html#example-39",
+  "type": "Example",
+  "number": "3.2.4",
+  "title": "",
+  "body": "  Solve for exactly.    Isolate the squared term: Square root both sides:    "
+},
+{
+  "id": "example-40",
+  "level": "2",
+  "url": "c.html#example-40",
+  "type": "Example",
+  "number": "3.2.5",
+  "title": "",
+  "body": "   Video   For a quadratic equation of the form , we can solve using the quadratic formula:      2 real solutions if     1 real solution if     0 real solutions if         Solve for . Round to the nearest hundredth.    Solve for . Round to the nearest hundredth.                      "
+},
+{
+  "id": "example-41",
+  "level": "2",
+  "url": "c.html#example-41",
+  "type": "Example",
+  "number": "3.2.6",
+  "title": "",
+  "body": "     Solve for . Round to the nearest hundredth.    Solve for . Round to the nearest hundredth.                      "
+},
+{
+  "id": "example-42",
+  "level": "2",
+  "url": "c.html#example-42",
+  "type": "Example",
+  "number": "3.2.7",
+  "title": "",
+  "body": "   Video   The solutions of are the same thing as the zeros \/ x-intercepts of . We can find these solutions\/zeros\/intercepts graphically.  We can also find the solution to something like by graphing and finding the intersection of and      Desmos Graph    "
+},
+{
+  "id": "example-43",
+  "level": "2",
+  "url": "c.html#example-43",
+  "type": "Example",
+  "number": "3.2.8",
+  "title": "",
+  "body": "     Use Desmos to solve for     Use Desmos to find the zeros\/ intercepts of           Graph and . Click on the intersections to get and   Alternate strategy: Add 17 to both sides of the equation. This will yield . Graph and find the zeros.     and       "
+},
+{
+  "id": "d",
+  "level": "1",
+  "url": "d.html",
+  "type": "Section",
+  "number": "4",
+  "title": "D. Solving Nonlinear Equations",
+  "body": " D. Solving Nonlinear Equations   Solving Nonlinear Equations   Supplements XYZ Sections: All    Solving Rational Equations     Video for a  Video for b  Video for c  Video for d  Video for e   Solve the following equations:                                              No solution                   Solve the following equations                                    No solution         Solve the following equations                                    Solving Square Root Equations     Video for a  Video for b  Video for c  Video for d   Solve the following equations                                    No solution                   Solve the following equations                          No solution         Solve the following equations                                    Solving Cube Root Equations     Video for a  Video for b   Solve the following equations                                    Solve the following equations                                    Solving Exponential Equations     Video for a  Video for b  Video for c   Solve the following equations                                              Solve the following equations                                              Solving Logarithmic Equations     Video for a  Video for b  Video for c   Solve the following equations                               No solution              Solve the following equations                                              "
+},
+{
+  "id": "example-44",
+  "level": "2",
+  "url": "d.html#example-44",
+  "type": "Example",
+  "number": "4.1.1",
+  "title": "",
+  "body": "   Video for a  Video for b  Video for c  Video for d  Video for e   Solve the following equations:                                              No solution                "
+},
+{
+  "id": "example-45",
+  "level": "2",
+  "url": "d.html#example-45",
+  "type": "Example",
+  "number": "4.1.2",
+  "title": "",
+  "body": "  Solve the following equations                                    No solution      "
+},
+{
+  "id": "example-46",
+  "level": "2",
+  "url": "d.html#example-46",
+  "type": "Example",
+  "number": "4.1.3",
+  "title": "",
+  "body": "  Solve the following equations                                 "
+},
+{
+  "id": "example-47",
+  "level": "2",
+  "url": "d.html#example-47",
+  "type": "Example",
+  "number": "4.1.4",
+  "title": "",
+  "body": "   Video for a  Video for b  Video for c  Video for d   Solve the following equations                                    No solution                "
+},
+{
+  "id": "example-48",
+  "level": "2",
+  "url": "d.html#example-48",
+  "type": "Example",
+  "number": "4.1.5",
+  "title": "",
+  "body": "  Solve the following equations                          No solution      "
+},
+{
+  "id": "example-49",
+  "level": "2",
+  "url": "d.html#example-49",
+  "type": "Example",
+  "number": "4.1.6",
+  "title": "",
+  "body": "  Solve the following equations                                 "
+},
+{
+  "id": "example-50",
+  "level": "2",
+  "url": "d.html#example-50",
+  "type": "Example",
+  "number": "4.1.7",
+  "title": "",
+  "body": "   Video for a  Video for b   Solve the following equations                                 "
+},
+{
+  "id": "example-51",
+  "level": "2",
+  "url": "d.html#example-51",
+  "type": "Example",
+  "number": "4.1.8",
+  "title": "",
+  "body": "  Solve the following equations                                 "
+},
+{
+  "id": "example-52",
+  "level": "2",
+  "url": "d.html#example-52",
+  "type": "Example",
+  "number": "4.1.9",
+  "title": "",
+  "body": "   Video for a  Video for b  Video for c   Solve the following equations                                           "
+},
+{
+  "id": "example-53",
+  "level": "2",
+  "url": "d.html#example-53",
+  "type": "Example",
+  "number": "4.1.10",
+  "title": "",
+  "body": "  Solve the following equations                                           "
+},
+{
+  "id": "example-54",
+  "level": "2",
+  "url": "d.html#example-54",
+  "type": "Example",
+  "number": "4.1.11",
+  "title": "",
+  "body": "   Video for a  Video for b  Video for c   Solve the following equations                               No solution           "
+},
+{
+  "id": "example-55",
+  "level": "2",
+  "url": "d.html#example-55",
+  "type": "Example",
+  "number": "4.1.12",
+  "title": "",
+  "body": "  Solve the following equations                                           "
 }
 ]
 
