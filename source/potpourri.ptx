@@ -1,0 +1,1005 @@
+<?xml version='1.0' encoding='utf-8'?>
+
+<section xml:id="e" xmlns:xi="http://www.w3.org/2001/XInclude">
+    <title>E. Algebra Potpourri</title>
+
+    <subsection xml:id="e-operations">
+        <title>Fraction Operations</title>
+
+        <introduction>
+            <p>
+                Supplements XYZ Sections: All
+            </p>
+        </introduction>
+
+        <subsubsection xml:id="e-operations-addsubtract">
+            <title>Adding and Subtracting Fractions</title>
+            
+            <example>
+                <statement>
+                    <p>
+                        <url href="https://youtu.be/916wKlP8dDo">Video</url>   
+                    </p>
+                    <p>
+                        Adding and subtracting fractions requires a <term>common denominator</term>. The common denominator will be the <term>least common multiple</term> of the original denominators. In general, to add or subtract two fractions:
+                    </p>
+                    <p>
+                        <ol>
+                            <li>
+                                <p>
+                                    Rewrite both fractions with a common denominator
+                                </p>
+                            </li>
+                            <li>
+                                <p>
+                                    Add or subtract the numerators. Keep the denominator the same.
+                                </p>
+                            </li>
+                            <li>
+                                <p>
+                                    Reduce the fraction to lowest terms.
+                                </p>
+                            </li>
+                        </ol>
+                    </p>
+                    <p>
+                        <ol marker="a">
+                            <li>
+                                <p>
+                                    <m>\dfrac{1}{2} + \dfrac{5}{3}</m>
+                                </p>
+                            </li>
+                            <li>
+                                <p>
+                                   <m>\dfrac{1}{4}-\dfrac{3}{8}</m> 
+                                </p>
+                            </li>
+                            <li>
+                                <p>
+                                    <m>7 + \dfrac{5}{6}</m>
+                                </p>
+                            </li>
+                            <li>
+                                <p>
+                                    <m>-1+\dfrac{2}{9}</m>
+                                </p>
+                            </li>
+                        </ol>
+                    </p>
+                </statement>
+                <solution>
+                    <p>
+                        <ol marker="a">
+                            <li>
+                                <p>
+                                    <m>\dfrac{1}{2} + \dfrac{5}{3} = \dfrac{3}{6} + \dfrac{10}{6} = \dfrac{13}{6}</m>
+                                </p>
+                            </li>
+                            <li>
+                                <p>
+                                   <m>\dfrac{1}{4}-\dfrac{3}{8} =\dfrac{2}{8}-\dfrac{3}{8} = -\dfrac{1}{8}</m> 
+                                </p>
+                            </li>
+                            <li>
+                                <p>
+                                    <m>7 + \dfrac{5}{6} = \dfrac{42}{6} + \dfrac{5}{6} = \dfrac{47}{6}</m>
+                                </p>
+                            </li>
+                            <li>
+                                <p>
+                                    <m>-1+\dfrac{2}{9} = -\dfrac{9}{9} + \dfrac{2}{9} = -\dfrac{7}{9}</m>
+                                </p>
+                            </li>
+                        </ol>
+                    </p>
+                </solution>
+            </example>
+
+            <example>
+                <statement>
+                    <p>
+                        Add or subtract the fractions.
+                    </p>
+                    <p>
+                        <ol marker="a">
+                            <li>
+                                <p>
+                                    <m>\dfrac{3}{4}-\dfrac{2}{3}</m>
+                                </p>
+                            </li>
+                            <li>
+                                <p>
+                                    <m>\dfrac{2}{5}+\dfrac{7}{10}</m>
+                                </p>
+                            </li>
+                            <li>
+                                <p>
+                                    <m>3 + \dfrac{7}{2}</m>
+                                </p>
+                            </li>
+                            <li>
+                                <p>
+                                    <m>\dfrac{1}{3}-1</m>
+                                </p>
+                            </li>
+                        </ol>
+                    </p>
+                </statement>
+                <solution>
+                    <p>
+                        <ol marker="a">
+                            <li>
+                                <p>
+                                    <m>\dfrac{3}{4}-\dfrac{2}{3} = \dfrac{1}{12}</m>
+                                </p>
+                            </li>
+                            <li>
+                                <p>
+                                    <m>\dfrac{2}{5}+\dfrac{7}{10} = \dfrac{11}{10}</m>
+                                </p>
+                            </li>
+                            <li>
+                                <p>
+                                    <m>3 + \dfrac{7}{2} = \dfrac{13}{2}</m>
+                                </p>
+                            </li>
+                            <li>
+                                <p>
+                                    <m>\dfrac{1}{3}-1 = -\dfrac{2}{3}</m>
+                                </p>
+                            </li>
+                        </ol>
+                    </p>
+                </solution>
+            </example>
+        </subsubsection>
+
+        <subsubsection xml:id="e-operations-multiplydivide">
+            <title>Multiplying and Dividing Fractions</title>
+            
+            <example>
+                <statement>
+                    <p>
+                        <url href="https://youtu.be/9tIVXo5_SUE">Video</url>
+                    </p>
+                    <p>
+                        Multiplying and dividing fractions <alert>does not</alert> require a common denominator. To <alert>multiply</alert> two fractions, simply multiply across the numerators and denominators. To <alert>divide</alert> two fractions, multiply the top or first fraction by the reciprocal of the bottom or second fraction.
+                    </p>
+                    <p>
+                        <ol marker="a">
+                            <li>
+                                <p>
+                                   <m>-\dfrac{1}{2}\cdot \dfrac{15}{19}</m> 
+                                </p>
+                            </li>
+                            <li>
+                                <p>
+                                   <m>3\cdot \dfrac{4}{5}</m> 
+                                </p>
+                            </li>
+                            <li>
+                                <p>
+                                    <m>\dfrac{2/3}{4/5}</m> or <m>\dfrac{2}{3}\div \dfrac{4}{5}</m>
+                                </p>
+                            </li>
+                            <li>
+                                <p>
+                                    <m>\dfrac{3}{9/7}</m> or <m>3\div \dfrac{9}{7}</m>
+                                </p>
+                            </li>
+                        </ol>
+                    </p>
+                </statement>
+                <solution>
+                    <p>
+                        <ol marker="a">
+                            <li>
+                                <p>
+                                   <m>-\dfrac{1}{2}\cdot \dfrac{15}{19} = -\dfrac{15}{38}</m> 
+                                </p>
+                            </li>
+                            <li>
+                                <p>
+                                   <m>3\cdot \dfrac{4}{5} = \dfrac{12}{5}</m> 
+                                </p>
+                            </li>
+                            <li>
+                                <p>
+                                    <m>\dfrac{2/3}{4/5}</m> or <m>\dfrac{2}{3}\div \dfrac{4}{5}</m> equals <m>\dfrac{5}{6}</m>
+                                </p>
+                            </li>
+                            <li>
+                                <p>
+                                    <m>\dfrac{3}{9/7}</m> or <m>3\div \dfrac{9}{7}</m> equals <m>\dfrac{7}{3}</m>
+                                </p>
+                            </li>
+                        </ol>
+                    </p>
+                </solution>
+            </example>
+
+            <example>
+                <statement>
+                    <p>
+                        Multiply or divide the fractions. Reduce if possible.
+                    </p>
+                    <p>
+                        <ol marker="a">
+                            <li>
+                                <p>
+                                    <m>\dfrac{3}{4}\cdot \dfrac{2}{3}</m>
+                                </p>
+                            </li>
+                            <li>
+                                <p>
+                                    <m>\dfrac{2}{5}\div \dfrac{7}{10}</m>
+                                </p>
+                            </li>
+                            <li>
+                                <p>
+                                    <m>-5\cdot \dfrac{7}{2}</m>
+                                </p>
+                            </li>
+                            <li>
+                                <p>
+                                    <m>\dfrac{1}{10/9}</m>
+                                </p>
+                            </li>
+                        </ol>
+                    </p>
+                </statement>
+                <solution>
+                    <p>
+                        <ol marker="a">
+                            <li>
+                                <p>
+                                    <m>\dfrac{3}{4}\cdot \dfrac{2}{3} = \dfrac{1}{2}</m>
+                                </p>
+                            </li>
+                            <li>
+                                <p>
+                                    <m>\dfrac{2}{5}\div \dfrac{7}{10} = \dfrac{4}{7}</m>
+                                </p>
+                            </li>
+                            <li>
+                                <p>
+                                    <m>-5\cdot \dfrac{7}{2} = -\dfrac{35}{2}</m>
+                                </p>
+                            </li>
+                            <li>
+                                <p>
+                                    <m>\dfrac{1}{10/9} = \dfrac{9}{10}</m>
+                                </p>
+                            </li>
+                        </ol>
+                    </p>
+                </solution>
+            </example>
+        </subsubsection>
+    </subsection>
+
+    <subsection xml:id="e-exponents">
+        <title>Rules of Exponents</title>
+
+        <subsubsection xml:id="e-exponents-multiplylike">
+            <title>Multiplying with Like Bases</title>
+            
+            
+            <example>
+                <statement>
+                    <p>
+                        <url href=" https://youtu.be/vkUtx9jgR2g">Video</url>   
+                    </p>
+                    <p>
+                        If we multiply two expressions or numbers that have the same base, we can combine by adding their exponents.
+                        <me>
+                            a^m\cdot a^n = a^{m+n}
+                        </me>
+                    </p>
+                    <p>
+                        <ol marker="a">
+                            <li>
+                                <p>
+                                    <m>5^2\cdot 5^9</m>
+                                </p>
+                            </li>
+                            <li>
+                                <p>
+                                    <m>x^{1/2}\cdot x^3</m>
+                                </p>
+                            </li>
+                            <li>
+                                <p>
+                                    <m>2^x\cdot 2^{7x}</m>
+                                </p>
+                            </li>
+                        </ol>
+                    </p>
+                </statement>
+                <solution>
+                    <p>
+                        <ol marker="a">
+                            <li>
+                                <p>
+                                    <m>5^2\cdot 5^9 = 5^{11}</m>
+                                </p>
+                            </li>
+                            <li>
+                                <p>
+                                    <m>x^{1/2}\cdot x^3 = x^{1/2 + 3} = x^{7/2}</m>
+                                </p>
+                            </li>
+                            <li>
+                                <p>
+                                    <m>2^x\cdot 2^{7x} = 2^{x+7x} = 2^{8x}</m>
+                                </p>
+                            </li>
+                        </ol>
+                    </p>
+                </solution>
+            </example>
+
+            <example>
+                <statement>
+                    <p>
+                        Simplify each expression
+                    </p>
+                    <p>
+                        <ol marker="a">
+                            <li>
+                                <p>
+                                    <m>3^4\cdot 3^{10}</m>
+                                </p>
+                            </li>
+                            <li>
+                                <p>
+                                    <m>t^{3/2}\cdot t^4</m>
+                                </p>
+                            </li>
+                            <li>
+                                <p>
+                                    <m>e^{x+1}\cdot e^{-2}</m>
+                                </p>
+                            </li>
+                        </ol>
+                    </p>
+                </statement>
+                <solution>
+                    <p>
+                        <ol marker="a">
+                            <li>
+                                <p>
+                                    <m>3^4\cdot 3^{10} = 3^{14}</m>
+                                </p>
+                            </li>
+                            <li>
+                                <p>
+                                    <m>t^{3/2}\cdot t^4 = t^{11/2}</m>
+                                </p>
+                            </li>
+                            <li>
+                                <p>
+                                    <m>e^{x+1}\cdot e^{-2} = e^{x-1}</m>
+                                </p>
+                            </li>
+                        </ol>
+                    </p>
+                </solution>
+            </example>
+        </subsubsection>
+
+        <subsubsection xml:id="e-exponents-dividelike">
+            <title>Dividing with Like Bases</title>
+            
+            <example>
+                <statement>
+                    <p>
+                        <url href=" https://youtu.be/hIE9-6gFhss">Video</url>   
+                    </p>
+                    <p>
+                        If we divide two expressions or numbers that have the same base, we can combine by subtracting their exponents:
+                        <me>
+                            \dfrac{a^m}{a^n} = a^{m-n}
+                        </me>
+                    </p>
+                    <p>
+                        <ol marker="a">
+                            <li>
+                                <p>
+                                    <m> \dfrac{3^5}{3^2}</m>
+                                </p>
+                            </li>
+                            <li>
+                                <p>
+                                    <m>\dfrac{x^7}{x^2}</m>
+                                </p>
+                            </li>
+                            <li>
+                                <p>
+                                    <m>\dfrac{x^2}{x^7}</m>
+                                </p>
+                            </li>
+                            <li>
+                                <p>
+                                    <m>\dfrac{4^y}{4}</m>
+                                </p>
+                            </li>
+                        </ol>
+                    </p>
+                </statement>
+                <solution>
+                    <p>
+                        <ol marker="a">
+                            <li>
+                                <p>
+                                    <m> \dfrac{3^5}{3^2} = 3^{5-2} = 3^3</m>
+                                </p>
+                            </li>
+                            <li>
+                                <p>
+                                    <m>\dfrac{x^7}{x^2} = x^{7-2} = x^5</m>
+                                </p>
+                            </li>
+                            <li>
+                                <p>
+                                    <m>\dfrac{x^2}{x^7} = x^{2-7}=x^{-5}</m>
+                                </p>
+                            </li>
+                            <li>
+                                <p>
+                                    <m>\dfrac{4^y}{4} = 4^{y-1}</m>
+                                </p>
+                            </li>
+                        </ol>
+                    </p>
+                </solution>
+            </example>
+
+            <example>
+                <statement>
+                    <p>
+                        Simplify each expression
+                    </p>
+                    <p>
+                        <ol marker="a">
+                            <li>
+                                <p>
+                                   <m>\dfrac{2^9}{2^6}</m> 
+                                </p>
+                            </li>
+                            <li>
+                                <p>
+                                   <m>\dfrac{y^4}{y}</m> 
+                                </p>
+                            </li>
+                            <li>
+                                <p>
+                                   <m>\dfrac{3^2}{3^3}</m> 
+                                </p>
+                            </li>
+                            <li>
+                                <p>
+                                   <m>\dfrac{2^x}{2^y}</m> 
+                                </p>
+                            </li>
+                        </ol>
+                    </p>
+                </statement>
+                <solution>
+                    <p>
+                        <ol marker="a">
+                            <li>
+                                <p>
+                                   <m>\dfrac{2^9}{2^6} = 2^3</m> 
+                                </p>
+                            </li>
+                            <li>
+                                <p>
+                                   <m>\dfrac{y^4}{y} = y^3</m> 
+                                </p>
+                            </li>
+                            <li>
+                                <p>
+                                   <m>\dfrac{3^2}{3^3}=3^{-1}</m> 
+                                </p>
+                            </li>
+                            <li>
+                                <p>
+                                   <m>\dfrac{2^x}{2^y}=2^{x-y}</m> 
+                                </p>
+                            </li>
+                        </ol>
+                    </p>
+                </solution>
+            </example>
+        </subsubsection>
+
+        <subsubsection xml:id="e-exponents-powertopower">
+            <title>Raising a Power to a Power</title>
+            
+            <example>
+                <statement>
+                    <p>
+                        <url href="https://youtu.be/EvothayZ6d4">Video</url>   
+                    </p>
+                    <p>
+                        If we raise a power to a power, we can combine by multiplying their exponents.
+                        <me>
+                            (a^m)^n = a^{m\cdot n}
+                        </me>
+                        
+                    </p>
+                    <p>
+                        <ol marker="a">
+                            <li>
+                                <p>
+                                    <m>(x^4)^5</m>
+                                </p>
+                            </li>
+                            <li>
+                                <p>
+                                    <m>(e^t)^3</m>
+                                </p>
+                            </li>
+                            <li>
+                                <p>
+                                    <m>(2^3)^2</m>
+                                </p>
+                            </li>
+                            <li>
+                                <p>
+                                    <m>(x^{5/3})^{3/5}</m>
+                                </p>
+                            </li>
+                        </ol>
+                    </p>
+                </statement>
+                <solution>
+                    <p>
+                        <ol marker="a">
+                            <li>
+                                <p>
+                                    <m>x^{20}</m>
+                                </p>
+                            </li>
+                            <li>
+                                <p>
+                                    <m>e^{3t}</m>
+                                </p>
+                            </li>
+                            <li>
+                                <p>
+                                    <m>2^6</m>
+                                </p>
+                            </li>
+                            <li>
+                                <p>
+                                    <m>x</m>
+                                </p>
+                            </li>
+                        </ol>
+                    </p>
+                </solution>
+            </example>
+
+            <example>
+                <statement>
+                    <p>
+                        Simplify each expression
+                    </p>
+                    <p>
+                        <ol marker="a">
+                            <li>
+                                <p>
+                                    <m>(3^2)^5</m>
+                                </p>
+                            </li>
+                            <li>
+                                <p>
+                                    <m>(e^x)^2</m>
+                                </p>
+                            </li>
+                            <li>
+                                <p>
+                                    <m>(x^9)^{2/9}</m>
+                                </p>
+                            </li>
+                        </ol>
+                    </p>
+                </statement>
+                <solution>
+                    <p>
+                        <ol marker="a">
+                            <li>
+                                <p>
+                                    <m>3^{10}</m>
+                                </p>
+                            </li>
+                            <li>
+                                <p>
+                                    <m>e^{2x}</m>
+                                </p>
+                            </li>
+                            <li>
+                                <p>
+                                    <m>x^2</m>
+                                </p>
+                            </li>
+                        </ol>
+                    </p>
+                </solution>
+            </example>
+            
+        </subsubsection>
+
+        <subsubsection xml:id="e-exponents-zeronegative">
+            <title>Zero and Negative Powers</title>
+            
+            <example>
+                <statement>
+                    <p>
+                        <url href="https://youtu.be/8jKndGCn7SE">Video</url>   
+                    </p>
+                    <p>
+                        <md>
+                            <mrow>a^0=1 \amp a\neq 0 </mrow>
+                            <mrow> a^{-n}=\dfrac{1}{a^n}\amp </mrow>
+                        </md>
+                    </p>
+                    <p>
+                        <ol marker="a">
+                            <li>
+                                <p>
+                                    <m>19^0</m>
+                                </p>
+                            </li>
+                            <li>
+                                <p>
+                                    <m>7x^0</m>
+                                </p>
+                            </li>
+                            <li>
+                                <p>
+                                    <m>2^{-3}</m>
+                                </p>
+                            </li>
+                            <li>
+                                <p>
+                                    <m>2x^{-5}</m>
+                                </p>
+                            </li>
+                            <li>
+                                <p>
+                                    <m>-\dfrac{6}{t^2}</m>
+                                </p>
+                            </li>
+                            <li>
+                                <p>
+                                    <m>\dfrac{3x}{(x+1)^4}</m>
+                                </p>
+                            </li>
+                        </ol>
+                    </p>
+                </statement>
+                <solution>
+                    <p>
+                        <ol marker="a">
+                            <li>
+                                <p>
+                                    <m>19^0=1</m>
+                                </p>
+                            </li>
+                            <li>
+                                <p>
+                                    <m>7x^0=7\cdot 1=7</m>
+                                </p>
+                            </li>
+                            <li>
+                                <p>
+                                    <m>2^{-3}=\dfrac{1}{2^3} = \dfrac{1}{8}</m>
+                                </p>
+                            </li>
+                            <li>
+                                <p>
+                                    <m>2x^{-5}= 2\cdot \dfrac{1}{x^5} = \dfrac{2}{x^5}</m>
+                                </p>
+                            </li>
+                            <li>
+                                <p>
+                                    <m>-\dfrac{6}{t^2} = -6t^{-2}</m>
+                                </p>
+                            </li>
+                            <li>
+                                <p>
+                                    <m>\dfrac{3x}{(x+1)^4}=3x(x+1)^{-4}</m>
+                                </p>
+                            </li>
+                        </ol>
+                    </p>
+                </solution>
+            </example>
+
+            <example>
+                <statement>
+                    <p>
+                        Simplify each expression
+                    </p>
+                    <p>
+                        <ol marker="a">
+                            <li>
+                                <p>
+                                    <m>\pi^0</m>
+                                </p>
+                            </li>
+                            <li>
+                                <p>
+                                    <m>3(x^0)</m>
+                                </p>
+                            </li>
+                        </ol>
+                    </p>
+                </statement>
+                <solution>
+                    <p>
+                        <ol marker="a">
+                            <li>
+                                <p>
+                                    <m>\pi^0=1</m>
+                                </p>
+                            </li>
+                            <li>
+                                <p>
+                                    <m>3(x^0)=3</m>
+                                </p>
+                            </li>
+                        </ol>
+                    </p>
+                </solution>
+            </example>
+
+            <example>
+                <statement>
+                    <p>
+                        Rewrite each expression without negative exponents
+                    </p>
+                    <p>
+                        <ol marker="a">
+                            <li>
+                                <p>
+                                    <m>x^{-4}</m>
+                                </p>
+                            </li>
+                            <li>
+                                <p>
+                                    <m>(t^2-1)^{-2}</m>
+                                </p>
+                            </li>
+                        </ol>
+                    </p>
+                </statement>
+                <solution>
+                    <p>
+                        <ol marker="a">
+                            <li>
+                                <p>
+                                    <m>x^{-4} = \dfrac{1}{x^4}</m>
+                                </p>
+                            </li>
+                            <li>
+                                <p>
+                                    <m>(t^2-1)^{-2} = \dfrac{1}{(t^2-1)^2}</m>
+                                </p>
+                            </li>
+                        </ol>
+                    </p>
+                </solution>
+            </example>
+
+            <example>
+                <statement>
+                    <p>
+                        Rewrite each expression without fractions
+                    </p>
+                    <p>
+                        <ol marker="a">
+                            <li>
+                                <p>
+                                    <m>\dfrac{3}{x^5}</m>
+                                </p>
+                            </li>
+                            <li>
+                                <p>
+                                    <m>\dfrac{1}{(x+5)^3}</m>
+                                </p>
+                            </li>
+                        </ol>
+                    </p>
+                </statement>
+                <solution>
+                    <p>
+                        <ol marker="a">
+                            <li>
+                                <p>
+                                    <m>\dfrac{3}{x^5} = 3x^{-5}</m>
+                                </p>
+                            </li>
+                            <li>
+                                <p>
+                                    <m>\dfrac{1}{(x+5)^3}= (x+5)^{-3}</m>
+                                </p>
+                            </li>
+                        </ol>
+                    </p>
+                </solution>
+            </example>
+        </subsubsection>
+
+        <subsubsection xml:id="e-exponents-radicals">
+            <title>Rewriting Radicals</title>
+            
+            <example>
+                <statement>
+                    <p>
+                        <url href="https://youtu.be/S-Zem6-yBvs">Video</url>   
+                    </p>
+                    <p>
+                        <md>
+                            <mrow>\sqrt[n]{a} \amp a^{1/n}</mrow>
+                            <mrow>\sqrt[n]{a^m} \amp a^{m/n}</mrow>
+                        </md>
+                    </p>
+                    <p>
+                        Rewrite each radical with exponential notation.
+                    </p>
+                    <p>
+                        <ol marker="a">
+                            <li>
+                                <p>
+                                    <m>\sqrt{x}</m>
+                                </p>
+                            </li>
+                            <li>
+                                <p>
+                                    <m>\sqrt[3]{x}</m>
+                                </p>
+                            </li>
+                            <li>
+                                <p>
+                                    <m>\sqrt[10]{x}</m>
+                                </p>
+                            </li>
+                            <li>
+                                <p>
+                                    <m>\dfrac{1}{\sqrt{x}}</m>
+                                </p>
+                            </li>
+                            <li>
+                                <p>
+                                    <m>\sqrt{x^5}</m>
+                                </p>
+                            </li>
+                            <li>
+                                <p>
+                                    <m>\sqrt[4]{x^7}</m>
+                                </p>
+                            </li>
+                            <li>
+                                <p>
+                                    <m>\dfrac{3}{\sqrt[3]{x}}</m>
+                                </p>
+                            </li>
+                        </ol>
+                    </p>
+                </statement>
+                <solution>
+                    <p>
+                        <ol marker="a">
+                            <li>
+                                <p>
+                                    <m>\sqrt{x} = x^{1/2}</m>
+                                </p>
+                            </li>
+                            <li>
+                                <p>
+                                    <m>\sqrt[3]{x} = x^{1/3}</m>
+                                </p>
+                            </li>
+                            <li>
+                                <p>
+                                    <m>\sqrt[10]{x}=x^{1/10}</m>
+                                </p>
+                            </li>
+                            <li>
+                                <p>
+                                    <m>\dfrac{1}{\sqrt{x}} = x^{-1/2}</m>
+                                </p>
+                            </li>
+                            <li>
+                                <p>
+                                    <m>\sqrt{x^5}=x^{5/2}</m>
+                                </p>
+                            </li>
+                            <li>
+                                <p>
+                                    <m>\sqrt[4]{x^7}=x^{7/4}</m>
+                                </p>
+                            </li>
+                            <li>
+                                <p>
+                                    <m>\dfrac{3}{\sqrt[3]{x}}=3x^{-1/3}</m>
+                                </p>
+                            </li>
+                        </ol>
+                    </p>
+                </solution>
+            </example>
+
+            <example>
+                <statement>
+                    <p>
+                        Rewrite each radical with exponential notation
+                    </p>
+                    <p>
+                        <ol marker="a">
+                            <li>
+                                <p>
+                                    <m>3\sqrt{t}</m>
+                                </p>
+                            </li>
+                            <li>
+                                <p>
+                                    <m>\sqrt[5]{x}</m>
+                                </p>
+                            </li>
+                            <li>
+                                <p>
+                                    <m>\dfrac{1}{\sqrt[3]{x}}</m>
+                                </p>
+                            </li>
+                            <li>
+                                <p>
+                                    <m>\sqrt{x^3}</m>
+                                </p>
+                            </li>
+                        </ol>
+                    </p>
+                </statement>
+                <solution>
+                    <p>
+                        <ol marker="a">
+                            <li>
+                                <p>
+                                    <m>3\sqrt{t} = 3t^{1/2}</m>
+                                </p>
+                            </li>
+                            <li>
+                                <p>
+                                    <m>\sqrt[5]{x}=x^{1/5}</m>
+                                </p>
+                            </li>
+                            <li>
+                                <p>
+                                    <m>\dfrac{1}{\sqrt[3]{x}}=x^{-1/3}</m>
+                                </p>
+                            </li>
+                            <li>
+                                <p>
+                                    <m>\sqrt{x^3}=x^{3/2}</m>
+                                </p>
+                            </li>
+                        </ol>
+                    </p>
+                </solution>
+            </example>
+        </subsubsection>
+    </subsection>
+
+    <subsection xml:id="e-composition">
+        <title>Function Composition</title>
+            <introduction>
+                <p>
+                    To be added later
+                </p>
+            </introduction>
+    </subsection>
+</section>
