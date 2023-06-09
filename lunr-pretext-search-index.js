@@ -530,6 +530,159 @@ var ptx_lunr_docs = [
   "number": "4.1.12",
   "title": "",
   "body": "  Solve the following equations                                           "
+},
+{
+  "id": "e",
+  "level": "1",
+  "url": "e.html",
+  "type": "Section",
+  "number": "5",
+  "title": "E. Algebra Potpourri",
+  "body": " E. Algebra Potpourri   Fraction Operations   Supplements XYZ Sections: All    Adding and Subtracting Fractions     Video   Adding and subtracting fractions requires a common denominator . The common denominator will be the least common multiple of the original denominators. In general, to add or subtract two fractions:     Rewrite both fractions with a common denominator    Add or subtract the numerators. Keep the denominator the same.    Reduce the fraction to lowest terms.                                                           Add or subtract the fractions.                                                        Multiplying and Dividing Fractions     Video   Multiplying and dividing fractions does not require a common denominator. To multiply two fractions, simply multiply across the numerators and denominators. To divide two fractions, multiply the top or first fraction by the reciprocal of the bottom or second fraction.                or      or                      or equals      or equals          Multiply or divide the fractions. Reduce if possible.                                                         Rules of Exponents   Multiplying with Like Bases     Video   If we multiply two expressions or numbers that have the same base, we can combine by adding their exponents.                                               Simplify each expression                                              Dividing with Like Bases     Video   If we divide two expressions or numbers that have the same base, we can combine by subtracting their exponents:                                                         Simplify each expression                                                        Raising a Power to a Power     Video   If we raise a power to a power, we can combine by multiplying their exponents.                                                         Simplify each expression                                              Zero and Negative Powers     Video                                                                                Simplify each expression                                    Rewrite each expression without negative exponents                                    Rewrite each expression without fractions                                    Rewriting Radicals     Video      Rewrite each radical with exponential notation.                                                                                      Rewrite each radical with exponential notation                                                         Function Composition   To be added later    "
+},
+{
+  "id": "example-56",
+  "level": "2",
+  "url": "e.html#example-56",
+  "type": "Example",
+  "number": "5.1.1",
+  "title": "",
+  "body": "   Video   Adding and subtracting fractions requires a common denominator . The common denominator will be the least common multiple of the original denominators. In general, to add or subtract two fractions:     Rewrite both fractions with a common denominator    Add or subtract the numerators. Keep the denominator the same.    Reduce the fraction to lowest terms.                                                        "
+},
+{
+  "id": "example-57",
+  "level": "2",
+  "url": "e.html#example-57",
+  "type": "Example",
+  "number": "5.1.2",
+  "title": "",
+  "body": "  Add or subtract the fractions.                                                     "
+},
+{
+  "id": "example-58",
+  "level": "2",
+  "url": "e.html#example-58",
+  "type": "Example",
+  "number": "5.1.3",
+  "title": "",
+  "body": "   Video   Multiplying and dividing fractions does not require a common denominator. To multiply two fractions, simply multiply across the numerators and denominators. To divide two fractions, multiply the top or first fraction by the reciprocal of the bottom or second fraction.                or      or                      or equals      or equals       "
+},
+{
+  "id": "example-59",
+  "level": "2",
+  "url": "e.html#example-59",
+  "type": "Example",
+  "number": "5.1.4",
+  "title": "",
+  "body": "  Multiply or divide the fractions. Reduce if possible.                                                     "
+},
+{
+  "id": "example-60",
+  "level": "2",
+  "url": "e.html#example-60",
+  "type": "Example",
+  "number": "5.2.1",
+  "title": "",
+  "body": "   Video   If we multiply two expressions or numbers that have the same base, we can combine by adding their exponents.                                            "
+},
+{
+  "id": "example-61",
+  "level": "2",
+  "url": "e.html#example-61",
+  "type": "Example",
+  "number": "5.2.2",
+  "title": "",
+  "body": "  Simplify each expression                                           "
+},
+{
+  "id": "example-62",
+  "level": "2",
+  "url": "e.html#example-62",
+  "type": "Example",
+  "number": "5.2.3",
+  "title": "",
+  "body": "   Video   If we divide two expressions or numbers that have the same base, we can combine by subtracting their exponents:                                                      "
+},
+{
+  "id": "example-63",
+  "level": "2",
+  "url": "e.html#example-63",
+  "type": "Example",
+  "number": "5.2.4",
+  "title": "",
+  "body": "  Simplify each expression                                                     "
+},
+{
+  "id": "example-64",
+  "level": "2",
+  "url": "e.html#example-64",
+  "type": "Example",
+  "number": "5.2.5",
+  "title": "",
+  "body": "   Video   If we raise a power to a power, we can combine by multiplying their exponents.                                                      "
+},
+{
+  "id": "example-65",
+  "level": "2",
+  "url": "e.html#example-65",
+  "type": "Example",
+  "number": "5.2.6",
+  "title": "",
+  "body": "  Simplify each expression                                           "
+},
+{
+  "id": "example-66",
+  "level": "2",
+  "url": "e.html#example-66",
+  "type": "Example",
+  "number": "5.2.7",
+  "title": "",
+  "body": "   Video                                                                             "
+},
+{
+  "id": "example-67",
+  "level": "2",
+  "url": "e.html#example-67",
+  "type": "Example",
+  "number": "5.2.8",
+  "title": "",
+  "body": "  Simplify each expression                                 "
+},
+{
+  "id": "example-68",
+  "level": "2",
+  "url": "e.html#example-68",
+  "type": "Example",
+  "number": "5.2.9",
+  "title": "",
+  "body": "  Rewrite each expression without negative exponents                                 "
+},
+{
+  "id": "example-69",
+  "level": "2",
+  "url": "e.html#example-69",
+  "type": "Example",
+  "number": "5.2.10",
+  "title": "",
+  "body": "  Rewrite each expression without fractions                                 "
+},
+{
+  "id": "example-70",
+  "level": "2",
+  "url": "e.html#example-70",
+  "type": "Example",
+  "number": "5.2.11",
+  "title": "",
+  "body": "   Video      Rewrite each radical with exponential notation.                                                                                   "
+},
+{
+  "id": "example-71",
+  "level": "2",
+  "url": "e.html#example-71",
+  "type": "Example",
+  "number": "5.2.12",
+  "title": "",
+  "body": "  Rewrite each radical with exponential notation                                                     "
 }
 ]
 
