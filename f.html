@@ -1,0 +1,689 @@
+<!DOCTYPE html>
+<!--********************************************-->
+<!--*       Generated from PreTeXt source      *-->
+<!--*                                          *-->
+<!--*         https://pretextbook.org          *-->
+<!--*                                          *-->
+<!--********************************************-->
+<html lang="en-US">
+<head xmlns:og="http://ogp.me/ns#" xmlns:book="https://ogp.me/ns/book#">
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title> F. Trigonometry Review</title>
+<meta name="Keywords" content="Authored in PreTeXt">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta property="og:type" content="article">
+<script>var runestoneMathReady = new Promise((resolve) => window.rsMathReady = resolve);
+window.MathJax = {
+  tex: {
+    inlineMath: [['\\(','\\)']],
+    tags: "none",
+    tagSide: "right",
+    tagIndent: ".8em",
+    packages: {'[+]': ['base', 'extpfeil', 'ams', 'amscd', 'color', 'newcommand', 'knowl']}
+  },
+  options: {
+    ignoreHtmlClass: "tex2jax_ignore|ignore-math",
+    processHtmlClass: "process-math",
+  },
+  chtml: {
+    scale: 0.98,
+    mtextInheritFont: true
+  },
+  loader: {
+    load: ['input/asciimath', '[tex]/extpfeil', '[tex]/amscd', '[tex]/color', '[tex]/newcommand', '[pretext]/mathjaxknowl3.js'],
+    paths: {pretext: "https://pretextbook.org/js/lib"},
+  },
+  startup: {
+    pageReady() {
+      return MathJax.startup.defaultPageReady().then(function () {
+      console.log("in ready function");
+      rsMathReady();
+      }
+    )}
+  },
+};
+</script><script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml.js"></script><script src="https://unpkg.com/lunr/lunr.js"></script><script src="lunr-pretext-search-index.js"></script><script src="https://pretextbook.org/js/0.2/pretext_search.js"></script><link href="https://pretextbook.org/css/0.6/pretext_search.css" rel="stylesheet" type="text/css">
+<script>js_version = 0.2</script><script src="https://pretextbook.org/js/lib/jquery.min.js"></script><script src="https://pretextbook.org/js/lib/jquery.sticky.js"></script><script src="https://pretextbook.org/js/lib/jquery.espy.min.js"></script><script src="https://pretextbook.org/js/0.2/pretext.js"></script><script>miniversion=0.1</script><script src="https://pretextbook.org/js/0.2/pretext_add_on.js?x=1"></script><script src="https://pretextbook.org/js/0.2/user_preferences.js"></script><script src="https://pretextbook.org/js/lib/knowl.js"></script><!--knowl.js code controls Sage Cells within knowls--><script>sagecellEvalName='Evaluate (Sage)';
+</script><link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
+<link href="https://fonts.googleapis.com/css2?family=Inconsolata:wght@400;700&amp;family=Noto+Serif:ital,wght@0,400;0,700;1,400;1,700&amp;family=Tinos:ital,wght@0,400;0,700;1,400;1,700&amp;display=swap" rel="stylesheet">
+<link href="https://fonts.cdnfonts.com/css/dejavu-serif" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Roboto+Serif:opsz,wdth,wght@8..144,50..150,100..900&amp;display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Open+Sans:wdth,wght@75..100,300..800&amp;display=swap" rel="stylesheet">
+<link href="https://pretextbook.org/css/0.6/pretext.css" rel="stylesheet" type="text/css">
+<link href="https://pretextbook.org/css/0.6/pretext_add_on.css" rel="stylesheet" type="text/css">
+<link href="https://pretextbook.org/css/0.6/shell_default.css" rel="stylesheet" type="text/css">
+<link href="https://pretextbook.org/css/0.6/banner_default.css" rel="stylesheet" type="text/css">
+<link href="https://pretextbook.org/css/0.6/navbar_default.css" rel="stylesheet" type="text/css">
+<link href="https://pretextbook.org/css/0.6/toc_default.css" rel="stylesheet" type="text/css">
+<link href="https://pretextbook.org/css/0.6/knowls_default.css" rel="stylesheet" type="text/css">
+<link href="https://pretextbook.org/css/0.6/style_default.css" rel="stylesheet" type="text/css">
+<link href="https://pretextbook.org/css/0.6/colors_blue_red.css" rel="stylesheet" type="text/css">
+<link href="https://pretextbook.org/css/0.6/setcolors.css" rel="stylesheet" type="text/css">
+</head>
+<body class="pretext article ignore-math">
+<a class="assistive" href="#ptx-content">Skip to main content</a><header id="ptx-masthead"><div class="ptx-banner">
+<a id="logo-link" href=""></a><div class="title-container">
+<h1 class="heading"><a href="corequisite-material.html"><span class="title">Corequisite Material</span></a></h1>
+<p class="byline"></p>
+</div>
+<div id="searchresultsplaceholder" style="display: none">
+<button id="closesearchresults" onclick="document.getElementById('searchresultsplaceholder').style.display = 'none'; return false;">x</button><h2>Search Results: <span id="searchterms"></span>
+</h2>
+<div id="searchempty"><span>No results.</span></div>
+<ol id="searchresults"></ol>
+</div>
+</div></header><nav id="ptx-navbar" class="navbar"><button class="toc-toggle button" aria-label="Show or hide table of contents"><span class="icon">☰</span><span class="name">Contents</span></button><button id="user-preferences-button" class="user-preferences-button button" title="Modify user preferences"><span id="theavatarbutton" class="name">You!</span><div id="preferences_menu_holder" class="hidden"><ol id="preferences_menu" style="font-family: 'Roboto Serif', serif;">
+<li data-env="avatar" tabindex="-1">Choose avatar<div class="wrap_to_submenu"><span class="to_submenu">▻</span></div>
+<ol class="hidden avatar">
+<li data-val="You!" tabindex="-1">
+<span id="theYou!" class="avatarcheck">✔️</span>You!</li>
+<li data-val="😺" tabindex="-1">
+<span id="the😺" class="avatarcheck"></span>😺</li>
+<li data-val="👤" tabindex="-1">
+<span id="the👤" class="avatarcheck"></span>👤</li>
+<li data-val="👽" tabindex="-1">
+<span id="the👽" class="avatarcheck"></span>👽</li>
+<li data-val="🐶" tabindex="-1">
+<span id="the🐶" class="avatarcheck"></span>🐶</li>
+<li data-val="🐼" tabindex="-1">
+<span id="the🐼" class="avatarcheck"></span>🐼</li>
+<li data-val="🌈" tabindex="-1">
+<span id="the🌈" class="avatarcheck"></span>🌈</li>
+</ol>
+</li>
+<li data-env="fontfamily" tabindex="-1">Font family<div class="wrap_to_submenu"><span class="to_submenu">▻</span></div>
+<ol class="hidden fontfamily">
+<li data-val="face" data-change="OS" tabindex="-1" style="font-family: 'Open Sans'">
+<span id="theOS" class="ffcheck">✔️</span><span class="name">Open Sans</span><span class="sample">AaBbCc 123 PreTeXt</span>
+</li>
+<li data-val="face" data-change="RS" tabindex="-1" style="font-family: 'Roboto Serif'">
+<span id="theRS" class="ffcheck"></span><span class="name">Roboto Serif</span><span class="sample">AaBbCc 123 PreTeXt</span>
+</li>
+</ol>
+</li>
+<li data-env="font" tabindex="-1">Adjust font<div class="wrap_to_submenu"><span class="to_submenu">▻</span></div>
+<ol class="hidden fonts">
+<li>Size</li>
+<li><span id="thesize">12</span></li>
+<li data-val="size" data-change="-1" tabindex="-1" style="font-size: 80%">Smaller</li>
+<li data-val="size" data-change="1" tabindex="-1" style="font-size: 110%">Larger</li>
+<li>Width</li>
+<li><span id="thewdth">100</span></li>
+<li data-val="wdth" data-change="-5" tabindex="-1" style="font-variation-settings: 'wdth' 60">narrower</li>
+<li data-val="wdth" data-change="5" tabindex="-1" style="font-variation-settings: 'wdth' 150">wider</li>
+<li>Weight</li>
+<li><span id="thewght">400</span></li>
+<li data-val="wght" data-change="-50" tabindex="-1" style="font-weight: 200">thinner</li>
+<li data-val="wght" data-change="50" tabindex="-1" style="font-weight: 700">heavier</li>
+<li>Letter spacing</li>
+<li>
+<span id="thelspace">0</span><span class="byunits">/200</span>
+</li>
+<li data-val="lspace" data-change="-1" tabindex="-1">closer</li>
+<li data-val="lspace" data-change="1" tabindex="-1">f a r t h e r</li>
+<li>Word spacing</li>
+<li>
+<span id="thewspace">0</span><span class="byunits">/50</span>
+</li>
+<li data-val="wspace" data-change="-1" tabindex="-1">smaller gap </li>
+<li data-val="wspace" data-change="1" tabindex="-1">larger gap</li>
+<li>Line Spacing</li>
+<li>
+<span id="theheight">135</span><span class="byunits">/100</span>
+</li>
+<li data-val="height" data-change="-5" tabindex="-1" style="line-height: 1">closer<br>together</li>
+<li data-val="height" data-change="5" tabindex="-1" style="line-height: 1.75">further<br>apart</li>
+</ol>
+</li>
+<li data-env="atmosphere" tabindex="-1">Light/dark mode<div class="wrap_to_submenu"><span class="to_submenu">▻</span></div>
+<ol class="hidden atmosphere">
+<li data-val="default" tabindex="-1">
+<span id="thedefault" class="atmospherecheck">✔️</span>default</li>
+<li data-val="pastel" tabindex="-1">
+<span id="thepastel" class="atmospherecheck"></span>pastel</li>
+<li data-val="darktwilight" tabindex="-1">
+<span id="thedarktwilight" class="atmospherecheck"></span>twilight</li>
+<li data-val="dark" tabindex="-1">
+<span id="thedark" class="atmospherecheck"></span>dark</li>
+<li data-val="darkmidnight" tabindex="-1">
+<span id="thedarkmidnight" class="atmospherecheck"></span>midnight</li>
+</ol>
+</li>
+<li data-env="ruler" tabindex="-1">Reading ruler<div class="wrap_to_submenu"><span class="to_submenu">▻</span></div>
+<ol class="hidden ruler">
+<li data-val="none" tabindex="-1">
+<span id="thenone" class="rulercheck">✔️</span>none</li>
+<li data-val="underline" tabindex="-1">
+<span id="theunderline" class="rulercheck"></span>underline</li>
+<li data-val="lunderline" tabindex="-1">
+<span id="thelunderline" class="rulercheck"></span>L-underline</li>
+<li data-val="greybar" tabindex="-1">
+<span id="thegreybar" class="rulercheck"></span>grey bar</li>
+<li data-val="lightbox" tabindex="-1">
+<span id="thelightbox" class="rulercheck"></span>light box</li>
+<li data-val="sunrise" tabindex="-1">
+<span id="thesunrise" class="rulercheck"></span>sunrise</li>
+<li data-val="sunriseunderline" tabindex="-1">
+<span id="thesunriseunderline" class="rulercheck"></span>sunrise underline</li>
+<li class="moveQ">Motion by:</li>
+<li data-val="mouse" tabindex="-1">
+<span id="themouse" class="motioncheck">✔️</span>follow the mouse</li>
+<li data-val="arrow" tabindex="-1">
+<span id="thearrow" class="motioncheck"></span>up/down arrows - not yet</li>
+<li data-val="eye" tabindex="-1">
+<span id="theeye" class="motioncheck"></span>eye tracking - not yet</li>
+</ol>
+</li>
+</ol></div></button><span class="treebuttons"><a class="previous-button button" href="e.html" title="Previous"><span class="icon">&lt;</span><span class="name">Prev</span></a><a class="up-button button" href="corequisite-material.html" title="Up"><span class="icon">^</span><span class="name">Up</span></a><span class="next-button button disabled"><span class="name">Next</span><span class="icon">&gt;</span></span></span><div class="searchbox"><div class="searchwidget">
+<input id="ptxsearch" type="text" name="terms" placeholder="Search" onchange="doSearch()"><button id="searchbutton" type="button" onclick="doSearch()">🔍</button>
+</div></div></nav><div id="latex-macros" class="hidden-content process-math" style="display:none"><span class="process-math">\(      \newcommand{\ds}{\displaystyle}
+\newcommand{\lrpar}[1]{\left(#1\right)}
+\newcommand{\lrbrace}[1]{\left\lbrace #1 \right\rbrace}
+\newcommand{\inv}[1]{#1^{-1}}
+\newcommand{\R}{\mathbb{R}}
+\newcommand{\Z}{\mathbb{Z}}
+\newcommand{\dc}{^\circ}
+\newcommand{\lt}{&lt;}
+\newcommand{\gt}{&gt;}
+\newcommand{\amp}{&amp;}
+\definecolor{fillinmathshade}{gray}{0.9}
+\newcommand{\fillinmath}[1]{\mathchoice{\colorbox{fillinmathshade}{$\displaystyle     \phantom{\,#1\,}$}}{\colorbox{fillinmathshade}{$\textstyle        \phantom{\,#1\,}$}}{\colorbox{fillinmathshade}{$\scriptstyle      \phantom{\,#1\,}$}}{\colorbox{fillinmathshade}{$\scriptscriptstyle\phantom{\,#1\,}$}}}
+\)</span></div>
+<div class="ptx-page">
+<div id="ptx-sidebar"><nav id="ptx-toc" class="depth2"><ul class="structural">
+<li>
+<div class="toc-item"><a href="a.html" class="internal"><span class="codenumber">1</span> <span class="title">A. Function Notation and Evaluation</span></a></div>
+<ul class="structural">
+<li>
+<div class="toc-item"><a href="a.html#a-notation" class="internal"><span class="codenumber">1.1</span> <span class="title">Function Notation</span></a></div>
+<ul class="structural"><li><div class="toc-item"><a href="a.html#a-notation-intro" class="internal"><span class="codenumber">1.1.1</span> <span class="title">Function Notation Intro</span></a></div></li></ul>
+</li>
+<li>
+<div class="toc-item"><a href="a.html#a-evaluation" class="internal"><span class="codenumber">1.2</span> <span class="title">Function Evaluation</span></a></div>
+<ul class="structural">
+<li><div class="toc-item"><a href="a.html#a-evaluation-algebraic" class="internal"><span class="codenumber">1.2.1</span> <span class="title">Function Evaluation, Algebraic</span></a></div></li>
+<li><div class="toc-item"><a href="a.html#a-evaluation-piecewise" class="internal"><span class="codenumber">1.2.2</span> <span class="title">Function Evaluation, Algebraic Piecewise</span></a></div></li>
+<li><div class="toc-item"><a href="a.html#a-evaluation-graphical" class="internal"><span class="codenumber">1.2.3</span> <span class="title">Function Evaluation, Graphical</span></a></div></li>
+<li><div class="toc-item"><a href="a.html#a-evaluation-numerical" class="internal"><span class="codenumber">1.2.4</span> <span class="title">Function Evaluation, Numerical</span></a></div></li>
+<li><div class="toc-item"><a href="a.html#a-evaluation-symbolic" class="internal"><span class="codenumber">1.2.5</span> <span class="title">Function Evaluation, Symbolic</span></a></div></li>
+</ul>
+</li>
+</ul>
+</li>
+<li>
+<div class="toc-item"><a href="b.html" class="internal"><span class="codenumber">2</span> <span class="title">B. Lines and Solving Linear Equations</span></a></div>
+<ul class="structural">
+<li>
+<div class="toc-item"><a href="b.html#b-lines" class="internal"><span class="codenumber">2.1</span> <span class="title">Lines</span></a></div>
+<ul class="structural">
+<li><div class="toc-item"><a href="b.html#a-notation-slope" class="internal"><span class="codenumber">2.1.1</span> <span class="title">Slope</span></a></div></li>
+<li><div class="toc-item"><a href="b.html#b-lines-slopeintercept" class="internal"><span class="codenumber">2.1.2</span> <span class="title">Slope-Intercept Form</span></a></div></li>
+<li><div class="toc-item"><a href="b.html#b-lines-equation" class="internal"><span class="codenumber">2.1.3</span> <span class="title">Finding an Equation of a Line in Slope-Intercept Form</span></a></div></li>
+<li><div class="toc-item"><a href="b.html#b-lines-pointslope" class="internal"><span class="codenumber">2.1.4</span> <span class="title">Point-Slope Form</span></a></div></li>
+</ul>
+</li>
+<li><div class="toc-item"><a href="b.html#b-solving" class="internal"><span class="codenumber">2.2</span> <span class="title">Solving Linear Equations</span></a></div></li>
+</ul>
+</li>
+<li>
+<div class="toc-item"><a href="c.html" class="internal"><span class="codenumber">3</span> <span class="title">C. Factoring and Solving Quadratics</span></a></div>
+<ul class="structural">
+<li>
+<div class="toc-item"><a href="c.html#c-factoring" class="internal"><span class="codenumber">3.1</span> <span class="title">Factoring and Solving Quadratics</span></a></div>
+<ul class="structural">
+<li><div class="toc-item"><a href="c.html#c-factoring-quadratics" class="internal"><span class="codenumber">3.1.1</span> <span class="title">Factoring Quadratics</span></a></div></li>
+<li><div class="toc-item"><a href="c.html#c-factoring-diffsquares" class="internal"><span class="codenumber">3.1.2</span> <span class="title">Factoring: Difference of Squares</span></a></div></li>
+<li><div class="toc-item"><a href="c.html#c-factoring-monic" class="internal"><span class="codenumber">3.1.3</span> <span class="title">Factoring: Lead Coefficient <span class="process-math">\(=1\)</span> (<span class="process-math">\(+/-\)</span> subcases)</span></a></div></li>
+<li><div class="toc-item"><a href="c.html#c-factoring-nonmonic" class="internal"><span class="codenumber">3.1.4</span> <span class="title">Factoring: Lead Coefficient <span class="process-math">\(\neq 1\)</span> ("magic X" method)</span></a></div></li>
+</ul>
+</li>
+<li>
+<div class="toc-item"><a href="c.html#c-solving" class="internal"><span class="codenumber">3.2</span> <span class="title">Solving Quadratic Equations</span></a></div>
+<ul class="structural">
+<li><div class="toc-item"><a href="c.html#c-solving-factoring" class="internal"><span class="codenumber">3.2.1</span> <span class="title">Solve by Factoring</span></a></div></li>
+<li><div class="toc-item"><a href="c.html#c-solving-root" class="internal"><span class="codenumber">3.2.2</span> <span class="title">Root Method</span></a></div></li>
+<li><div class="toc-item"><a href="c.html#c-solving-quadraticformula" class="internal"><span class="codenumber">3.2.3</span> <span class="title">Quadratic Formula</span></a></div></li>
+<li><div class="toc-item"><a href="c.html#c-solving-graphing" class="internal"><span class="codenumber">3.2.4</span> <span class="title">Graphing</span></a></div></li>
+</ul>
+</li>
+</ul>
+</li>
+<li>
+<div class="toc-item"><a href="d.html" class="internal"><span class="codenumber">4</span> <span class="title">D. Solving Nonlinear Equations</span></a></div>
+<ul class="structural"><li>
+<div class="toc-item"><a href="d.html#d-nonlinear" class="internal"><span class="codenumber">4.1</span> <span class="title">Solving Nonlinear Equations</span></a></div>
+<ul class="structural">
+<li><div class="toc-item"><a href="d.html#d-nonlinear-rational" class="internal"><span class="codenumber">4.1.1</span> <span class="title">Solving Rational Equations</span></a></div></li>
+<li><div class="toc-item"><a href="d.html#d-nonlinear-squareroot" class="internal"><span class="codenumber">4.1.2</span> <span class="title">Solving Square Root Equations</span></a></div></li>
+<li><div class="toc-item"><a href="d.html#d-nonlinear-cuberoot" class="internal"><span class="codenumber">4.1.3</span> <span class="title">Solving Cube Root Equations</span></a></div></li>
+<li><div class="toc-item"><a href="d.html#d-nonlinear-exponential" class="internal"><span class="codenumber">4.1.4</span> <span class="title">Solving Exponential Equations</span></a></div></li>
+<li><div class="toc-item"><a href="d.html#d-nonlinear-logarithmic" class="internal"><span class="codenumber">4.1.5</span> <span class="title">Solving Logarithmic Equations</span></a></div></li>
+</ul>
+</li></ul>
+</li>
+<li>
+<div class="toc-item"><a href="e.html" class="internal"><span class="codenumber">5</span> <span class="title">E. Algebra Potpourri</span></a></div>
+<ul class="structural">
+<li>
+<div class="toc-item"><a href="e.html#e-operations" class="internal"><span class="codenumber">5.1</span> <span class="title">Fraction Operations</span></a></div>
+<ul class="structural">
+<li><div class="toc-item"><a href="e.html#e-operations-addsubtract" class="internal"><span class="codenumber">5.1.1</span> <span class="title">Adding and Subtracting Fractions</span></a></div></li>
+<li><div class="toc-item"><a href="e.html#e-operations-multiplydivide" class="internal"><span class="codenumber">5.1.2</span> <span class="title">Multiplying and Dividing Fractions</span></a></div></li>
+</ul>
+</li>
+<li>
+<div class="toc-item"><a href="e.html#e-exponents" class="internal"><span class="codenumber">5.2</span> <span class="title">Rules of Exponents</span></a></div>
+<ul class="structural">
+<li><div class="toc-item"><a href="e.html#e-exponents-multiplylike" class="internal"><span class="codenumber">5.2.1</span> <span class="title">Multiplying with Like Bases</span></a></div></li>
+<li><div class="toc-item"><a href="e.html#e-exponents-dividelike" class="internal"><span class="codenumber">5.2.2</span> <span class="title">Dividing with Like Bases</span></a></div></li>
+<li><div class="toc-item"><a href="e.html#e-exponents-powertopower" class="internal"><span class="codenumber">5.2.3</span> <span class="title">Raising a Power to a Power</span></a></div></li>
+<li><div class="toc-item"><a href="e.html#e-exponents-zeronegative" class="internal"><span class="codenumber">5.2.4</span> <span class="title">Zero and Negative Powers</span></a></div></li>
+<li><div class="toc-item"><a href="e.html#e-exponents-radicals" class="internal"><span class="codenumber">5.2.5</span> <span class="title">Rewriting Radicals</span></a></div></li>
+</ul>
+</li>
+<li><div class="toc-item"><a href="e.html#e-composition" class="internal"><span class="codenumber">5.3</span> <span class="title">Function Composition</span></a></div></li>
+</ul>
+</li>
+<li class="active">
+<div class="toc-item"><a href="f.html" class="internal"><span class="codenumber">6</span> <span class="title">F. Trigonometry Review</span></a></div>
+<ul class="structural">
+<li>
+<div class="toc-item"><a href="f.html#f-ratios" class="internal"><span class="codenumber">6.1</span> <span class="title">Trigonometric Ratios</span></a></div>
+<ul class="structural">
+<li><div class="toc-item"><a href="f.html#f-ratios-defs" class="internal"><span class="codenumber">6.1.1</span> <span class="title">Definitions</span></a></div></li>
+<li><div class="toc-item"><a href="f.html#f-ratios-circle" class="internal"><span class="codenumber">6.1.2</span> <span class="title">Unit Circle</span></a></div></li>
+<li><div class="toc-item"><a href="f.html#f-ratios-identities" class="internal"><span class="codenumber">6.1.3</span> <span class="title">Quotient and Reciprocal Identities</span></a></div></li>
+</ul>
+</li>
+<li>
+<div class="toc-item"><a href="f.html#f-equations" class="internal"><span class="codenumber">6.2</span> <span class="title">Solving Trig Equations</span></a></div>
+<ul class="structural">
+<li><div class="toc-item"><a href="f.html#f-equations-basic" class="internal"><span class="codenumber">6.2.1</span> <span class="title">Solving Basic Trig Equations</span></a></div></li>
+<li><div class="toc-item"><a href="f.html#f-equations-multiple" class="internal"><span class="codenumber">6.2.2</span> <span class="title">Solving Multiple Angle Trig Equations</span></a></div></li>
+<li><div class="toc-item"><a href="f.html#f-equations-quadratic" class="internal"><span class="codenumber">6.2.3</span> <span class="title">Solving Quadratic Trig Equations</span></a></div></li>
+</ul>
+</li>
+<li>
+<div class="toc-item"><a href="f.html#f-righttriangle" class="internal"><span class="codenumber">6.3</span> <span class="title">Right Triangle Trig</span></a></div>
+<ul class="structural">
+<li><div class="toc-item"><a href="f.html#f-righttriangle-pythagorean" class="internal"><span class="codenumber">6.3.1</span> <span class="title">Pythagorean Formula</span></a></div></li>
+<li><div class="toc-item"><a href="f.html#f-righttriangle-sohcahtoa" class="internal"><span class="codenumber">6.3.2</span> <span class="title">SOHCAHTOA</span></a></div></li>
+</ul>
+</li>
+<li><div class="toc-item"><a href="f.html#f-sinescosines" class="internal"><span class="codenumber">6.4</span> <span class="title">Law of Sines &amp; Law of Cosines</span></a></div></li>
+<li><div class="toc-item"><a href="f.html#f-graphs" class="internal"><span class="codenumber">6.5</span> <span class="title">Graphs of Trig Functions</span></a></div></li>
+<li><div class="toc-item"><a href="f.html#f-inverse" class="internal"><span class="codenumber">6.6</span> <span class="title">Inverse Trigonometric Functions</span></a></div></li>
+</ul>
+</li>
+</ul></nav></div>
+<main class="ptx-main"><div id="ptx-content" class="ptx-content">
+<section class="section" id="f"><h2 class="heading hide-type">
+<span class="type">Section</span> <span class="codenumber">6</span> <span class="title">F. Trigonometry Review</span>
+</h2>
+<section class="subsection" id="f-ratios"><h3 class="heading hide-type">
+<span class="type">Subsection</span> <span class="codenumber">6.1</span> <span class="title">Trigonometric Ratios</span>
+</h3>
+<section class="introduction" id="introduction-9"><div class="para" id="p-514">Supplements XYZ Sections: All</div></section><section class="subsubsection" id="f-ratios-defs"><h4 class="heading hide-type">
+<span class="type">Subsubsection</span> <span class="codenumber">6.1.1</span> <span class="title">Definitions</span>
+</h4>
+<article class="example example-like" id="example-72"><h5 class="heading">
+<span class="type">Example</span><span class="space"> </span><span class="codenumber">6.1.1</span><span class="period">.</span>
+</h5>
+<div class="para" id="p-515">
+<a class="external" href="https://youtu.be/I4exV-ZRKEQ" target="_blank">Video</a><a href="" data-knowl="" class="id-ref fn-knowl original" data-refid="hk-fn-48" id="fn-48"><sup> 1 </sup></a>
+</div> <div class="para" id="p-516">Consider a circle centered at the origin with radius <span class="process-math">\(r\text{.}\)</span> Let <span class="process-math">\((x,y)\)</span> be any point on the circle with central angle <span class="process-math">\(\theta\text{.}\)</span>
+</div> <div class="image-box" style="width: 50%; margin-left: 25%; margin-right: 25%;"><img src="external/f-ex11.png" class="contained" alt="A picture of a circle of radius \(r\) making angle \(\theta\) from the \(x-\)axis. The point \((x,y)\) is marked at the end of the radius on the circle."></div> <div class="para" id="p-517">The equation of the given circle is <span class="process-math">\(x^2+y^2 = r^2\)</span>
+</div> <div class="para" id="p-518">The 6 trigonometric ratios are:</div> <div class="tabular-box natural-width"><table class="tabular">
+<tr>
+<td class="l m b0 r0 l0 t0 lines"><span class="process-math">\(\cos\theta = \dfrac{x}{r}\)</span></td>
+<td class="l m b0 r0 l0 t0 lines"><span class="process-math">\(\sin\theta = \dfrac{y}{r}\)</span></td>
+<td class="l m b0 r0 l0 t0 lines"><span class="process-math">\(\tan\theta = \dfrac{y}{x}\)</span></td>
+</tr>
+<tr>
+<td class="l m b0 r0 l0 t0 lines"><span class="process-math">\(\sec\theta = \dfrac{r}{x}\)</span></td>
+<td class="l m b0 r0 l0 t0 lines"><span class="process-math">\(\csc\theta = \dfrac{r}{y}\)</span></td>
+<td class="l m b0 r0 l0 t0 lines"><span class="process-math">\(\cot\theta = \dfrac{x}{y}\)</span></td>
+</tr>
+</table></div> <div class="para" id="p-519">Notice that <span class="process-math">\(\cos\theta\)</span> and <span class="process-math">\(\sec\theta\)</span> are reciprocals. Likewise, <span class="process-math">\(\sin\theta\)</span> and <span class="process-math">\(\csc\theta\)</span> are reciprocals. Lastly, <span class="process-math">\(\tan\theta\)</span> and <span class="process-math">\(\cot\theta\)</span> are reciprocals.</div></article></section><section class="subsubsection" id="f-ratios-circle"><h4 class="heading hide-type">
+<span class="type">Subsubsection</span> <span class="codenumber">6.1.2</span> <span class="title">Unit Circle</span>
+</h4>
+<article class="example example-like" id="example-73"><h5 class="heading">
+<span class="type">Example</span><span class="space"> </span><span class="codenumber">6.1.2</span><span class="period">.</span>
+</h5>
+<div class="para" id="p-520">
+<a class="external" href="https://youtu.be/09oNZPIV4KA" target="_blank">Video</a><a href="" data-knowl="" class="id-ref fn-knowl original" data-refid="hk-fn-49" id="fn-49"><sup> 2 </sup></a>
+</div> <div class="para logical" id="p-521">
+<div class="para">The <dfn class="terminology">unit circle</dfn> is a circle of radius 1 centered at the origin. For any point <span class="process-math">\((x,y)\)</span> on the unit circle with central angle <span class="process-math">\(\theta\text{,}\)</span> we can simplify our trig ratios using <span class="process-math">\(r=1\)</span> to:</div>
+<div class="displaymath process-math">
+\begin{equation*}
+\cos\theta = x \qquad \sin\theta = y \qquad \tan\theta = \dfrac{y}{x}  
+\end{equation*}
+</div>
+</div> <div class="image-box" style="width: 100%; margin-left: 0%; margin-right: 0%;"><img src="generated/latex-image/image-10.svg" role="img" class="contained" alt="The unit circle. Special angles are marked in degrees and radians, and on the circle the ratios corresponding to that angle are given as \((x,y)\) coordinate pairs."></div> <div class="para" id="p-522">Let's use the unit circle to find some trig values:</div> <div class="tabular-box natural-width"><table class="tabular">
+<tr>
+<td class="l m b0 r0 l0 t0 lines"><span class="process-math">\(\cos(0^{\circ})=\)</span></td>
+<td class="l m b0 r0 l0 t0 lines"><span class="process-math">\(\cos(60^{\circ})=\)</span></td>
+<td class="l m b0 r0 l0 t0 lines"><span class="process-math">\(\cos(\pi)=\)</span></td>
+<td class="l m b0 r0 l0 t0 lines"><span class="process-math">\(\cos\lrpar{\dfrac{3\pi}{2}}=\)</span></td>
+</tr>
+<tr>
+<td class="l m b0 r0 l0 t0 lines"><span class="process-math">\(\sin(0^{\circ})=\)</span></td>
+<td class="l m b0 r0 l0 t0 lines"><span class="process-math">\(\sin(60^{\circ})=\)</span></td>
+<td class="l m b0 r0 l0 t0 lines"><span class="process-math">\(\sin(\pi)=\)</span></td>
+<td class="l m b0 r0 l0 t0 lines"><span class="process-math">\(\sin\lrpar{\dfrac{3\pi}{2}}=\)</span></td>
+</tr>
+<tr>
+<td class="l m b0 r0 l0 t0 lines"><span class="process-math">\(\tan(0^{\circ})=\)</span></td>
+<td class="l m b0 r0 l0 t0 lines"><span class="process-math">\(\tan(60^{\circ})=\)</span></td>
+<td class="l m b0 r0 l0 t0 lines"><span class="process-math">\(\tan(\pi)=\)</span></td>
+<td class="l m b0 r0 l0 t0 lines"><span class="process-math">\(\tan\lrpar{\dfrac{3\pi}{2}}=\)</span></td>
+</tr>
+</table></div>
+<div class="solutions">
+<a href="" data-knowl="" class="id-ref solution-knowl original has-tabular" data-refid="hk-solution-70" id="solution-70"><span class="type">Solution</span><span class="period">.</span></a><div class="hidden-content tex2jax_ignore" id="hk-solution-70"><div class="solution solution-like"><div class="tabular-box natural-width"><table class="tabular">
+<tr>
+<td class="l m b0 r0 l0 t0 lines"><span class="process-math">\(\cos(0^{\circ})=1\)</span></td>
+<td class="l m b0 r0 l0 t0 lines"><span class="process-math">\(\cos(60^{\circ})=\dfrac{1}{2}\)</span></td>
+<td class="l m b0 r0 l0 t0 lines"><span class="process-math">\(\cos(\pi)=-1\)</span></td>
+<td class="l m b0 r0 l0 t0 lines"><span class="process-math">\(\cos\lrpar{\dfrac{3\pi}{2}}=0\)</span></td>
+</tr>
+<tr>
+<td class="l m b0 r0 l0 t0 lines"><span class="process-math">\(\sin(0^{\circ})=0\)</span></td>
+<td class="l m b0 r0 l0 t0 lines"><span class="process-math">\(\sin(60^{\circ})=\dfrac{\sqrt{3}}{2}\)</span></td>
+<td class="l m b0 r0 l0 t0 lines"><span class="process-math">\(\sin(\pi)=0\)</span></td>
+<td class="l m b0 r0 l0 t0 lines"><span class="process-math">\(\sin\lrpar{\dfrac{3\pi}{2}}=-1\)</span></td>
+</tr>
+<tr>
+<td class="l m b0 r0 l0 t0 lines"><span class="process-math">\(\tan(0^{\circ})=0\)</span></td>
+<td class="l m b0 r0 l0 t0 lines"><span class="process-math">\(\tan(60^{\circ})=\sqrt{3}\)</span></td>
+<td class="l m b0 r0 l0 t0 lines"><span class="process-math">\(\tan(\pi)=0\)</span></td>
+<td class="l m b0 r0 l0 t0 lines">
+<span class="process-math">\(\tan\lrpar{\dfrac{3\pi}{2}}=\)</span> undefined</td>
+</tr>
+</table></div></div></div>
+</div></article><article class="example example-like" id="example-74"><h5 class="heading">
+<span class="type">Example</span><span class="space"> </span><span class="codenumber">6.1.3</span><span class="period">.</span>
+</h5>
+<div class="para" id="p-523">Use the unit circle to find the exact values of each of the following:</div> <div class="para logical" id="p-524"><ol class="lower-alpha">
+<li id="li-285"><div class="para" id="p-525"><span class="process-math">\(\displaystyle \cos (120^{\circ})\)</span></div></li>
+<li id="li-286"><div class="para" id="p-526"><span class="process-math">\(\displaystyle \cos\lrpar{\dfrac{7\pi}{4}}\)</span></div></li>
+<li id="li-287"><div class="para" id="p-527"><span class="process-math">\(\displaystyle \sin (90^{\circ})\)</span></div></li>
+<li id="li-288"><div class="para" id="p-528"><span class="process-math">\(\displaystyle \sin\lrpar{\dfrac{4\pi}{3}}\)</span></div></li>
+<li id="li-289"><div class="para" id="p-529"><span class="process-math">\(\displaystyle \tan (90^{\circ})\)</span></div></li>
+<li id="li-290"><div class="para" id="p-530"><span class="process-math">\(\displaystyle \tan \lrpar{\dfrac{3\pi}{4}}\)</span></div></li>
+</ol></div>
+<div class="solutions">
+<a href="" data-knowl="" class="id-ref solution-knowl original" data-refid="hk-solution-71" id="solution-71"><span class="type">Solution</span><span class="period">.</span></a><div class="hidden-content tex2jax_ignore" id="hk-solution-71"><div class="solution solution-like"><div class="para logical" id="p-531"><ol class="lower-alpha">
+<li id="li-291"><div class="para" id="p-532"><span class="process-math">\(\displaystyle \cos (120^{\circ}) = -\dfrac{1}{2}\)</span></div></li>
+<li id="li-292"><div class="para" id="p-533"><span class="process-math">\(\displaystyle \cos\lrpar{\dfrac{7\pi}{4}}= \dfrac{\sqrt{2}}{2}\)</span></div></li>
+<li id="li-293"><div class="para" id="p-534"><span class="process-math">\(\displaystyle \sin (90^{\circ})=1\)</span></div></li>
+<li id="li-294"><div class="para" id="p-535"><span class="process-math">\(\displaystyle \sin\lrpar{\dfrac{4\pi}{3}}=-\dfrac{\sqrt{3}}{2}\)</span></div></li>
+<li id="li-295"><div class="para" id="p-536">
+<span class="process-math">\(\tan (90^{\circ})=\)</span> undefined</div></li>
+<li id="li-296"><div class="para" id="p-537"><span class="process-math">\(\displaystyle \tan \lrpar{\dfrac{3\pi}{4}}=-1\)</span></div></li>
+</ol></div></div></div>
+</div></article></section><section class="subsubsection" id="f-ratios-identities"><h4 class="heading hide-type">
+<span class="type">Subsubsection</span> <span class="codenumber">6.1.3</span> <span class="title">Quotient and Reciprocal Identities</span>
+</h4>
+<article class="example example-like" id="example-75"><h5 class="heading">
+<span class="type">Example</span><span class="space"> </span><span class="codenumber">6.1.4</span><span class="period">.</span>
+</h5>
+<div class="para" id="p-538">
+<a class="external" href="https://youtu.be/6EbZvquo6xw" target="_blank">Video</a><a href="" data-knowl="" class="id-ref fn-knowl original" data-refid="hk-fn-50" id="fn-50"><sup> 3 </sup></a>
+</div> <div class="para logical" id="p-539">
+<div class="para">Quotient Identities:</div>
+<div class="displaymath process-math">
+\begin{equation*}
+\tan\theta = \dfrac{\sin\theta}{\cos\theta} \qquad \cot\theta = \dfrac{\cos\theta}{\sin\theta}
+\end{equation*}
+</div>
+</div> <div class="para logical" id="p-540">
+<div class="para">Reciprocal Identities:</div>
+<div class="displaymath process-math">
+\begin{equation*}
+\sec\theta = \dfrac{1}{\cos\theta} \qquad \dfrac{1}{\csc\theta} = \dfrac{1}{\sin\theta} \qquad \cot\theta = \dfrac{1}{\tan\theta}
+\end{equation*}
+</div>
+</div> <div class="para" id="p-541">We know that <span class="process-math">\(\cos (30^{\circ}) = \dfrac{\sqrt{3}}{2}\)</span> and <span class="process-math">\(\sin (30^{\circ}) = \dfrac{1}{2}\text{.}\)</span> Use the quotient and reciprocal identities to find <span class="process-math">\(\tan (30^{\circ})\text{,}\)</span> <span class="process-math">\(\cot (30^{\circ})\text{,}\)</span> <span class="process-math">\(\sec (30^{\circ})\text{,}\)</span> and <span class="process-math">\(\csc (30^{\circ})\)</span>
+</div>
+<div class="solutions">
+<a href="" data-knowl="" class="id-ref solution-knowl original" data-refid="hk-solution-72" id="solution-72"><span class="type">Solution</span><span class="period">.</span></a><div class="hidden-content tex2jax_ignore" id="hk-solution-72"><div class="solution solution-like"><div class="para logical" id="p-542"><div class="displaymath process-math" id="md-4">
+\begin{align*}
+\tan (30^{\circ}) \amp = \dfrac{\sqrt{3}}{3}\\
+\cot (30^{\circ}) \amp = \sqrt{3} \\
+\sec (30^{\circ}) \amp = \dfrac{2\sqrt{3}}{3}\\
+\csc (30^{\circ}) \amp = 2
+\end{align*}
+</div></div></div></div>
+</div></article><article class="example example-like" id="example-76"><h5 class="heading">
+<span class="type">Example</span><span class="space"> </span><span class="codenumber">6.1.5</span><span class="period">.</span>
+</h5>
+<div class="para" id="p-543">We know that <span class="process-math">\(\cos(240^{\circ}) = -\dfrac{1}{2}\)</span> and <span class="process-math">\(\sin (240^{\circ}) = - \dfrac{\sqrt{3}}{2}\text{.}\)</span> Use the quotient and reciprocal identities to find:</div> <div class="para logical" id="p-544"><ol class="lower-alpha">
+<li id="li-297"><div class="para" id="p-545"><span class="process-math">\(\displaystyle \tan (240^{\circ})\)</span></div></li>
+<li id="li-298"><div class="para" id="p-546"><span class="process-math">\(\displaystyle \cot (240^{\circ})\)</span></div></li>
+<li id="li-299"><div class="para" id="p-547"><span class="process-math">\(\displaystyle \sec (240^{\circ})\)</span></div></li>
+<li id="li-300"><div class="para" id="p-548"><span class="process-math">\(\displaystyle \csc (240^{\circ})\)</span></div></li>
+</ol></div>
+<div class="solutions">
+<a href="" data-knowl="" class="id-ref solution-knowl original" data-refid="hk-solution-73" id="solution-73"><span class="type">Solution</span><span class="period">.</span></a><div class="hidden-content tex2jax_ignore" id="hk-solution-73"><div class="solution solution-like"><div class="para logical" id="p-549"><ol class="lower-alpha">
+<li id="li-301"><div class="para" id="p-550"><span class="process-math">\(\displaystyle \tan (240^{\circ}) = \sqrt{3}\)</span></div></li>
+<li id="li-302"><div class="para" id="p-551"><span class="process-math">\(\displaystyle \cot (240^{\circ})\dfrac{\sqrt{3}}{3}\)</span></div></li>
+<li id="li-303"><div class="para" id="p-552"><span class="process-math">\(\displaystyle \sec (240^{\circ})=-2\)</span></div></li>
+<li id="li-304"><div class="para" id="p-553"><span class="process-math">\(\displaystyle \csc (240^{\circ})=-\dfrac{2\sqrt{3}}{3}\)</span></div></li>
+</ol></div></div></div>
+</div></article></section></section><section class="subsection" id="f-equations"><h3 class="heading hide-type">
+<span class="type">Subsection</span> <span class="codenumber">6.2</span> <span class="title">Solving Trig Equations</span>
+</h3>
+<section class="subsubsection" id="f-equations-basic"><h4 class="heading hide-type">
+<span class="type">Subsubsection</span> <span class="codenumber">6.2.1</span> <span class="title">Solving Basic Trig Equations</span>
+</h4>
+<article class="example example-like" id="example-77"><h5 class="heading">
+<span class="type">Example</span><span class="space"> </span><span class="codenumber">6.2.1</span><span class="period">.</span>
+</h5>
+<div class="para" id="p-554">
+<a class="external" href="https://youtu.be/kmR2Rsu00Hc" target="_blank">Video</a><a href="" data-knowl="" class="id-ref fn-knowl original" data-refid="hk-fn-51" id="fn-51"><sup> 1 </sup></a>
+</div> <div class="para" id="p-555">Use the unit circle to solve the following basic trig equations on the interval <span class="process-math">\(0\leq \theta \leq 2\pi\text{.}\)</span>
+</div> <div class="image-box" style="width: 100%; margin-left: 0%; margin-right: 0%;"><img src="generated/latex-image/image-11.svg" role="img" class="contained" alt="The unit circle. Special angles are marked in degrees and radians, and on the circle the ratios corresponding to that angle are given as \((x,y)\) coordinate pairs."></div> <div class="para logical" id="p-556"><ol class="lower-alpha">
+<li id="li-305"><div class="para" id="p-557"><span class="process-math">\(\displaystyle 2\sin\theta = \sqrt{3}\)</span></div></li>
+<li id="li-306"><div class="para" id="p-558"><span class="process-math">\(\displaystyle -2\cos\theta + 7 = 8\)</span></div></li>
+<li id="li-307"><div class="para" id="p-559"><span class="process-math">\(\displaystyle \sqrt{2}\cos\theta - 1 = 0\)</span></div></li>
+<li id="li-308"><div class="para" id="p-560"><span class="process-math">\(\displaystyle \tan\theta + 1 = 0\)</span></div></li>
+</ol></div>
+<div class="solutions">
+<a href="" data-knowl="" class="id-ref solution-knowl original" data-refid="hk-solution-74" id="solution-74"><span class="type">Solution</span><span class="period">.</span></a><div class="hidden-content tex2jax_ignore" id="hk-solution-74"><div class="solution solution-like"><div class="para logical" id="p-561"><ol class="lower-alpha">
+<li id="li-309"><div class="para" id="p-562"><span class="process-math">\(\displaystyle \theta = \dfrac{\pi}{3},\dfrac{2\pi}{3}\)</span></div></li>
+<li id="li-310"><div class="para" id="p-563"><span class="process-math">\(\displaystyle \theta = \dfrac{2\pi}{3},\dfrac{4\pi}{3}\)</span></div></li>
+<li id="li-311"><div class="para" id="p-564"><span class="process-math">\(\displaystyle \theta = \dfrac{\pi}{4},\dfrac{7\pi}{4}\)</span></div></li>
+<li id="li-312"><div class="para" id="p-565"><span class="process-math">\(\displaystyle \theta = \dfrac{3\pi}{4},\dfrac{7\pi}{4}\)</span></div></li>
+</ol></div></div></div>
+</div></article><article class="example example-like" id="example-78"><h5 class="heading">
+<span class="type">Example</span><span class="space"> </span><span class="codenumber">6.2.2</span><span class="period">.</span>
+</h5>
+<div class="para" id="p-566">Solve the following basic trig equations on the interval <span class="process-math">\(0\leq \theta \leq 2\pi\)</span>
+</div> <div class="para logical" id="p-567"><ol class="lower-alpha">
+<li id="li-313"><div class="para" id="p-568"><span class="process-math">\(\displaystyle \cos\theta = 0\)</span></div></li>
+<li id="li-314"><div class="para" id="p-569"><span class="process-math">\(\displaystyle 2\sin\theta + 4 = 3\)</span></div></li>
+<li id="li-315"><div class="para" id="p-570"><span class="process-math">\(\displaystyle 2\sin\theta = \sqrt{2}\)</span></div></li>
+<li id="li-316"><div class="para" id="p-571"><span class="process-math">\(\displaystyle \tan\theta - \sqrt{3} = 0\)</span></div></li>
+<li id="li-317"><div class="para" id="p-572"><span class="process-math">\(\displaystyle 5\cos\theta = -5\)</span></div></li>
+</ol></div>
+<div class="solutions">
+<a href="" data-knowl="" class="id-ref solution-knowl original" data-refid="hk-solution-75" id="solution-75"><span class="type">Solution</span><span class="period">.</span></a><div class="hidden-content tex2jax_ignore" id="hk-solution-75"><div class="solution solution-like"><div class="para logical" id="p-573"><ol class="lower-alpha">
+<li id="li-318"><div class="para" id="p-574"><span class="process-math">\(\displaystyle \theta = \dfrac{\pi}{2},\dfrac{3\pi}{2}\)</span></div></li>
+<li id="li-319"><div class="para" id="p-575"><span class="process-math">\(\displaystyle \theta = \dfrac{7\pi}{6},\dfrac{11\pi}{6}\)</span></div></li>
+<li id="li-320"><div class="para" id="p-576"><span class="process-math">\(\displaystyle \theta = \dfrac{\pi}{4}, \dfrac{3\pi}{4}\)</span></div></li>
+<li id="li-321"><div class="para" id="p-577"><span class="process-math">\(\displaystyle \theta = \dfrac{\pi}{3},\dfrac{4\pi}{3}\)</span></div></li>
+<li id="li-322"><div class="para" id="p-578"><span class="process-math">\(\displaystyle \theta = \pi\)</span></div></li>
+</ol></div></div></div>
+</div></article></section><section class="subsubsection" id="f-equations-multiple"><h4 class="heading hide-type">
+<span class="type">Subsubsection</span> <span class="codenumber">6.2.2</span> <span class="title">Solving Multiple Angle Trig Equations</span>
+</h4>
+<article class="example example-like" id="example-79"><h5 class="heading">
+<span class="type">Example</span><span class="space"> </span><span class="codenumber">6.2.3</span><span class="period">.</span>
+</h5>
+<div class="para" id="p-579">
+<a class="external" href="https://youtu.be/_cOgcjTOhEc" target="_blank">Video</a><a href="" data-knowl="" class="id-ref fn-knowl original" data-refid="hk-fn-52" id="fn-52"><sup> 2 </sup></a>
+</div> <div class="para" id="p-580">Use the unit circle to solve the following trig equation on the interval <span class="process-math">\(0\leq\theta\leq 2\pi\)</span>
+</div> <div class="image-box" style="width: 100%; margin-left: 0%; margin-right: 0%;"><img src="generated/latex-image/image-12.svg" role="img" class="contained" alt="The unit circle. Special angles are marked in degrees and radians, and on the circle the ratios corresponding to that angle are given as \((x,y)\) coordinate pairs."></div> <div class="para" id="p-581"><span class="process-math">\(2\sin(2\theta) = \sqrt{3}\)</span></div>
+<div class="solutions">
+<a href="" data-knowl="" class="id-ref solution-knowl original" data-refid="hk-solution-76" id="solution-76"><span class="type">Solution</span><span class="period">.</span></a><div class="hidden-content tex2jax_ignore" id="hk-solution-76"><div class="solution solution-like"><div class="para" id="p-582"><span class="process-math">\(\theta = \dfrac{\pi}{6}, \dfrac{7\pi}{6}, \dfrac{\pi}{3}, \dfrac{4\pi}{3}\)</span></div></div></div>
+</div></article><article class="example example-like" id="example-80"><h5 class="heading">
+<span class="type">Example</span><span class="space"> </span><span class="codenumber">6.2.4</span><span class="period">.</span>
+</h5>
+<div class="para logical" id="p-583">
+<div class="para">Sovle the following trig equation on the interval <span class="process-math">\(0\leq\theta \leq 2\pi\text{.}\)</span>
+</div>
+<div class="displaymath process-math">
+\begin{equation*}
+\cos (3\theta) = -\dfrac{1}{2}
+\end{equation*}
+</div>
+</div>
+<div class="solutions">
+<a href="" data-knowl="" class="id-ref solution-knowl original" data-refid="hk-solution-77" id="solution-77"><span class="type">Solution</span><span class="period">.</span></a><div class="hidden-content tex2jax_ignore" id="hk-solution-77"><div class="solution solution-like"><div class="para" id="p-584"><span class="process-math">\(\theta = \dfrac{2\pi}{9},\dfrac{4\pi}{9},\dfrac{8\pi}{9},\dfrac{10\pi}{9},\dfrac{14\pi}{9},\dfrac{16\pi}{9}\)</span></div></div></div>
+</div></article></section><section class="subsubsection" id="f-equations-quadratic"><h4 class="heading hide-type">
+<span class="type">Subsubsection</span> <span class="codenumber">6.2.3</span> <span class="title">Solving Quadratic Trig Equations</span>
+</h4>
+<article class="example example-like" id="example-81"><h5 class="heading">
+<span class="type">Example</span><span class="space"> </span><span class="codenumber">6.2.5</span><span class="period">.</span>
+</h5>
+<div class="para" id="p-585">
+<a class="external" href="https://youtu.be/sOa7MEAp_ZY" target="_blank">Video</a><a href="" data-knowl="" class="id-ref fn-knowl original" data-refid="hk-fn-53" id="fn-53"><sup> 3 </sup></a>
+</div> <div class="para" id="p-586">Solve the following trig equations on the interval <span class="process-math">\(0\leq\theta\leq 2\pi\)</span>
+</div> <div class="para logical" id="p-587"><ol class="lower-alpha">
+<li id="li-323"><div class="para" id="p-588"><span class="process-math">\(\displaystyle \sin^2\theta - 2\sin\theta - 3 = 0\)</span></div></li>
+<li id="li-324"><div class="para" id="p-589"><span class="process-math">\(\displaystyle 4\cos^2\theta - 6\cos\theta = -2\)</span></div></li>
+</ol></div>
+<div class="solutions">
+<a href="" data-knowl="" class="id-ref solution-knowl original" data-refid="hk-solution-78" id="solution-78"><span class="type">Solution</span><span class="period">.</span></a><div class="hidden-content tex2jax_ignore" id="hk-solution-78"><div class="solution solution-like"><div class="para logical" id="p-590"><ol class="lower-alpha">
+<li id="li-325"><div class="para" id="p-591"><span class="process-math">\(\displaystyle \theta = \dfrac{\pi}{2}\)</span></div></li>
+<li id="li-326"><div class="para" id="p-592"><span class="process-math">\(\displaystyle \theta = 0,\dfrac{\pi}{3},\dfrac{7\pi}{3}\)</span></div></li>
+</ol></div></div></div>
+</div></article><article class="example example-like" id="example-82"><h5 class="heading">
+<span class="type">Example</span><span class="space"> </span><span class="codenumber">6.2.6</span><span class="period">.</span>
+</h5>
+<div class="para logical" id="p-593">
+<div class="para">Solve the following trig equation on the interval <span class="process-math">\(0\leq \theta 2\pi\text{.}\)</span>
+</div>
+<div class="displaymath process-math">
+\begin{equation*}
+\cos^2\theta + 6\cos\theta + 5 = 0
+\end{equation*}
+</div>
+</div>
+<div class="solutions">
+<a href="" data-knowl="" class="id-ref solution-knowl original" data-refid="hk-solution-79" id="solution-79"><span class="type">Solution</span><span class="period">.</span></a><div class="hidden-content tex2jax_ignore" id="hk-solution-79"><div class="solution solution-like"><div class="para" id="p-594"><span class="process-math">\(\theta = \pi\)</span></div></div></div>
+</div></article><article class="example example-like" id="example-83"><h5 class="heading">
+<span class="type">Example</span><span class="space"> </span><span class="codenumber">6.2.7</span><span class="period">.</span>
+</h5>
+<div class="para logical" id="p-595">
+<div class="para">Solve the following trig equation on the interval <span class="process-math">\(0\leq \theta 2\pi\text{.}\)</span>
+</div>
+<div class="displaymath process-math">
+\begin{equation*}
+6\sin^2\theta - 3\sin\theta = 0
+\end{equation*}
+</div>
+</div>
+<div class="solutions">
+<a href="" data-knowl="" class="id-ref solution-knowl original" data-refid="hk-solution-80" id="solution-80"><span class="type">Solution</span><span class="period">.</span></a><div class="hidden-content tex2jax_ignore" id="hk-solution-80"><div class="solution solution-like"><div class="para" id="p-596"><span class="process-math">\(\theta = 0,\dfrac{\pi}{6},\dfrac{5\pi}{6},\pi,2\pi\)</span></div></div></div>
+</div></article><article class="example example-like" id="example-84"><h5 class="heading">
+<span class="type">Example</span><span class="space"> </span><span class="codenumber">6.2.8</span><span class="period">.</span>
+</h5>
+<div class="para logical" id="p-597">
+<div class="para">Solve the following trig equation on the interval <span class="process-math">\(0\leq \theta 2\pi\text{.}\)</span>
+</div>
+<div class="displaymath process-math">
+\begin{equation*}
+2\sin^2\theta - \sin\theta - 1 = 0
+\end{equation*}
+</div>
+</div>
+<div class="solutions">
+<a href="" data-knowl="" class="id-ref solution-knowl original" data-refid="hk-solution-81" id="solution-81"><span class="type">Solution</span><span class="period">.</span></a><div class="hidden-content tex2jax_ignore" id="hk-solution-81"><div class="solution solution-like"><div class="para" id="p-598"><span class="process-math">\(\theta = \dfrac{\pi}{2},\dfrac{7\pi}{6},\dfrac{11\pi}{6}\)</span></div></div></div>
+</div></article></section></section><section class="subsection" id="f-righttriangle"><h3 class="heading hide-type">
+<span class="type">Subsection</span> <span class="codenumber">6.3</span> <span class="title">Right Triangle Trig</span>
+</h3>
+<section class="subsubsection" id="f-righttriangle-pythagorean"><h4 class="heading hide-type">
+<span class="type">Subsubsection</span> <span class="codenumber">6.3.1</span> <span class="title">Pythagorean Formula</span>
+</h4>
+<article class="example example-like" id="example-85"><h5 class="heading">
+<span class="type">Example</span><span class="space"> </span><span class="codenumber">6.3.1</span><span class="period">.</span>
+</h5>
+<div class="para" id="p-599">
+<a class="external" href="https://youtu.be/wGw6IjVkD4M" target="_blank">Video</a><a href="" data-knowl="" class="id-ref fn-knowl original" data-refid="hk-fn-54" id="fn-54"><sup> 1 </sup></a>
+</div> <div class="para logical" id="p-600">
+<div class="para">A <dfn class="terminology">right triangle</dfn> is a triangle with a right angle/<span class="process-math">\(90^{\circ}\)</span> angle. The side opposite the right angle/<span class="process-math">\(90^{\circ}\)</span> angle is called the <dfn class="terminology">hypotenuse</dfn>. The other two sides are called <dfn class="terminology">legs</dfn>. The relationship between the hypotenuse, <span class="process-math">\(c\text{,}\)</span> and legs, <span class="process-math">\(a\)</span> and <span class="process-math">\(b\text{,}\)</span> of a right triangle is given by the <dfn class="terminology">Pythagorean Theorem</dfn>:</div>
+<div class="displaymath process-math">
+\begin{equation*}
+a^2 + b^2 = c^2
+\end{equation*}
+</div>
+</div> <div class="image-box" style="width: 50%; margin-left: 25%; margin-right: 25%;"><img src="external/f-ex31.png" class="contained" alt="A right triangle with vertical labeled \(a\text{,}\) horizontal leg labeled \(b\text{,}\) and hypotenuse labeled \(c\)"></div> <div class="para" id="p-601">What is the hypotenuse of the above right triangle if <span class="process-math">\(a=0.9\)</span> and <span class="process-math">\(b = 1.2\text{?}\)</span>
+</div>
+<div class="solutions">
+<a href="" data-knowl="" class="id-ref solution-knowl original" data-refid="hk-solution-82" id="solution-82"><span class="type">Solution</span><span class="period">.</span></a><div class="hidden-content tex2jax_ignore" id="hk-solution-82"><div class="solution solution-like"><div class="para" id="p-602"><span class="process-math">\(c = 1.5\)</span></div></div></div>
+</div></article><article class="example example-like" id="example-86"><h5 class="heading">
+<span class="type">Example</span><span class="space"> </span><span class="codenumber">6.3.2</span><span class="period">.</span>
+</h5>
+<div class="para" id="p-603">Find the missing side length for the given triangle.</div> <div class="image-box" style="width: 50%; margin-left: 25%; margin-right: 25%;"><img src="external/f-check31.png" class="contained" alt="A right triangle with vertical labeled \(a\text{,}\) horizontal leg labeled \(4\text{,}\) and hypotenuse labeled \(5\)"></div>
+<div class="solutions">
+<a href="" data-knowl="" class="id-ref solution-knowl original" data-refid="hk-solution-83" id="solution-83"><span class="type">Solution</span><span class="period">.</span></a><div class="hidden-content tex2jax_ignore" id="hk-solution-83"><div class="solution solution-like"><div class="para" id="p-604"><span class="process-math">\(a = 3\)</span></div></div></div>
+</div></article></section><section class="subsubsection" id="f-righttriangle-sohcahtoa"><h4 class="heading hide-type">
+<span class="type">Subsubsection</span> <span class="codenumber">6.3.2</span> <span class="title">SOHCAHTOA</span>
+</h4>
+<article class="example example-like" id="example-87"><h5 class="heading">
+<span class="type">Example</span><span class="space"> </span><span class="codenumber">6.3.3</span><span class="period">.</span>
+</h5>
+<div class="para" id="p-605">
+<a class="external" href="https://youtu.be/hPwvqvUI4sY" target="_blank">Video</a><a href="" data-knowl="" class="id-ref fn-knowl original" data-refid="hk-fn-55" id="fn-55"><sup> 2 </sup></a>
+</div> <div class="para" id="p-606">For an angle <span class="process-math">\(\theta\)</span> in a right triangle:</div>
+<div class="displaymath process-math">
+\begin{equation*}
+\sin\theta = \dfrac{\text{opposite side}}{\text{hypotenuse}} \qquad \cos\theta = \dfrac{\text{adjacent side}}{\text{hypotenuse}} \qquad \tan\theta = \dfrac{\text{opposite side}}{\text{adjacent side}}
+\end{equation*}
+</div>
+<div class="image-box" style="width: 50%; margin-left: 25%; margin-right: 25%;"><img src="external/f-ex32.png" class="contained" alt="A right triangle with vertical labeled opposite, horizontal leg labeled adjacent, hypotenuse labeled hypotenuse, and the angle between the hypotenuse and adjacent side labeled \(\theta\)"></div> <div class="para" id="p-607">Find <span class="process-math">\(\sin\theta\text{,}\)</span> <span class="process-math">\(\cos\theta\text{,}\)</span> and <span class="process-math">\(\tan\theta\)</span> if the side opposite <span class="process-math">\(\theta\)</span> is 4 and the side adjacent to <span class="process-math">\(\theta\)</span> is 5.</div>
+<div class="solutions">
+<a href="" data-knowl="" class="id-ref solution-knowl original" data-refid="hk-solution-84" id="solution-84"><span class="type">Solution</span><span class="period">.</span></a><div class="hidden-content tex2jax_ignore" id="hk-solution-84"><div class="solution solution-like"><div class="para" id="p-608">
+<span class="process-math">\(\sin\theta = \dfrac{4}{\sqrt{41}}\text{,}\)</span> <span class="process-math">\(\cos\theta = \dfrac{5}{\sqrt{41}}\text{,}\)</span> and <span class="process-math">\(\tan\theta = \dfrac{4}{5}\)</span>
+</div></div></div>
+</div></article><article class="example example-like" id="example-88"><h5 class="heading">
+<span class="type">Example</span><span class="space"> </span><span class="codenumber">6.3.4</span><span class="period">.</span>
+</h5>
+<div class="para" id="p-609">Given the right triangle below, find <span class="process-math">\(\sin (B)\text{,}\)</span> <span class="process-math">\(\cos (B)\text{,}\)</span> and <span class="process-math">\(\tan (B)\text{.}\)</span>
+</div> <div class="image-box" style="width: 50%; margin-left: 25%; margin-right: 25%;"><img src="external/f-check32.png" class="contained" alt="A right triangle with vertical labeled 5, horizontal leg labeled 12, and the angle between the hypotenuse and vertical side labeled \(B\)"></div>
+<div class="solutions">
+<a href="" data-knowl="" class="id-ref solution-knowl original" data-refid="hk-solution-85" id="solution-85"><span class="type">Solution</span><span class="period">.</span></a><div class="hidden-content tex2jax_ignore" id="hk-solution-85"><div class="solution solution-like"><div class="para" id="p-610">
+<span class="process-math">\(\sin (B) = \dfrac{12}{13}\text{,}\)</span> <span class="process-math">\(\cos(B) = \dfrac{5}{13}\text{,}\)</span> <span class="process-math">\(\tan (B) = \dfrac{12}{5}\)</span>
+</div></div></div>
+</div></article></section></section><section class="subsection" id="f-sinescosines"><h3 class="heading hide-type">
+<span class="type">Subsection</span> <span class="codenumber">6.4</span> <span class="title">Law of Sines &amp; Law of Cosines</span>
+</h3>
+<section class="introduction" id="introduction-10"><div class="para" id="p-611">To be added later</div></section></section><section class="subsection" id="f-graphs"><h3 class="heading hide-type">
+<span class="type">Subsection</span> <span class="codenumber">6.5</span> <span class="title">Graphs of Trig Functions</span>
+</h3>
+<section class="introduction" id="introduction-11"><div class="para" id="p-612">To be added later</div></section></section><section class="subsection" id="f-inverse"><h3 class="heading hide-type">
+<span class="type">Subsection</span> <span class="codenumber">6.6</span> <span class="title">Inverse Trigonometric Functions</span>
+</h3>
+<section class="introduction" id="introduction-12"><div class="para" id="p-613">To be added later</div></section></section></section><div class="hidden-content tex2jax_ignore" id="hk-fn-48"><div class="fn"><code class="code-inline tex2jax_ignore">youtu.be/I4exV-ZRKEQ</code></div></div>
+<div class="hidden-content tex2jax_ignore" id="hk-fn-49"><div class="fn"><code class="code-inline tex2jax_ignore">youtu.be/09oNZPIV4KA</code></div></div>
+<div class="hidden-content tex2jax_ignore" id="hk-fn-50"><div class="fn"><code class="code-inline tex2jax_ignore">youtu.be/6EbZvquo6xw</code></div></div>
+<div class="hidden-content tex2jax_ignore" id="hk-fn-51"><div class="fn"><code class="code-inline tex2jax_ignore">youtu.be/kmR2Rsu00Hc</code></div></div>
+<div class="hidden-content tex2jax_ignore" id="hk-fn-52"><div class="fn"><code class="code-inline tex2jax_ignore">youtu.be/_cOgcjTOhEc</code></div></div>
+<div class="hidden-content tex2jax_ignore" id="hk-fn-53"><div class="fn"><code class="code-inline tex2jax_ignore">youtu.be/sOa7MEAp_ZY</code></div></div>
+<div class="hidden-content tex2jax_ignore" id="hk-fn-54"><div class="fn"><code class="code-inline tex2jax_ignore">youtu.be/wGw6IjVkD4M</code></div></div>
+<div class="hidden-content tex2jax_ignore" id="hk-fn-55"><div class="fn"><code class="code-inline tex2jax_ignore">youtu.be/hPwvqvUI4sY</code></div></div>
+</div>
+<div class="ptx-content-footer">
+<a class="previous-button button" href="e.html" title="Previous"><span class="icon">&lt;</span><span class="name">Prev</span></a><a class="top-button button" href="#" title="Top"><span class="icon">^</span><span class="name">Top</span></a><span class="next-button button disabled"><span class="name">Next</span><span class="icon">&gt;</span></span>
+</div></main>
+</div>
+<div class="ptx-page-footer">
+<a class="pretext-link" href="https://pretextbook.org"><div class="name">Authored in PreTeXt</div>
+<div class="logo"><svg xmlns="http://www.w3.org/2000/svg" width="100%" height="100%" viewBox="338 3000 8772 6866"><g style="stroke-width:.025in; stroke:black; fill:none"><polyline points="472,3590 472,9732 " style="stroke:#000000;stroke-width:174; stroke-linejoin:miter; stroke-linecap:round; "></polyline><path style="stroke:#000000;stroke-width:126;stroke-linecap:butt;" d="M 4724,9448 A 4660 4660  0  0  1  8598  9259 "></path><path style="stroke:#000000;stroke-width:174;stroke-linecap:butt;" d="M 4488,9685 A 4228 4228  0  0  0  472  9732 "></path><path style="stroke:#000000;stroke-width:126;stroke-linecap:butt;" d="M 4724,3590 A 4241 4241  0  0  1  8598  3496 "></path><path style="stroke:#000000;stroke-width:126;stroke-linecap:round;" d="M 850,3496 A 4241 4241  0  0  1  4724  3590 "></path><path style="stroke:#000000;stroke-width:126;stroke-linecap:round;" d="M 850,9259 A 4507 4507  0  0  1  4724  9448 "></path><polyline points="5385,4299 4062,8125 " style="stroke:#000000;stroke-width:300; stroke-linejoin:miter; stroke-linecap:round; "></polyline><polyline points="8598,3496 8598,9259 " style="stroke:#000000;stroke-width:126; stroke-linejoin:miter; stroke-linecap:round; "></polyline><polyline points="850,3496 850,9259 " style="stroke:#000000;stroke-width:126; stroke-linejoin:miter; stroke-linecap:round; "></polyline><polyline points="4960,9685 4488,9685 " style="stroke:#000000;stroke-width:174; stroke-linejoin:miter; stroke-linecap:round; "></polyline><polyline points="3070,4582 1889,6141 3070,7700 " style="stroke:#000000;stroke-width:300; stroke-linejoin:miter; stroke-linecap:round; "></polyline><polyline points="6418,4582 7600,6141 6418,7700 " style="stroke:#000000;stroke-width:300; stroke-linejoin:miter; stroke-linecap:round; "></polyline><polyline points="8976,3590 8976,9732 " style="stroke:#000000;stroke-width:174; stroke-linejoin:miter; stroke-linecap:round; "></polyline><path style="stroke:#000000;stroke-width:174;stroke-linecap:butt;" d="M 4960,9685 A 4228 4228  0  0  1  8976  9732 "></path></g></svg></div></a><a class="runestone-link" href="https://runestone.academy"><div class="name">Powered by Runestone</div>
+<img class="logo" title="Powered by Runestone" src="https://runestone.academy/runestone/static/rectangle_badge.png" alt="Powered by Runestone"></a><a class="mathjax-logo" href="https://www.mathjax.org"><img title="Powered by MathJax" src="https://www.mathjax.org/badge/badge.gif" alt="Powered by MathJax"></a>
+</div>
+</body>
+</html>

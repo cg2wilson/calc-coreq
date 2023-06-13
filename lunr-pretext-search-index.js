@@ -683,6 +683,168 @@ var ptx_lunr_docs = [
   "number": "5.2.12",
   "title": "",
   "body": "  Rewrite each radical with exponential notation                                                     "
+},
+{
+  "id": "f",
+  "level": "1",
+  "url": "f.html",
+  "type": "Section",
+  "number": "6",
+  "title": "F. Trigonometry Review",
+  "body": " F. Trigonometry Review   Trigonometric Ratios   Supplements XYZ Sections: All    Definitions     Video   Consider a circle centered at the origin with radius . Let be any point on the circle with central angle .   A picture of a circle of radius making angle from the axis. The point is marked at the end of the radius on the circle.   The equation of the given circle is   The 6 trigonometric ratios are:              Notice that and are reciprocals. Likewise, and are reciprocals. Lastly, and are reciprocals.      Unit Circle     Video   The unit circle is a circle of radius 1 centered at the origin. For any point on the unit circle with central angle , we can simplify our trig ratios using to:    The unit circle. Special angles are marked in degrees and radians, and on the circle the ratios corresponding to that angle are given as coordinate pairs.    Let's use the unit circle to find some trig values:                                         undefined        Use the unit circle to find the exact values of each of the following:                                                              undefined              Quotient and Reciprocal Identities     Video   Quotient Identities:   Reciprocal Identities:   We know that and . Use the quotient and reciprocal identities to find , , , and            We know that and . Use the quotient and reciprocal identities to find:                                                         Solving Trig Equations   Solving Basic Trig Equations     Video   Use the unit circle to solve the following basic trig equations on the interval .   The unit circle. Special angles are marked in degrees and radians, and on the circle the ratios corresponding to that angle are given as coordinate pairs.                                                          Solve the following basic trig equations on the interval                                                                   Solving Multiple Angle Trig Equations     Video   Use the unit circle to solve the following trig equation on the interval    The unit circle. Special angles are marked in degrees and radians, and on the circle the ratios corresponding to that angle are given as coordinate pairs.                Sovle the following trig equation on the interval .            Solving Quadratic Trig Equations     Video   Solve the following trig equations on the interval                                     Solve the following trig equation on the interval .            Solve the following trig equation on the interval .            Solve the following trig equation on the interval .             Right Triangle Trig   Pythagorean Formula     Video   A right triangle is a triangle with a right angle\/ angle. The side opposite the right angle\/ angle is called the hypotenuse . The other two sides are called legs . The relationship between the hypotenuse, , and legs, and , of a right triangle is given by the Pythagorean Theorem :    A right triangle with vertical labeled , horizontal leg labeled , and hypotenuse labeled    What is the hypotenuse of the above right triangle if and ?           Find the missing side length for the given triangle.   A right triangle with vertical labeled , horizontal leg labeled , and hypotenuse labeled             SOHCAHTOA     Video   For an angle in a right triangle:    A right triangle with vertical labeled opposite , horizontal leg labeled adjacent , hypotenuse labeled hypotenuse , and the angle between the hypotenuse and adjacent side labeled    Find , , and if the side opposite is 4 and the side adjacent to is 5.     , , and       Given the right triangle below, find , , and .   A right triangle with vertical labeled 5, horizontal leg labeled 12, and the angle between the hypotenuse and vertical side labeled       , ,        Law of Sines & Law of Cosines   To be added later     Graphs of Trig Functions   To be added later     Inverse Trigonometric Functions   To be added later    "
+},
+{
+  "id": "example-72",
+  "level": "2",
+  "url": "f.html#example-72",
+  "type": "Example",
+  "number": "6.1.1",
+  "title": "",
+  "body": "   Video   Consider a circle centered at the origin with radius . Let be any point on the circle with central angle .   A picture of a circle of radius making angle from the axis. The point is marked at the end of the radius on the circle.   The equation of the given circle is   The 6 trigonometric ratios are:              Notice that and are reciprocals. Likewise, and are reciprocals. Lastly, and are reciprocals.   "
+},
+{
+  "id": "example-73",
+  "level": "2",
+  "url": "f.html#example-73",
+  "type": "Example",
+  "number": "6.1.2",
+  "title": "",
+  "body": "   Video   The unit circle is a circle of radius 1 centered at the origin. For any point on the unit circle with central angle , we can simplify our trig ratios using to:    The unit circle. Special angles are marked in degrees and radians, and on the circle the ratios corresponding to that angle are given as coordinate pairs.    Let's use the unit circle to find some trig values:                                         undefined     "
+},
+{
+  "id": "example-74",
+  "level": "2",
+  "url": "f.html#example-74",
+  "type": "Example",
+  "number": "6.1.3",
+  "title": "",
+  "body": "  Use the unit circle to find the exact values of each of the following:                                                              undefined           "
+},
+{
+  "id": "example-75",
+  "level": "2",
+  "url": "f.html#example-75",
+  "type": "Example",
+  "number": "6.1.4",
+  "title": "",
+  "body": "   Video   Quotient Identities:   Reciprocal Identities:   We know that and . Use the quotient and reciprocal identities to find , , , and         "
+},
+{
+  "id": "example-76",
+  "level": "2",
+  "url": "f.html#example-76",
+  "type": "Example",
+  "number": "6.1.5",
+  "title": "",
+  "body": "  We know that and . Use the quotient and reciprocal identities to find:                                                     "
+},
+{
+  "id": "example-77",
+  "level": "2",
+  "url": "f.html#example-77",
+  "type": "Example",
+  "number": "6.2.1",
+  "title": "",
+  "body": "   Video   Use the unit circle to solve the following basic trig equations on the interval .   The unit circle. Special angles are marked in degrees and radians, and on the circle the ratios corresponding to that angle are given as coordinate pairs.                                                       "
+},
+{
+  "id": "example-78",
+  "level": "2",
+  "url": "f.html#example-78",
+  "type": "Example",
+  "number": "6.2.2",
+  "title": "",
+  "body": "  Solve the following basic trig equations on the interval                                                                "
+},
+{
+  "id": "example-79",
+  "level": "2",
+  "url": "f.html#example-79",
+  "type": "Example",
+  "number": "6.2.3",
+  "title": "",
+  "body": "   Video   Use the unit circle to solve the following trig equation on the interval    The unit circle. Special angles are marked in degrees and radians, and on the circle the ratios corresponding to that angle are given as coordinate pairs.             "
+},
+{
+  "id": "example-80",
+  "level": "2",
+  "url": "f.html#example-80",
+  "type": "Example",
+  "number": "6.2.4",
+  "title": "",
+  "body": "  Sovle the following trig equation on the interval .         "
+},
+{
+  "id": "example-81",
+  "level": "2",
+  "url": "f.html#example-81",
+  "type": "Example",
+  "number": "6.2.5",
+  "title": "",
+  "body": "   Video   Solve the following trig equations on the interval                                  "
+},
+{
+  "id": "example-82",
+  "level": "2",
+  "url": "f.html#example-82",
+  "type": "Example",
+  "number": "6.2.6",
+  "title": "",
+  "body": "  Solve the following trig equation on the interval .         "
+},
+{
+  "id": "example-83",
+  "level": "2",
+  "url": "f.html#example-83",
+  "type": "Example",
+  "number": "6.2.7",
+  "title": "",
+  "body": "  Solve the following trig equation on the interval .         "
+},
+{
+  "id": "example-84",
+  "level": "2",
+  "url": "f.html#example-84",
+  "type": "Example",
+  "number": "6.2.8",
+  "title": "",
+  "body": "  Solve the following trig equation on the interval .         "
+},
+{
+  "id": "example-85",
+  "level": "2",
+  "url": "f.html#example-85",
+  "type": "Example",
+  "number": "6.3.1",
+  "title": "",
+  "body": "   Video   A right triangle is a triangle with a right angle\/ angle. The side opposite the right angle\/ angle is called the hypotenuse . The other two sides are called legs . The relationship between the hypotenuse, , and legs, and , of a right triangle is given by the Pythagorean Theorem :    A right triangle with vertical labeled , horizontal leg labeled , and hypotenuse labeled    What is the hypotenuse of the above right triangle if and ?        "
+},
+{
+  "id": "example-86",
+  "level": "2",
+  "url": "f.html#example-86",
+  "type": "Example",
+  "number": "6.3.2",
+  "title": "",
+  "body": "  Find the missing side length for the given triangle.   A right triangle with vertical labeled , horizontal leg labeled , and hypotenuse labeled          "
+},
+{
+  "id": "example-87",
+  "level": "2",
+  "url": "f.html#example-87",
+  "type": "Example",
+  "number": "6.3.3",
+  "title": "",
+  "body": "   Video   For an angle in a right triangle:    A right triangle with vertical labeled opposite , horizontal leg labeled adjacent , hypotenuse labeled hypotenuse , and the angle between the hypotenuse and adjacent side labeled    Find , , and if the side opposite is 4 and the side adjacent to is 5.     , , and    "
+},
+{
+  "id": "example-88",
+  "level": "2",
+  "url": "f.html#example-88",
+  "type": "Example",
+  "number": "6.3.4",
+  "title": "",
+  "body": "  Given the right triangle below, find , , and .   A right triangle with vertical labeled 5, horizontal leg labeled 12, and the angle between the hypotenuse and vertical side labeled       , ,    "
 }
 ]
 
