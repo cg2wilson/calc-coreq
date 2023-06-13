@@ -12,5 +12,6 @@
     <xi:include href="factoring.ptx"/>
     <xi:include href="nonlinear.ptx"/>
     <xi:include href="potpourri.ptx"/>
+    <xi:include href="trig.ptx"/>
   </article>
 </pretext>

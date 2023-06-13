@@ -1,0 +1,939 @@
+<?xml version='1.0' encoding='utf-8'?>
+
+<section xml:id="f" xmlns:xi="http://www.w3.org/2001/XInclude">
+    <title>F. Trigonometry Review</title>
+
+    <subsection xml:id="f-ratios">
+        <title>Trigonometric Ratios</title>
+
+        <introduction>
+            <p>
+                Supplements XYZ Sections: All
+            </p>
+        </introduction>
+
+        <subsubsection xml:id="f-ratios-defs">
+            <title>Definitions</title>
+            
+            <example>
+                <statement>
+                    <p>
+                        <url href="https://youtu.be/I4exV-ZRKEQ">Video</url>   
+                    </p>
+                    <p>
+                        Consider a circle centered at the origin with radius <m>r</m>. Let <m>(x,y)</m> be any point on the circle with central angle <m>\theta</m>.
+                    </p>
+                    <image source="f-ex11.png" width="50%">
+                        <description>A picture of a circle of radius <m>r</m> making angle <m>\theta</m> from the <m>x-</m>axis. The point <m>(x,y)</m> is marked at the end of the radius on the circle.</description>
+                    </image>
+                    <p>
+                        The equation of the given circle is <m>x^2+y^2 = r^2</m>
+                    </p>
+                    <p>
+                        The 6 trigonometric ratios are:
+                    </p>
+                    <tabular>
+                        <row>
+                            <cell><m>\cos\theta = \dfrac{x}{r}</m></cell>
+                            <cell><m>\sin\theta = \dfrac{y}{r}</m></cell>
+                            <cell><m>\tan\theta = \dfrac{y}{x}</m></cell>
+                        </row>
+                        <row>
+                            <cell><m>\sec\theta = \dfrac{r}{x}</m></cell>
+                            <cell><m>\csc\theta = \dfrac{r}{y}</m></cell>
+                            <cell><m>\cot\theta = \dfrac{x}{y}</m></cell>
+                        </row>
+                    </tabular>
+                    <p>
+                        Notice that <m>\cos\theta</m> and <m>\sec\theta</m> are reciprocals. Likewise, <m>\sin\theta</m> and <m>\csc\theta</m> are reciprocals. Lastly, <m>\tan\theta</m> and <m>\cot\theta</m> are reciprocals.
+                    </p>
+                </statement>
+            </example>
+        </subsubsection>
+
+        <subsubsection xml:id="f-ratios-circle">
+            <title>Unit Circle</title>
+            
+            <example>
+                <statement>
+                    <p>
+                        <url href="https://youtu.be/09oNZPIV4KA">Video</url>
+                    </p>
+                    <p>
+                        The <term>unit circle</term> is a circle of radius 1 centered at the origin. For any point <m>(x,y)</m> on the unit circle with central angle <m>\theta</m>, we can simplify our trig ratios using <m>r=1</m> to:
+                        <me>
+                            \cos\theta = x \qquad \sin\theta = y \qquad \tan\theta = \dfrac{y}{x}  
+                        </me>
+                                            
+                    </p>
+                    <image>
+                        <description>
+                            The unit circle. Special angles are marked in degrees and radians, and on the circle the ratios corresponding to that angle are given as <m>(x,y)</m> coordinate pairs.
+                        </description>
+                        <latex-image>
+                            <![CDATA[
+                                \begin{tikzpicture}[scale=5.3,cap=round,>=latex]
+                                    % draw the coordinates
+                                    \draw[->] (-1.5cm,0cm) -- (1.5cm,0cm) node[right,fill=white] {$x$};
+                                    \draw[->] (0cm,-1.5cm) -- (0cm,1.5cm) node[above,fill=white] {$y$};
+
+                                    % draw the unit circle
+                                    \draw[thick] (0cm,0cm) circle(1cm);
+
+                                    \foreach \x in {0,30,...,360} {
+                                            % lines from center to point
+                                            \draw[gray] (0cm,0cm) -- (\x:1cm);
+                                            % dots at each point
+                                            \filldraw[black] (\x:1cm) circle(0.4pt);
+                                            % draw each angle in degrees
+                                            \draw (\x:0.6cm) node[fill=white] {$\x^\circ$};
+                                    }
+
+                                    
+                                    \foreach \x in {0,45,...,360} {
+                                            % lines from center to point
+                                            \draw[gray] (0cm,0cm) -- (\x:1cm);
+                                            % dots at each point
+                                            \filldraw[black] (\x:1cm) circle(0.4pt);
+                                            % draw each angle in degrees
+                                            \draw (\x:0.6cm) node[fill=white] {$\x^\circ$};
+                                    }
+
+                                    % draw each angle in radians
+                                    \foreach \x/\xtext in {
+                                        30/\frac{\pi}{6},
+                                        45/\frac{\pi}{4},
+                                        60/\frac{\pi}{3},
+                                        90/\frac{\pi}{2},
+                                        120/\frac{2\pi}{3},
+                                        135/\frac{3\pi}{4},
+                                        150/\frac{5\pi}{6},
+                                        180/\pi,
+                                        210/\frac{7\pi}{6},
+                                        225/\frac{5\pi}{4},
+                                        240/\frac{4\pi}{3},
+                                        270/\frac{3\pi}{2},
+                                        300/\frac{5\pi}{3},
+                                        315/\frac{7\pi}{4},
+                                        330/\frac{11\pi}{6},
+                                        360/2\pi}
+                                            \draw (\x:0.85cm) node[fill=white] {$\xtext$};
+
+                                    \foreach \x/\xtext/\y in {
+                                        % the coordinates for the first quadrant
+                                        30/\frac{\sqrt{3}}{2}/\frac{1}{2},
+                                        45/\frac{\sqrt{2}}{2}/\frac{\sqrt{2}}{2},
+                                        60/\frac{1}{2}/\frac{\sqrt{3}}{2},
+                                        % the coordinates for the second quadrant
+                                        150/-\frac{\sqrt{3}}{2}/\frac{1}{2},
+                                        135/-\frac{\sqrt{2}}{2}/\frac{\sqrt{2}}{2},
+                                        120/-\frac{1}{2}/\frac{\sqrt{3}}{2},
+                                        % the coordinates for the third quadrant
+                                        210/-\frac{\sqrt{3}}{2}/-\frac{1}{2},
+                                        225/-\frac{\sqrt{2}}{2}/-\frac{\sqrt{2}}{2},
+                                        240/-\frac{1}{2}/-\frac{\sqrt{3}}{2},
+                                        % the coordinates for the fourth quadrant
+                                        330/\frac{\sqrt{3}}{2}/-\frac{1}{2},
+                                        315/\frac{\sqrt{2}}{2}/-\frac{\sqrt{2}}{2},
+                                        300/\frac{1}{2}/-\frac{\sqrt{3}}{2}}
+                                            \draw (\x:1.25cm) node[fill=white] {$\left(\xtext,\y\right)$};
+
+                                    % draw the horizontal and vertical coordinates
+                                    % the placement is better this way
+                                    \draw (-1.25cm,0cm) node[above=1pt] {$(-1,0)$}
+                                        (1.25cm,0cm)  node[above=1pt] {$(1,0)$}
+                                        (0cm,-1.25cm) node[fill=white] {$(0,-1)$}
+                                        (0cm,1.25cm)  node[fill=white] {$(0,1)$};
+                                \end{tikzpicture}
+                            ]]>
+                        </latex-image>
+                    </image>
+                    <p>
+                        Let's use the unit circle to find some trig values:
+                    </p>
+                    <tabular>
+                        <row>
+                            <cell><m>\cos(0^{\circ})=</m></cell>
+                            <cell><m>\cos(60^{\circ})=</m></cell>
+                            <cell><m>\cos(\pi)=</m></cell>
+                            <cell><m>\cos\lrpar{\dfrac{3\pi}{2}}=</m></cell>
+                        </row>
+                        <row>
+                            <cell><m>\sin(0^{\circ})=</m></cell>
+                            <cell><m>\sin(60^{\circ})=</m></cell>
+                            <cell><m>\sin(\pi)=</m></cell>
+                            <cell><m>\sin\lrpar{\dfrac{3\pi}{2}}=</m></cell>
+                        </row>
+                        <row>
+                            <cell><m>\tan(0^{\circ})=</m></cell>
+                            <cell><m>\tan(60^{\circ})=</m></cell>
+                            <cell><m>\tan(\pi)=</m></cell>
+                            <cell><m>\tan\lrpar{\dfrac{3\pi}{2}}=</m></cell>
+                        </row>
+                    </tabular>
+                </statement>
+                <solution>
+                    <tabular>
+                        <row>
+                            <cell><m>\cos(0^{\circ})=1</m></cell>
+                            <cell><m>\cos(60^{\circ})=\dfrac{1}{2}</m></cell>
+                            <cell><m>\cos(\pi)=-1</m></cell>
+                            <cell><m>\cos\lrpar{\dfrac{3\pi}{2}}=0</m></cell>
+                        </row>
+                        <row>
+                            <cell><m>\sin(0^{\circ})=0</m></cell>
+                            <cell><m>\sin(60^{\circ})=\dfrac{\sqrt{3}}{2}</m></cell>
+                            <cell><m>\sin(\pi)=0</m></cell>
+                            <cell><m>\sin\lrpar{\dfrac{3\pi}{2}}=-1</m></cell>
+                        </row>
+                        <row>
+                            <cell><m>\tan(0^{\circ})=0</m></cell>
+                            <cell><m>\tan(60^{\circ})=\sqrt{3}</m></cell>
+                            <cell><m>\tan(\pi)=0</m></cell>
+                            <cell><m>\tan\lrpar{\dfrac{3\pi}{2}}=</m> undefined</cell>
+                        </row>
+                    </tabular>
+                </solution>
+            </example>
+
+            <example>
+                <statement>
+                    <p>
+                        Use the unit circle to find the exact values of each of the following:
+                    </p>
+                    <p>
+                        <ol marker="a"> 
+                            <li>
+                                <p>
+                                    <m>\cos (120^{\circ})</m>
+                                </p>
+                            </li>
+                            <li>
+                                <p>
+                                    <m>\cos\lrpar{\dfrac{7\pi}{4}}</m>
+                                </p>
+                            </li>
+                            <li>
+                                <p>
+                                    <m>\sin (90^{\circ})</m>
+                                </p>
+                            </li>
+                            <li>
+                                <p>
+                                    <m>\sin\lrpar{\dfrac{4\pi}{3}}</m>
+                                </p>
+                            </li>
+                            <li>
+                                <p>
+                                    <m>\tan (90^{\circ})</m>
+                                </p>
+                            </li>
+                            <li>
+                                <p>
+                                    <m>\tan \lrpar{\dfrac{3\pi}{4}}</m>
+                                </p>
+                            </li>
+                        </ol>
+                    </p>
+                </statement>
+                <solution>
+                    <p>
+                        <ol marker="a"> 
+                            <li>
+                                <p>
+                                    <m>\cos (120^{\circ}) = -\dfrac{1}{2}</m>
+                                </p>
+                            </li>
+                            <li>
+                                <p>
+                                    <m>\cos\lrpar{\dfrac{7\pi}{4}}= \dfrac{\sqrt{2}}{2}</m>
+                                </p>
+                            </li>
+                            <li>
+                                <p>
+                                    <m>\sin (90^{\circ})=1</m>
+                                </p>
+                            </li>
+                            <li>
+                                <p>
+                                    <m>\sin\lrpar{\dfrac{4\pi}{3}}=-\dfrac{\sqrt{3}}{2}</m>
+                                </p>
+                            </li>
+                            <li>
+                                <p>
+                                    <m>\tan (90^{\circ})=</m> undefined
+                                </p>
+                            </li>
+                            <li>
+                                <p>
+                                    <m>\tan \lrpar{\dfrac{3\pi}{4}}=-1</m>
+                                </p>
+                            </li>
+                        </ol>
+                    </p>
+                </solution>
+            </example>
+        </subsubsection>
+
+        <subsubsection xml:id="f-ratios-identities">
+            <title>Quotient and Reciprocal Identities</title>
+            
+            <example>
+                <statement>
+                    <p>
+                        <url href="https://youtu.be/6EbZvquo6xw">Video</url>
+                    </p>
+                    <p>
+                        Quotient Identities:
+                        <me>
+                            \tan\theta = \dfrac{\sin\theta}{\cos\theta} \qquad \cot\theta = \dfrac{\cos\theta}{\sin\theta}
+                        </me>
+                    </p>
+                    <p>
+                        Reciprocal Identities:
+                        <me>
+                            \sec\theta = \dfrac{1}{\cos\theta} \qquad \dfrac{1}{\csc\theta} = \dfrac{1}{\sin\theta} \qquad \cot\theta = \dfrac{1}{\tan\theta}
+                        </me>                     
+                    </p>
+                    <p>
+                        We know that <m>\cos (30^{\circ}) = \dfrac{\sqrt{3}}{2}</m> and <m>\sin (30^{\circ}) = \dfrac{1}{2}</m>. Use the quotient and reciprocal identities to find <m>\tan (30^{\circ})</m>, <m>\cot (30^{\circ})</m>, <m>\sec (30^{\circ})</m>, and <m>\csc (30^{\circ})</m>
+                    </p>
+                </statement>
+                <solution>
+                    <p>
+                        <md>
+                            <mrow>\tan (30^{\circ}) \amp = \dfrac{\sqrt{3}}{3}</mrow>
+                            <mrow>\cot (30^{\circ}) \amp = \sqrt{3} </mrow>
+                            <mrow>\sec (30^{\circ}) \amp = \dfrac{2\sqrt{3}}{3}</mrow>
+                            <mrow>\csc (30^{\circ}) \amp = 2</mrow>
+                        </md>
+                    </p>
+                </solution>
+            </example>
+
+            <example>
+                <statement>
+                    <p>
+                        We know that <m>\cos(240^{\circ}) = -\dfrac{1}{2}</m> and <m>\sin (240^{\circ}) = - \dfrac{\sqrt{3}}{2}</m>. Use the quotient and reciprocal identities to find:
+                    </p>
+                    <p>
+                        <ol marker="a">
+                            <li>
+                                <p>
+                                    <m>\tan (240^{\circ})</m>
+                                </p>
+                            </li>
+                            <li>
+                                <p>
+                                    <m>\cot (240^{\circ})</m>
+                                </p>
+                            </li>
+                            <li>
+                                <p>
+                                    <m>\sec (240^{\circ})</m>
+                                </p>
+                            </li>
+                            <li>
+                                <p>
+                                    <m>\csc (240^{\circ})</m>
+                                </p>
+                            </li>
+                        </ol>
+                    </p>
+                </statement>
+                <solution>
+                    <p>
+                        <ol marker="a">
+                            <li>
+                                <p>
+                                    <m>\tan (240^{\circ}) = \sqrt{3}</m>
+                                </p>
+                            </li>
+                            <li>
+                                <p>
+                                    <m>\cot (240^{\circ})\dfrac{\sqrt{3}}{3}</m>
+                                </p>
+                            </li>
+                            <li>
+                                <p>
+                                    <m>\sec (240^{\circ})=-2</m>
+                                </p>
+                            </li>
+                            <li>
+                                <p>
+                                    <m>\csc (240^{\circ})=-\dfrac{2\sqrt{3}}{3}</m>
+                                </p>
+                            </li>
+                        </ol>
+                    </p>
+                </solution>
+            </example>
+        </subsubsection>
+    </subsection>
+
+    <subsection xml:id="f-equations">
+        <title>Solving Trig Equations</title>
+
+        <subsubsection xml:id="f-equations-basic">
+            <title>Solving Basic Trig Equations</title>
+            
+            
+            <example>
+                <statement>
+                    <p>
+                        <url href="https://youtu.be/kmR2Rsu00Hc">Video</url>   
+                    </p>
+                    <p>
+                        Use the unit circle to solve the following basic trig equations on the interval <m>0\leq \theta \leq 2\pi</m>.
+                    </p>
+                                        <image>
+                        <description>
+                            The unit circle. Special angles are marked in degrees and radians, and on the circle the ratios corresponding to that angle are given as <m>(x,y)</m> coordinate pairs.
+                        </description>
+                        <latex-image>
+                            <![CDATA[
+                                \begin{tikzpicture}[scale=5.3,cap=round,>=latex]
+                                    % draw the coordinates
+                                    \draw[->] (-1.5cm,0cm) -- (1.5cm,0cm) node[right,fill=white] {$x$};
+                                    \draw[->] (0cm,-1.5cm) -- (0cm,1.5cm) node[above,fill=white] {$y$};
+
+                                    % draw the unit circle
+                                    \draw[thick] (0cm,0cm) circle(1cm);
+
+                                    \foreach \x in {0,30,...,360} {
+                                            % lines from center to point
+                                            \draw[gray] (0cm,0cm) -- (\x:1cm);
+                                            % dots at each point
+                                            \filldraw[black] (\x:1cm) circle(0.4pt);
+                                            % draw each angle in degrees
+                                            \draw (\x:0.6cm) node[fill=white] {$\x^\circ$};
+                                    }
+
+                                    
+                                    \foreach \x in {0,45,...,360} {
+                                            % lines from center to point
+                                            \draw[gray] (0cm,0cm) -- (\x:1cm);
+                                            % dots at each point
+                                            \filldraw[black] (\x:1cm) circle(0.4pt);
+                                            % draw each angle in degrees
+                                            \draw (\x:0.6cm) node[fill=white] {$\x^\circ$};
+                                    }
+
+                                    % draw each angle in radians
+                                    \foreach \x/\xtext in {
+                                        30/\frac{\pi}{6},
+                                        45/\frac{\pi}{4},
+                                        60/\frac{\pi}{3},
+                                        90/\frac{\pi}{2},
+                                        120/\frac{2\pi}{3},
+                                        135/\frac{3\pi}{4},
+                                        150/\frac{5\pi}{6},
+                                        180/\pi,
+                                        210/\frac{7\pi}{6},
+                                        225/\frac{5\pi}{4},
+                                        240/\frac{4\pi}{3},
+                                        270/\frac{3\pi}{2},
+                                        300/\frac{5\pi}{3},
+                                        315/\frac{7\pi}{4},
+                                        330/\frac{11\pi}{6},
+                                        360/2\pi}
+                                            \draw (\x:0.85cm) node[fill=white] {$\xtext$};
+
+                                    \foreach \x/\xtext/\y in {
+                                        % the coordinates for the first quadrant
+                                        30/\frac{\sqrt{3}}{2}/\frac{1}{2},
+                                        45/\frac{\sqrt{2}}{2}/\frac{\sqrt{2}}{2},
+                                        60/\frac{1}{2}/\frac{\sqrt{3}}{2},
+                                        % the coordinates for the second quadrant
+                                        150/-\frac{\sqrt{3}}{2}/\frac{1}{2},
+                                        135/-\frac{\sqrt{2}}{2}/\frac{\sqrt{2}}{2},
+                                        120/-\frac{1}{2}/\frac{\sqrt{3}}{2},
+                                        % the coordinates for the third quadrant
+                                        210/-\frac{\sqrt{3}}{2}/-\frac{1}{2},
+                                        225/-\frac{\sqrt{2}}{2}/-\frac{\sqrt{2}}{2},
+                                        240/-\frac{1}{2}/-\frac{\sqrt{3}}{2},
+                                        % the coordinates for the fourth quadrant
+                                        330/\frac{\sqrt{3}}{2}/-\frac{1}{2},
+                                        315/\frac{\sqrt{2}}{2}/-\frac{\sqrt{2}}{2},
+                                        300/\frac{1}{2}/-\frac{\sqrt{3}}{2}}
+                                            \draw (\x:1.25cm) node[fill=white] {$\left(\xtext,\y\right)$};
+
+                                    % draw the horizontal and vertical coordinates
+                                    % the placement is better this way
+                                    \draw (-1.25cm,0cm) node[above=1pt] {$(-1,0)$}
+                                        (1.25cm,0cm)  node[above=1pt] {$(1,0)$}
+                                        (0cm,-1.25cm) node[fill=white] {$(0,-1)$}
+                                        (0cm,1.25cm)  node[fill=white] {$(0,1)$};
+                                \end{tikzpicture}
+                            ]]>
+                        </latex-image>
+                    </image>
+                    <p>
+                        <ol marker="a">
+                            <li>
+                                <p>
+                                    <m>2\sin\theta = \sqrt{3}</m>
+                                </p>
+                            </li>
+                            <li>
+                                <p>
+                                    <m>-2\cos\theta + 7 = 8</m>
+                                </p>
+                            </li>
+                            <li>
+                                <p>
+                                    <m>\sqrt{2}\cos\theta - 1 = 0</m>
+                                </p>
+                            </li>
+                            <li>
+                                <p>
+                                    <m>\tan\theta + 1 = 0</m>
+                                </p>
+                            </li>
+                        </ol>
+                    </p>
+                </statement>
+                <solution>
+                    <p>
+                        <ol marker="a">
+                            <li>
+                                <p>
+                                    <m>\theta = \dfrac{\pi}{3},\dfrac{2\pi}{3}</m>
+                                </p>
+                            </li>
+                            <li>
+                                <p>
+                                    <m>\theta = \dfrac{2\pi}{3},\dfrac{4\pi}{3}</m>
+                                </p>
+                            </li>
+                            <li>
+                                <p>
+                                    <m>\theta = \dfrac{\pi}{4},\dfrac{7\pi}{4}</m>
+                                </p>
+                            </li>
+                            <li>
+                                <p>
+                                    <m>\theta = \dfrac{3\pi}{4},\dfrac{7\pi}{4}</m>
+                                </p>
+                            </li>
+                        </ol>
+                    </p>
+                </solution>
+            </example>
+
+            <example>
+                <statement>
+                    <p>
+                        Solve the following basic trig equations on the interval <m>0\leq \theta \leq 2\pi</m>
+                    </p>
+                    <p>
+                        <ol marker="a">
+                            <li>
+                                <p>
+                                    <m>\cos\theta = 0</m>
+                                </p>
+                            </li>
+                            <li>
+                                <p>
+                                    <m>2\sin\theta + 4 = 3</m>
+                                </p>
+                            </li>
+                            <li>
+                                <p>
+                                    <m>2\sin\theta = \sqrt{2}</m>
+                                </p>
+                            </li>
+                            <li>
+                                <p>
+                                    <m>\tan\theta - \sqrt{3} = 0</m>
+                                </p>
+                            </li>
+                            <li>
+                                <p>
+                                    <m>5\cos\theta = -5</m>
+                                </p>
+                            </li>
+                        </ol>
+                    </p>
+                </statement>
+                <solution>
+                    <p>
+                        <ol marker="a">
+                            <li>
+                                <p>
+                                    <m>\theta = \dfrac{\pi}{2},\dfrac{3\pi}{2}</m>
+                                </p>
+                            </li>
+                            <li>
+                                <p>
+                                    <m>\theta = \dfrac{7\pi}{6},\dfrac{11\pi}{6}</m>
+                                </p>
+                            </li>
+                            <li>
+                                <p>
+                                    <m>\theta = \dfrac{\pi}{4}, \dfrac{3\pi}{4}</m>
+                                </p>
+                            </li>
+                            <li>
+                                <p>
+                                    <m>\theta = \dfrac{\pi}{3},\dfrac{4\pi}{3}</m>
+                                </p>
+                            </li>
+                            <li>
+                                <p>
+                                    <m>\theta = \pi</m>
+                                </p>
+                            </li>
+                        </ol>
+                    </p>
+                </solution>
+            </example>
+        </subsubsection>
+
+        <subsubsection xml:id="f-equations-multiple">
+            <title>Solving Multiple Angle Trig Equations</title>
+            
+            <example>
+                <statement>
+                    <p>
+                        <url href="https://youtu.be/_cOgcjTOhEc">Video</url>   
+                    </p>
+                    <p>
+                        Use the unit circle to solve the following trig equation on the interval <m>0\leq\theta\leq 2\pi</m>
+                    </p>
+                    <image>
+                        <description>
+                            The unit circle. Special angles are marked in degrees and radians, and on the circle the ratios corresponding to that angle are given as <m>(x,y)</m> coordinate pairs.
+                        </description>
+                        <latex-image>
+                            <![CDATA[
+                                \begin{tikzpicture}[scale=5.3,cap=round,>=latex]
+                                    % draw the coordinates
+                                    \draw[->] (-1.5cm,0cm) -- (1.5cm,0cm) node[right,fill=white] {$x$};
+                                    \draw[->] (0cm,-1.5cm) -- (0cm,1.5cm) node[above,fill=white] {$y$};
+
+                                    % draw the unit circle
+                                    \draw[thick] (0cm,0cm) circle(1cm);
+
+                                    \foreach \x in {0,30,...,360} {
+                                            % lines from center to point
+                                            \draw[gray] (0cm,0cm) -- (\x:1cm);
+                                            % dots at each point
+                                            \filldraw[black] (\x:1cm) circle(0.4pt);
+                                            % draw each angle in degrees
+                                            \draw (\x:0.6cm) node[fill=white] {$\x^\circ$};
+                                    }
+
+                                    
+                                    \foreach \x in {0,45,...,360} {
+                                            % lines from center to point
+                                            \draw[gray] (0cm,0cm) -- (\x:1cm);
+                                            % dots at each point
+                                            \filldraw[black] (\x:1cm) circle(0.4pt);
+                                            % draw each angle in degrees
+                                            \draw (\x:0.6cm) node[fill=white] {$\x^\circ$};
+                                    }
+
+                                    % draw each angle in radians
+                                    \foreach \x/\xtext in {
+                                        30/\frac{\pi}{6},
+                                        45/\frac{\pi}{4},
+                                        60/\frac{\pi}{3},
+                                        90/\frac{\pi}{2},
+                                        120/\frac{2\pi}{3},
+                                        135/\frac{3\pi}{4},
+                                        150/\frac{5\pi}{6},
+                                        180/\pi,
+                                        210/\frac{7\pi}{6},
+                                        225/\frac{5\pi}{4},
+                                        240/\frac{4\pi}{3},
+                                        270/\frac{3\pi}{2},
+                                        300/\frac{5\pi}{3},
+                                        315/\frac{7\pi}{4},
+                                        330/\frac{11\pi}{6},
+                                        360/2\pi}
+                                            \draw (\x:0.85cm) node[fill=white] {$\xtext$};
+
+                                    \foreach \x/\xtext/\y in {
+                                        % the coordinates for the first quadrant
+                                        30/\frac{\sqrt{3}}{2}/\frac{1}{2},
+                                        45/\frac{\sqrt{2}}{2}/\frac{\sqrt{2}}{2},
+                                        60/\frac{1}{2}/\frac{\sqrt{3}}{2},
+                                        % the coordinates for the second quadrant
+                                        150/-\frac{\sqrt{3}}{2}/\frac{1}{2},
+                                        135/-\frac{\sqrt{2}}{2}/\frac{\sqrt{2}}{2},
+                                        120/-\frac{1}{2}/\frac{\sqrt{3}}{2},
+                                        % the coordinates for the third quadrant
+                                        210/-\frac{\sqrt{3}}{2}/-\frac{1}{2},
+                                        225/-\frac{\sqrt{2}}{2}/-\frac{\sqrt{2}}{2},
+                                        240/-\frac{1}{2}/-\frac{\sqrt{3}}{2},
+                                        % the coordinates for the fourth quadrant
+                                        330/\frac{\sqrt{3}}{2}/-\frac{1}{2},
+                                        315/\frac{\sqrt{2}}{2}/-\frac{\sqrt{2}}{2},
+                                        300/\frac{1}{2}/-\frac{\sqrt{3}}{2}}
+                                            \draw (\x:1.25cm) node[fill=white] {$\left(\xtext,\y\right)$};
+
+                                    % draw the horizontal and vertical coordinates
+                                    % the placement is better this way
+                                    \draw (-1.25cm,0cm) node[above=1pt] {$(-1,0)$}
+                                        (1.25cm,0cm)  node[above=1pt] {$(1,0)$}
+                                        (0cm,-1.25cm) node[fill=white] {$(0,-1)$}
+                                        (0cm,1.25cm)  node[fill=white] {$(0,1)$};
+                                \end{tikzpicture}
+                            ]]>
+                        </latex-image>
+                    </image>
+                    <p>
+                        <m>2\sin(2\theta) = \sqrt{3}</m>
+                    </p>
+                </statement>
+                <solution>
+                    <p>
+                        <m>\theta = \dfrac{\pi}{6}, \dfrac{7\pi}{6}, \dfrac{\pi}{3}, \dfrac{4\pi}{3}</m>
+                    </p>
+                </solution>
+            </example>
+
+            <example>
+                <statement>
+                    <p>
+                        Sovle the following trig equation on the interval <m>0\leq\theta \leq 2\pi</m>.
+                        <me>
+                            \cos (3\theta) = -\dfrac{1}{2}
+                        </me>
+                    </p>
+                </statement>
+                <solution>
+                    <p>
+                        <m>\theta = \dfrac{2\pi}{9},\dfrac{4\pi}{9},\dfrac{8\pi}{9},\dfrac{10\pi}{9},\dfrac{14\pi}{9},\dfrac{16\pi}{9}</m>
+                    </p>
+                </solution>
+            </example>
+        </subsubsection>
+
+        <subsubsection xml:id="f-equations-quadratic">
+            <title>Solving Quadratic Trig Equations</title>
+            
+            <example>
+                <statement>
+                    <p>
+                        <url href="https://youtu.be/sOa7MEAp_ZY">Video</url>   
+                    </p>
+                    <p>
+                        Solve the following trig equations on the interval <m>0\leq\theta\leq 2\pi</m>
+                    </p>
+                    <p>
+                        <ol marker="a">
+                            <li>
+                                <p>
+                                    <m>\sin^2\theta - 2\sin\theta - 3 = 0</m>
+                                </p>
+                            </li>
+                            <li>
+                                <p>
+                                    <m>4\cos^2\theta - 6\cos\theta = -2</m>
+                                </p>
+                            </li>
+                        </ol>
+                    </p>
+                </statement>
+                <solution>
+                    <p>
+                        <ol marker="a">
+                            <li>
+                                <p>
+                                    <m>\theta = \dfrac{\pi}{2}</m>
+                                </p>
+                            </li>
+                            <li>
+                                <p>
+                                    <m>\theta = 0,\dfrac{\pi}{3},\dfrac{7\pi}{3}</m>
+                                </p>
+                            </li>
+                        </ol>
+                    </p>
+                </solution>
+            </example>
+
+            <example>
+                <statement>
+                    <p>
+                        Solve the following trig equation on the interval <m>0\leq \theta 2\pi</m>.
+                        <me>
+                            \cos^2\theta + 6\cos\theta + 5 = 0
+                        </me>                       
+                    </p>
+                </statement>
+                <solution>
+                    <p>
+                        <m>\theta = \pi</m>
+                    </p>
+                </solution>
+            </example>
+
+            <example>
+                <statement>
+                    <p>
+                        Solve the following trig equation on the interval <m>0\leq \theta 2\pi</m>.
+                        <me>
+                            6\sin^2\theta - 3\sin\theta = 0
+                        </me>                       
+                    </p>
+                </statement>
+                <solution>
+                    <p>
+                        <m>\theta = 0,\dfrac{\pi}{6},\dfrac{5\pi}{6},\pi,2\pi</m>
+                    </p>
+                </solution>
+            </example>
+
+            <example>
+                <statement>
+                    <p>
+                        Solve the following trig equation on the interval <m>0\leq \theta 2\pi</m>.
+                        <me>
+                            2\sin^2\theta - \sin\theta - 1 = 0
+                        </me>                       
+                    </p>
+                </statement>
+                <solution>
+                    <p>
+                        <m>\theta = \dfrac{\pi}{2},\dfrac{7\pi}{6},\dfrac{11\pi}{6}</m>
+                    </p>
+                </solution>
+            </example>            
+        </subsubsection>
+    </subsection>
+
+    <subsection xml:id="f-righttriangle">
+        <title>Right Triangle Trig</title>
+        
+        <subsubsection xml:id="f-righttriangle-pythagorean">
+            <title>Pythagorean Formula</title>
+            
+            <example>
+                <statement>
+                    <p>
+                        <url href="https://youtu.be/wGw6IjVkD4M">Video</url>   
+                    </p>
+                    <p>
+                        A <term>right triangle</term> is a triangle with a right angle/<m>90^{\circ}</m> angle. The side opposite the right angle/<m>90^{\circ}</m> angle is called the <term>hypotenuse</term>. The other two sides are called <term>legs</term>. The relationship between the hypotenuse, <m>c</m>, and legs, <m>a</m> and <m>b</m>, of a right triangle is given by the <term>Pythagorean Theorem</term>:
+                        <me>
+                            a^2 + b^2 = c^2
+                        </me>
+                    </p>
+                    <image source="f-ex31.png" width="50%">
+                        <description>
+                            A right triangle with vertical labeled <m>a</m>, horizontal leg labeled <m>b</m>, and hypotenuse labeled <m>c</m>
+                        </description>
+                    </image>
+                    <p>
+                        What is the hypotenuse of the above right triangle if <m>a=0.9</m> and <m>b = 1.2</m>?
+                    </p>
+                </statement>
+                <solution>
+                    <p>
+                        <m>c = 1.5</m>
+                    </p>
+                </solution>
+            </example>
+
+            <example>
+                <statement>
+                    <p>
+                        Find the missing side length for the given triangle.
+                    </p>
+                    <image source="f-check31.png" width="50%">
+                        <description>
+                            A right triangle with vertical labeled <m>a</m>, horizontal leg labeled <m>4</m>, and hypotenuse labeled <m>5</m>
+                        </description>
+                    </image>
+                </statement>
+                <solution>
+                    <p>
+                        <m>a = 3</m>
+                    </p>
+                </solution>
+            </example>
+        </subsubsection>
+
+        <subsubsection xml:id="f-righttriangle-sohcahtoa">
+            <title>SOHCAHTOA</title>
+
+            <example>
+                <statement>
+                    <p>
+                        <url href="https://youtu.be/hPwvqvUI4sY">Video</url>   
+                    </p>
+                    <p>
+                        For an angle <m>\theta</m> in a right triangle:
+                    </p>
+                    <me>
+                        \sin\theta = \dfrac{\text{opposite side}}{\text{hypotenuse}} \qquad \cos\theta = \dfrac{\text{adjacent side}}{\text{hypotenuse}} \qquad \tan\theta = \dfrac{\text{opposite side}}{\text{adjacent side}}
+                    </me>
+                    <image source="f-ex32.png" width="50%">
+                        <description>
+                            A right triangle with vertical labeled <alert>opposite</alert>, horizontal leg labeled <alert>adjacent</alert>, hypotenuse labeled <term>hypotenuse</term>, and the angle between the hypotenuse and adjacent side labeled <m>\theta</m>
+                        </description>
+                    </image>
+                    <p>
+                        Find <m>\sin\theta</m>, <m>\cos\theta</m>, and <m>\tan\theta</m> if the side opposite <m>\theta</m> is 4 and the side adjacent to <m>\theta</m> is 5.
+                    </p>
+                </statement>
+                <solution>
+                    <p>
+                        <m>\sin\theta = \dfrac{4}{\sqrt{41}}</m>, <m>\cos\theta = \dfrac{5}{\sqrt{41}}</m>, and <m>\tan\theta = \dfrac{4}{5}</m>
+                    </p>
+                </solution>
+            </example>
+            
+            <example>
+                <statement>
+                    <p>
+                        Given the right triangle below, find <m>\sin (B)</m>, <m>\cos (B)</m>, and <m>\tan (B)</m>.
+                    </p>
+                    <image source="f-check32.png" width="50%">
+                        <description>
+                            A right triangle with vertical labeled 5, horizontal leg labeled 12, and the angle between the hypotenuse and vertical side labeled <m>B</m>
+                        </description>
+                    </image>
+                </statement>
+                <solution>
+                    <p>
+                        <m>\sin (B) = \dfrac{12}{13}</m>, <m>\cos(B) = \dfrac{5}{13}</m>, <m>\tan (B) = \dfrac{12}{5}</m>
+                    </p>
+                </solution>
+            </example>
+        </subsubsection>
+    </subsection>
+
+    <subsection xml:id="f-sinescosines">
+        <title>Law of Sines &amp; Law of Cosines</title>
+        
+        <introduction>
+                <p>
+                    To be added later
+                </p>
+            </introduction>
+    </subsection>
+
+    <subsection xml:id="f-graphs">
+        <title>Graphs of Trig Functions</title>
+        
+        <introduction>
+                <p>
+                    To be added later
+                </p>
+            </introduction>
+    </subsection>
+
+    <subsection xml:id="f-inverse">
+        <title>Inverse Trigonometric Functions</title>
+        
+        <introduction>
+                <p>
+                    To be added later
+                </p>
+            </introduction>
+    </subsection>
+</section>
