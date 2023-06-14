@@ -206,7 +206,8 @@ window.MathJax = {
 <li><div class="toc-item"><a href="a.html#a-evaluation-piecewise" class="internal"><span class="codenumber">1.2.2</span> <span class="title">Function Evaluation, Algebraic Piecewise</span></a></div></li>
 <li><div class="toc-item"><a href="a.html#a-evaluation-graphical" class="internal"><span class="codenumber">1.2.3</span> <span class="title">Function Evaluation, Graphical</span></a></div></li>
 <li><div class="toc-item"><a href="a.html#a-evaluation-numerical" class="internal"><span class="codenumber">1.2.4</span> <span class="title">Function Evaluation, Numerical</span></a></div></li>
-<li><div class="toc-item"><a href="a.html#a-evaluation-symbolic" class="internal"><span class="codenumber">1.2.5</span> <span class="title">Function Evaluation, Symbolic</span></a></div></li>
+<li><div class="toc-item"><a href="a.html#a-evaluation-subtraction" class="internal"><span class="codenumber">1.2.5</span> <span class="title">Function Evaluation with Subtraction</span></a></div></li>
+<li><div class="toc-item"><a href="a.html#a-evaluation-symbolic" class="internal"><span class="codenumber">1.2.6</span> <span class="title">Function Evaluation, Symbolic</span></a></div></li>
 </ul>
 </li>
 </ul>
@@ -344,7 +345,7 @@ window.MathJax = {
 <span class="process-math">\(f(x)\)</span> is the output or <span class="process-math">\(y-\)</span>value for the corresponding <span class="process-math">\(x\)</span>
 </div></li>
 </ul>
-</div> <div class="para" id="p-8">An important thing to notet is that <span class="process-math">\(f(x)\)</span> does not indicate multiplication between <span class="process-math">\(f\)</span> and <span class="process-math">\(x\text{.}\)</span> Rather, <span class="process-math">\(f(x)\)</span> represents the output or <span class="process-math">\(y-\)</span>value obtained by plugging the corresponding <span class="process-math">\(x\)</span> value into the function <span class="process-math">\(f\text{.}\)</span> A function can be represented algebraically (with a formula), graphically (with a graph), numerically (with a table), or verbally (with a description.)</div> <div class="image-box" style="width: 100%; margin-left: 0%; margin-right: 0%;"><img src="generated/latex-image/a-notation-intro-iodiagram.svg" role="img" class="contained" alt='A diagram describing the "function machine"- \(x\) is input into the machine called \(f\text{,}\) and \(f(x)\) produced the output \(y\)'></div> <div class="para" id="p-9">Another important observation is that we can use variables other than <span class="process-math">\(x,f,\)</span> and <span class="process-math">\(y\text{!}\)</span>
+</div> <div class="para" id="p-8">An important thing to note is that <span class="process-math">\(f(x)\)</span> does not indicate multiplication between <span class="process-math">\(f\)</span> and <span class="process-math">\(x\text{.}\)</span> Rather, <span class="process-math">\(f(x)\)</span> represents the output or <span class="process-math">\(y-\)</span>value obtained by plugging the corresponding <span class="process-math">\(x\)</span> value into the function <span class="process-math">\(f\text{.}\)</span> A function can be represented algebraically (with a formula), graphically (with a graph), numerically (with a table), or verbally (with a description.)</div> <div class="image-box" style="width: 100%; margin-left: 0%; margin-right: 0%;"><img src="generated/latex-image/a-notation-intro-iodiagram.svg" role="img" class="contained" alt='A diagram describing the "function machine"- \(x\) is input into the machine called \(f\text{,}\) and \(f(x)\) produced the output \(y\)'></div> <div class="para" id="p-9">Another important observation is that we can use variables other than <span class="process-math">\(x,f,\)</span> and <span class="process-math">\(y\text{!}\)</span>
 </div> <div class="para logical" id="p-10">
 <div class="para">For example, let's identify the function name, input variable, and output variable in the following expressions:</div>
 <div class="displaymath process-math">
@@ -371,10 +372,9 @@ h = x(t)
 <td class="l m b0 r0 l0 t0 lines">Is <span class="process-math">\(h(t)\)</span> the same as <span class="process-math">\(h\cdot t\text{?}\)</span>
 </td>
 </tr>
-</table></div></article><article class="example example-like" id="example-2"><h5 class="heading">
-<span class="type">Example</span><span class="space"> </span><span class="codenumber">1.1.2</span><span class="period">.</span>
-</h5>
-<div class="para" id="p-12">Identify the function name, input variable, and output variable: <span class="process-math">\(p=g(q)\)</span>
+</table></div></article><article class="exercise exercise-like" id="exercise-1"><a href="" data-knowl="" class="id-ref exercise-knowl original has-tabular" data-refid="hk-exercise-1"><h5 class="heading">
+<span class="type">Checkpoint</span><span class="space"> </span><span class="codenumber">1.1.2</span><span class="period">.</span><span class="space"> </span><span class="title">(Checkpoint 1.1a).</span>
+</h5></a></article><div class="hidden-content tex2jax_ignore" id="hk-exercise-1"><article class="exercise exercise-like"><div class="para" id="p-12">Identify the function name, input variable, and output variable: <span class="process-math">\(p=g(q)\)</span>
 </div>
 <div class="solutions">
 <a href="" data-knowl="" class="id-ref solution-knowl original has-tabular" data-refid="hk-solution-1" id="solution-1"><span class="type">Solution</span><span class="period">.</span></a><div class="hidden-content tex2jax_ignore" id="hk-solution-1"><div class="solution solution-like"><div class="tabular-box natural-width"><table class="tabular">
@@ -391,10 +391,10 @@ h = x(t)
 <td class="l m b0 r0 l0 t0 lines"><span class="process-math">\(p\)</span></td>
 </tr>
 </table></div></div></div>
-</div></article><article class="example example-like" id="example-3"><h5 class="heading">
-<span class="type">Example</span><span class="space"> </span><span class="codenumber">1.1.3</span><span class="period">.</span>
-</h5>
-<div class="para" id="p-13"><span class="process-math">\(f(x) = \sqrt{x-4}\)</span></div> <div class="para logical" id="p-14"><ol class="lower-alpha">
+</div></article></div>
+<article class="exercise exercise-like" id="exercise-2"><a href="" data-knowl="" class="id-ref exercise-knowl original" data-refid="hk-exercise-2"><h5 class="heading">
+<span class="type">Checkpoint</span><span class="space"> </span><span class="codenumber">1.1.3</span><span class="period">.</span><span class="space"> </span><span class="title">(Checkpoint 1.1b).</span>
+</h5></a></article><div class="hidden-content tex2jax_ignore" id="hk-exercise-2"><article class="exercise exercise-like"><div class="para" id="p-13"><span class="process-math">\(f(x) = \sqrt{x-4}\)</span></div> <div class="para logical" id="p-14"><ol class="lower-alpha">
 <li id="li-4"><div class="para" id="p-15">True or False: We can divide both sides of the above equation by <span class="process-math">\(f\)</span> to get <span class="process-math">\(x = \dfrac{\sqrt{x-4}}{f}\)</span>
 </div></li>
 <li id="li-5"><div class="para" id="p-16">What is the input variable?</div></li>
@@ -406,13 +406,13 @@ h = x(t)
 <li id="li-8"><div class="para" id="p-20"><span class="process-math">\(\displaystyle x\)</span></div></li>
 <li id="li-9"><div class="para" id="p-21"><span class="process-math">\(\displaystyle f\)</span></div></li>
 </ol></div></div></div>
-</div></article></section></section><section class="subsection" id="a-evaluation"><h3 class="heading hide-type">
+</div></article></div></section></section><section class="subsection" id="a-evaluation"><h3 class="heading hide-type">
 <span class="type">Subsection</span> <span class="codenumber">1.2</span> <span class="title">Function Evaluation</span>
 </h3>
 <section class="introduction" id="introduction-2"><div class="para" id="p-22">Supplements XYZ Sections: All</div></section><section class="subsubsection" id="a-evaluation-algebraic"><h4 class="heading hide-type">
 <span class="type">Subsubsection</span> <span class="codenumber">1.2.1</span> <span class="title">Function Evaluation, Algebraic</span>
 </h4>
-<article class="example example-like" id="example-4"><h5 class="heading">
+<article class="example example-like" id="example-2"><h5 class="heading">
 <span class="type">Example</span><span class="space"> </span><span class="codenumber">1.2.1</span><span class="period">.</span>
 </h5>
 <div class="para" id="p-23">
@@ -431,10 +431,9 @@ h = x(t)
 <li id="li-14"><div class="para" id="p-30"><span class="process-math">\(\displaystyle g(-1) = 0\)</span></div></li>
 <li id="li-15"><div class="para" id="p-31"><span class="process-math">\(\displaystyle h(0) = 6\)</span></div></li>
 </ol></div></div></div>
-</div></article><article class="example example-like" id="example-5"><h5 class="heading">
-<span class="type">Example</span><span class="space"> </span><span class="codenumber">1.2.2</span><span class="period">.</span>
-</h5>
-<div class="para logical" id="p-32"><ol class="lower-alpha">
+</div></article><article class="exercise exercise-like" id="exercise-3"><a href="" data-knowl="" class="id-ref exercise-knowl original" data-refid="hk-exercise-3"><h5 class="heading">
+<span class="type">Checkpoint</span><span class="space"> </span><span class="codenumber">1.2.2</span><span class="period">.</span><span class="space"> </span><span class="title">(Checkpoint 2.1).</span>
+</h5></a></article><div class="hidden-content tex2jax_ignore" id="hk-exercise-3"><article class="exercise exercise-like"><div class="para logical" id="p-32"><ol class="lower-alpha">
 <li id="li-16"><div class="para" id="p-33">Find <span class="process-math">\(f(-2)\)</span> given that <span class="process-math">\(f(x) = 3x^2-7\)</span>
 </div></li>
 <li id="li-17"><div class="para" id="p-34">Find <span class="process-math">\(g(1)\)</span> given that <span class="process-math">\(g(z) = \sqrt{z+8}\)</span>
@@ -448,10 +447,10 @@ h = x(t)
 <li id="li-20"><div class="para" id="p-38"><span class="process-math">\(\displaystyle g(1) = 3\)</span></div></li>
 <li id="li-21"><div class="para" id="p-39"><span class="process-math">\(\displaystyle f(10) = -1\)</span></div></li>
 </ol></div></div></div>
-</div></article></section><section class="subsubsection" id="a-evaluation-piecewise"><h4 class="heading hide-type">
+</div></article></div></section><section class="subsubsection" id="a-evaluation-piecewise"><h4 class="heading hide-type">
 <span class="type">Subsubsection</span> <span class="codenumber">1.2.2</span> <span class="title">Function Evaluation, Algebraic Piecewise</span>
 </h4>
-<article class="example example-like" id="example-6"><h5 class="heading">
+<article class="example example-like" id="example-3"><h5 class="heading">
 <span class="type">Example</span><span class="space"> </span><span class="codenumber">1.2.3</span><span class="period">.</span>
 </h5>
 <div class="para" id="p-40">
@@ -469,10 +468,9 @@ f(x) = \begin{cases} -(x+1)^2 + 3 &amp; -3\leq x \lt 1 \\ 5 &amp; x=1 \\ x-3 &am
 <a href="" data-knowl="" class="id-ref solution-knowl original" data-refid="hk-solution-5" id="solution-5"><span class="type">Solution</span><span class="period">.</span></a><div class="hidden-content tex2jax_ignore" id="hk-solution-5"><div class="solution solution-like"><div class="para" id="p-42">
 <span class="process-math">\(f(-1) = 3\text{,}\)</span> <span class="process-math">\(f(1) = 5\text{,}\)</span> and <span class="process-math">\(f(10) = 7\)</span>
 </div></div></div>
-</div></article><article class="example example-like" id="example-7"><h5 class="heading">
-<span class="type">Example</span><span class="space"> </span><span class="codenumber">1.2.4</span><span class="period">.</span>
-</h5>
-<div class="para logical" id="p-43">
+</div></article><article class="exercise exercise-like" id="exercise-4"><a href="" data-knowl="" class="id-ref exercise-knowl original" data-refid="hk-exercise-4"><h5 class="heading">
+<span class="type">Checkpoint</span><span class="space"> </span><span class="codenumber">1.2.4</span><span class="period">.</span><span class="space"> </span><span class="title">(Checkpoint 2.2).</span>
+</h5></a></article><div class="hidden-content tex2jax_ignore" id="hk-exercise-4"><article class="exercise exercise-like"><div class="para logical" id="p-43">
 <div class="displaymath process-math">
 \begin{equation*}
 f(x) = \begin{cases} \sqrt{6-x} &amp; x\lt 6\\ -2 &amp; x=6\\ x^2 &amp; 6\lt x\leq 10 \end{cases}
@@ -485,10 +483,10 @@ f(x) = \begin{cases} \sqrt{6-x} &amp; x\lt 6\\ -2 &amp; x=6\\ x^2 &amp; 6\lt x\l
 <a href="" data-knowl="" class="id-ref solution-knowl original" data-refid="hk-solution-6" id="solution-6"><span class="type">Solution</span><span class="period">.</span></a><div class="hidden-content tex2jax_ignore" id="hk-solution-6"><div class="solution solution-like"><div class="para" id="p-44">
 <span class="process-math">\(f(-3) = 3\text{,}\)</span> <span class="process-math">\(f(6) = -2\text{,}\)</span> and <span class="process-math">\(f(7) = 49\)</span>
 </div></div></div>
-</div></article></section><section class="subsubsection" id="a-evaluation-graphical"><h4 class="heading hide-type">
+</div></article></div></section><section class="subsubsection" id="a-evaluation-graphical"><h4 class="heading hide-type">
 <span class="type">Subsubsection</span> <span class="codenumber">1.2.3</span> <span class="title">Function Evaluation, Graphical</span>
 </h4>
-<article class="example example-like" id="example-8"><h5 class="heading">
+<article class="example example-like" id="example-4"><h5 class="heading">
 <span class="type">Example</span><span class="space"> </span><span class="codenumber">1.2.5</span><span class="period">.</span>
 </h5>
 <div class="para" id="p-45">
@@ -498,19 +496,18 @@ f(x) = \begin{cases} \sqrt{6-x} &amp; x\lt 6\\ -2 &amp; x=6\\ x^2 &amp; 6\lt x\l
 <div class="solutions">
 <a href="" data-knowl="" class="id-ref solution-knowl original" data-refid="hk-solution-7" id="solution-7"><span class="type">Solution</span><span class="period">.</span></a><div class="hidden-content tex2jax_ignore" id="hk-solution-7"><div class="solution solution-like"><div class="para" id="p-48">
 <span class="process-math">\(f(-5) = 1\text{,}\)</span> <span class="process-math">\(f(-1) = 1\text{,}\)</span> <span class="process-math">\(f(0) = 1\text{,}\)</span> <span class="process-math">\(f(3) = 2\text{,}\)</span> <span class="process-math">\(f(5)\)</span> DNE</div></div></div>
-</div></article><article class="example example-like" id="example-9"><h5 class="heading">
-<span class="type">Example</span><span class="space"> </span><span class="codenumber">1.2.6</span><span class="period">.</span>
-</h5>
-<div class="para" id="p-49">The graph of <span class="process-math">\(y=g(x)\)</span> is given. Find <span class="process-math">\(f(-3)\text{,}\)</span> <span class="process-math">\(f(-1)\text{,}\)</span> <span class="process-math">\(f(0)\text{,}\)</span> <span class="process-math">\(f(1)\text{,}\)</span> and <span class="process-math">\(f(2)\text{.}\)</span>
+</div></article><article class="exercise exercise-like" id="exercise-5"><a href="" data-knowl="" class="id-ref exercise-knowl original has-image" data-refid="hk-exercise-5"><h5 class="heading">
+<span class="type">Checkpoint</span><span class="space"> </span><span class="codenumber">1.2.6</span><span class="period">.</span><span class="space"> </span><span class="title">(Checkpoint 2.3).</span>
+</h5></a></article><div class="hidden-content tex2jax_ignore" id="hk-exercise-5"><article class="exercise exercise-like"><div class="para" id="p-49">The graph of <span class="process-math">\(y=g(x)\)</span> is given. Find <span class="process-math">\(f(-3)\text{,}\)</span> <span class="process-math">\(f(-1)\text{,}\)</span> <span class="process-math">\(f(0)\text{,}\)</span> <span class="process-math">\(f(1)\text{,}\)</span> and <span class="process-math">\(f(2)\text{.}\)</span>
 </div> <div class="image-box" style="width: 100%; margin-left: 0%; margin-right: 0%;"><img src="external/a2.png" class="contained"></div>
 <div class="solutions">
 <a href="" data-knowl="" class="id-ref solution-knowl original" data-refid="hk-solution-8" id="solution-8"><span class="type">Solution</span><span class="period">.</span></a><div class="hidden-content tex2jax_ignore" id="hk-solution-8"><div class="solution solution-like"><div class="para" id="p-50">
 <span class="process-math">\(f(-3) = -1\text{,}\)</span> <span class="process-math">\(f(-1) = DNE\text{,}\)</span> <span class="process-math">\(f(0) = 2\text{,}\)</span> <span class="process-math">\(f(1) = -2\text{,}\)</span> and <span class="process-math">\(f(2)=0\text{.}\)</span>
 </div></div></div>
-</div></article></section><section class="subsubsection" id="a-evaluation-numerical"><h4 class="heading hide-type">
+</div></article></div></section><section class="subsubsection" id="a-evaluation-numerical"><h4 class="heading hide-type">
 <span class="type">Subsubsection</span> <span class="codenumber">1.2.4</span> <span class="title">Function Evaluation, Numerical</span>
 </h4>
-<article class="example example-like" id="example-10"><h5 class="heading">
+<article class="example example-like" id="example-5"><h5 class="heading">
 <span class="type">Example</span><span class="space"> </span><span class="codenumber">1.2.7</span><span class="period">.</span>
 </h5>
 <div class="para" id="p-51">
@@ -546,10 +543,9 @@ f(x) = \begin{cases} \sqrt{6-x} &amp; x\lt 6\\ -2 &amp; x=6\\ x^2 &amp; 6\lt x\l
 <a href="" data-knowl="" class="id-ref solution-knowl original" data-refid="hk-solution-9" id="solution-9"><span class="type">Solution</span><span class="period">.</span></a><div class="hidden-content tex2jax_ignore" id="hk-solution-9"><div class="solution solution-like"><div class="para" id="p-53">
 <span class="process-math">\(f(3) = 4.2\text{,}\)</span> <span class="process-math">\(g(5)=-1\text{,}\)</span> <span class="process-math">\(f(2)-g(5)=3.7-(-1) = 4.7\text{,}\)</span> and <span class="process-math">\(g(4)+f(1)=0 + (-1.1) = -1.1\)</span>
 </div></div></div>
-</div></article><article class="example example-like" id="example-11"><h5 class="heading">
-<span class="type">Example</span><span class="space"> </span><span class="codenumber">1.2.8</span><span class="period">.</span>
-</h5>
-<div class="para" id="p-54">
+</div></article><article class="exercise exercise-like" id="exercise-6"><a href="" data-knowl="" class="id-ref exercise-knowl original has-tabular" data-refid="hk-exercise-6"><h5 class="heading">
+<span class="type">Checkpoint</span><span class="space"> </span><span class="codenumber">1.2.8</span><span class="period">.</span><span class="space"> </span><span class="title">(Checkpoint 2.4).</span>
+</h5></a></article><div class="hidden-content tex2jax_ignore" id="hk-exercise-6"><article class="exercise exercise-like"><div class="para" id="p-54">
 <a class="external" href="https://youtu.be/mpE2r0pGWhE" target="_blank">Video</a><a href="" data-knowl="" class="id-ref fn-knowl original" data-refid="hk-fn-6" id="fn-6"><sup> 5 </sup></a>
 </div> <div class="tabular-box natural-width"><table class="tabular">
 <tr>
@@ -582,45 +578,77 @@ f(x) = \begin{cases} \sqrt{6-x} &amp; x\lt 6\\ -2 &amp; x=6\\ x^2 &amp; 6\lt x\l
 <a href="" data-knowl="" class="id-ref solution-knowl original" data-refid="hk-solution-10" id="solution-10"><span class="type">Solution</span><span class="period">.</span></a><div class="hidden-content tex2jax_ignore" id="hk-solution-10"><div class="solution solution-like"><div class="para" id="p-56">
 <span class="process-math">\(f(-1) = 7\text{,}\)</span> <span class="process-math">\(g(3)=-2.6\text{,}\)</span> <span class="process-math">\(g(1)-f(5)=15.9-4 = 11.9\text{,}\)</span> and <span class="process-math">\(g(-1)\cdot f(7) = -3.14\cdot 3 = -9.42\text{.}\)</span>
 </div></div></div>
-</div></article></section><section class="subsubsection" id="a-evaluation-symbolic"><h4 class="heading hide-type">
-<span class="type">Subsubsection</span> <span class="codenumber">1.2.5</span> <span class="title">Function Evaluation, Symbolic</span>
+</div></article></div></section><section class="subsubsection" id="a-evaluation-subtraction"><h4 class="heading hide-type">
+<span class="type">Subsubsection</span> <span class="codenumber">1.2.5</span> <span class="title">Function Evaluation with Subtraction</span>
 </h4>
-<article class="example example-like" id="example-12"><h5 class="heading">
+<article class="example example-like" id="example-6"><h5 class="heading">
 <span class="type">Example</span><span class="space"> </span><span class="codenumber">1.2.9</span><span class="period">.</span>
 </h5>
 <div class="para" id="p-57">
-<a class="external" href="https://youtu.be/RwkwmhJ79GI" target="_blank">Video</a><a href="" data-knowl="" class="id-ref fn-knowl original" data-refid="hk-fn-7" id="fn-7"><sup> 6 </sup></a>
-</div> <div class="para" id="p-58">
+<a class="external" href="https://youtu.be/mpE2r0pGWhE" target="_blank">Video</a><a href="" data-knowl="" class="id-ref fn-knowl original" data-refid="hk-fn-7" id="fn-7"><sup> 6 </sup></a>
+</div> <div class="para logical" id="p-58">
+<div class="displaymath process-math">
+\begin{equation*}
+f(x) = -6x+5
+\end{equation*}
+</div>
+<div class="para">Find <span class="process-math">\(f(3)-f(1)\)</span>
+</div>
+</div>
+<div class="solutions">
+<a href="" data-knowl="" class="id-ref solution-knowl original" data-refid="hk-solution-11" id="solution-11"><span class="type">Solution</span><span class="period">.</span></a><div class="hidden-content tex2jax_ignore" id="hk-solution-11"><div class="solution solution-like"><div class="para" id="p-59"><span class="process-math">\(-13-(-1) = -12\)</span></div></div></div>
+</div></article><article class="exercise exercise-like" id="exercise-7"><a href="" data-knowl="" class="id-ref exercise-knowl original" data-refid="hk-exercise-7"><h5 class="heading">
+<span class="type">Checkpoint</span><span class="space"> </span><span class="codenumber">1.2.10</span><span class="period">.</span><span class="space"> </span><span class="title">(Checkpoint 2.5).</span>
+</h5></a></article><div class="hidden-content tex2jax_ignore" id="hk-exercise-7"><article class="exercise exercise-like"><div class="para logical" id="p-60">
+<div class="displaymath process-math">
+\begin{equation*}
+f(x)=x^2-3x+7
+\end{equation*}
+</div>
+<div class="para">Find <span class="process-math">\(f(2)-f(0)\)</span>
+</div>
+</div>
+<div class="solutions">
+<a href="" data-knowl="" class="id-ref solution-knowl original" data-refid="hk-solution-12" id="solution-12"><span class="type">Solution</span><span class="period">.</span></a><div class="hidden-content tex2jax_ignore" id="hk-solution-12"><div class="solution solution-like"><div class="para" id="p-61"><span class="process-math">\(5-7=2\)</span></div></div></div>
+</div></article></div></section><section class="subsubsection" id="a-evaluation-symbolic"><h4 class="heading hide-type">
+<span class="type">Subsubsection</span> <span class="codenumber">1.2.6</span> <span class="title">Function Evaluation, Symbolic</span>
+</h4>
+<article class="example example-like" id="example-7"><h5 class="heading">
+<span class="type">Example</span><span class="space"> </span><span class="codenumber">1.2.11</span><span class="period">.</span>
+</h5>
+<div class="para" id="p-62">
+<a class="external" href="https://youtu.be/RwkwmhJ79GI" target="_blank">Video</a><a href="" data-knowl="" class="id-ref fn-knowl original" data-refid="hk-fn-8" id="fn-8"><sup> 7 </sup></a>
+</div> <div class="para" id="p-63">
 <span class="process-math">\(f(x) = x^2+5\text{.}\)</span> Find <span class="process-math">\(f(a)\text{,}\)</span> <span class="process-math">\(-f(x)\text{,}\)</span> <span class="process-math">\(f(x+h)\text{,}\)</span> and <span class="process-math">\(f(3+h)-f(3)\text{.}\)</span>
 </div>
 <div class="solutions">
-<a href="" data-knowl="" class="id-ref solution-knowl original" data-refid="hk-solution-11" id="solution-11"><span class="type">Solution</span><span class="period">.</span></a><div class="hidden-content tex2jax_ignore" id="hk-solution-11"><div class="solution solution-like"><div class="para" id="p-59">
+<a href="" data-knowl="" class="id-ref solution-knowl original" data-refid="hk-solution-13" id="solution-13"><span class="type">Solution</span><span class="period">.</span></a><div class="hidden-content tex2jax_ignore" id="hk-solution-13"><div class="solution solution-like"><div class="para" id="p-64">
 <span class="process-math">\(f(a) = a^2 +5\text{,}\)</span> <span class="process-math">\(-f(x) = -x^2-5\text{,}\)</span> <span class="process-math">\(f(x+h) = x^2 + 2xh + h^2 + 5\text{,}\)</span> and <span class="process-math">\(f(3+h)-f(3) = 6h + h^2\text{.}\)</span>
 </div></div></div>
-</div></article><article class="example example-like" id="example-13"><h5 class="heading">
-<span class="type">Example</span><span class="space"> </span><span class="codenumber">1.2.10</span><span class="period">.</span>
-</h5>
-<div class="para" id="p-60">
-<span class="process-math">\(f(x) = 3x^2\text{.}\)</span> Find the following:</div> <div class="para logical" id="p-61"><ol class="lower-alpha">
-<li id="li-22"><div class="para" id="p-62"><span class="process-math">\(\displaystyle f(c)\)</span></div></li>
-<li id="li-23"><div class="para" id="p-63"><span class="process-math">\(\displaystyle f(-x)\)</span></div></li>
-<li id="li-24"><div class="para" id="p-64"><span class="process-math">\(\displaystyle f(x+h)\)</span></div></li>
-<li id="li-25"><div class="para" id="p-65"><span class="process-math">\(\displaystyle f(1+h)-f(1)\)</span></div></li>
+</div></article><article class="exercise exercise-like" id="exercise-8"><a href="" data-knowl="" class="id-ref exercise-knowl original" data-refid="hk-exercise-8"><h5 class="heading">
+<span class="type">Checkpoint</span><span class="space"> </span><span class="codenumber">1.2.12</span><span class="period">.</span><span class="space"> </span><span class="title">(Checkpoint 2.6).</span>
+</h5></a></article><div class="hidden-content tex2jax_ignore" id="hk-exercise-8"><article class="exercise exercise-like"><div class="para" id="p-65">
+<span class="process-math">\(f(x) = 3x^2\text{.}\)</span> Find the following:</div> <div class="para logical" id="p-66"><ol class="lower-alpha">
+<li id="li-22"><div class="para" id="p-67"><span class="process-math">\(\displaystyle f(c)\)</span></div></li>
+<li id="li-23"><div class="para" id="p-68"><span class="process-math">\(\displaystyle f(-x)\)</span></div></li>
+<li id="li-24"><div class="para" id="p-69"><span class="process-math">\(\displaystyle f(x+h)\)</span></div></li>
+<li id="li-25"><div class="para" id="p-70"><span class="process-math">\(\displaystyle f(1+h)-f(1)\)</span></div></li>
 </ol></div>
 <div class="solutions">
-<a href="" data-knowl="" class="id-ref solution-knowl original" data-refid="hk-solution-12" id="solution-12"><span class="type">Solution</span><span class="period">.</span></a><div class="hidden-content tex2jax_ignore" id="hk-solution-12"><div class="solution solution-like"><div class="para logical" id="p-66"><ol class="lower-alpha">
-<li id="li-26"><div class="para" id="p-67"><span class="process-math">\(\displaystyle f(c) = 3c^2\)</span></div></li>
-<li id="li-27"><div class="para" id="p-68"><span class="process-math">\(\displaystyle f(-x) = 3(-x)^2 = 3x^2\)</span></div></li>
-<li id="li-28"><div class="para" id="p-69"><span class="process-math">\(\displaystyle f(x+h) = 3(x+h)^2 = 3(x^2+2xh+h^2) = 3x^2+6xh+3h^2\)</span></div></li>
-<li id="li-29"><div class="para" id="p-70"><span class="process-math">\(\displaystyle f(1+h)-f(1) = 3(1+h)^2 -3(1)^2 = 3(1+2h+h^2)-3 = 3+6h+3h^2-3 = 6h + 3h^2\)</span></div></li>
+<a href="" data-knowl="" class="id-ref solution-knowl original" data-refid="hk-solution-14" id="solution-14"><span class="type">Solution</span><span class="period">.</span></a><div class="hidden-content tex2jax_ignore" id="hk-solution-14"><div class="solution solution-like"><div class="para logical" id="p-71"><ol class="lower-alpha">
+<li id="li-26"><div class="para" id="p-72"><span class="process-math">\(\displaystyle f(c) = 3c^2\)</span></div></li>
+<li id="li-27"><div class="para" id="p-73"><span class="process-math">\(\displaystyle f(-x) = 3(-x)^2 = 3x^2\)</span></div></li>
+<li id="li-28"><div class="para" id="p-74"><span class="process-math">\(\displaystyle f(x+h) = 3(x+h)^2 = 3(x^2+2xh+h^2) = 3x^2+6xh+3h^2\)</span></div></li>
+<li id="li-29"><div class="para" id="p-75"><span class="process-math">\(\displaystyle f(1+h)-f(1) = 3(1+h)^2 -3(1)^2 = 3(1+2h+h^2)-3 = 3+6h+3h^2-3 = 6h + 3h^2\)</span></div></li>
 </ol></div></div></div>
-</div></article></section></section></section><div class="hidden-content tex2jax_ignore" id="hk-fn-1"><div class="fn"><code class="code-inline tex2jax_ignore">youtu.be/Qd4R5QIzBGk</code></div></div>
+</div></article></div></section></section></section><div class="hidden-content tex2jax_ignore" id="hk-fn-1"><div class="fn"><code class="code-inline tex2jax_ignore">youtu.be/Qd4R5QIzBGk</code></div></div>
 <div class="hidden-content tex2jax_ignore" id="hk-fn-2"><div class="fn"><code class="code-inline tex2jax_ignore">youtu.be/Nc623N6sHFM</code></div></div>
 <div class="hidden-content tex2jax_ignore" id="hk-fn-3"><div class="fn"><code class="code-inline tex2jax_ignore">youtu.be/ebO4nlbE5oI</code></div></div>
 <div class="hidden-content tex2jax_ignore" id="hk-fn-4"><div class="fn"><code class="code-inline tex2jax_ignore">youtu.be/1PtpQxttg_0</code></div></div>
 <div class="hidden-content tex2jax_ignore" id="hk-fn-5"><div class="fn"><code class="code-inline tex2jax_ignore">youtu.be/TEr5EeEHzQE</code></div></div>
 <div class="hidden-content tex2jax_ignore" id="hk-fn-6"><div class="fn"><code class="code-inline tex2jax_ignore">youtu.be/mpE2r0pGWhE</code></div></div>
-<div class="hidden-content tex2jax_ignore" id="hk-fn-7"><div class="fn"><code class="code-inline tex2jax_ignore">youtu.be/RwkwmhJ79GI</code></div></div>
+<div class="hidden-content tex2jax_ignore" id="hk-fn-7"><div class="fn"><code class="code-inline tex2jax_ignore">youtu.be/mpE2r0pGWhE</code></div></div>
+<div class="hidden-content tex2jax_ignore" id="hk-fn-8"><div class="fn"><code class="code-inline tex2jax_ignore">youtu.be/RwkwmhJ79GI</code></div></div>
 </div>
 <div class="ptx-content-footer">
 <a class="previous-button button" href="corequisite-material.html" title="Previous"><span class="icon">&lt;</span><span class="name">Prev</span></a><a class="top-button button" href="#" title="Top"><span class="icon">^</span><span class="name">Top</span></a><a class="next-button button" href="b.html" title="Next"><span class="name">Next</span><span class="icon">&gt;</span></a>
