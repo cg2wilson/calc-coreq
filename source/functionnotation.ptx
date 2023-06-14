@@ -12,164 +12,170 @@
             </p>
         </introduction>
 
-    <subsubsection xml:id="a-notation-intro">
-        <title>Function Notation Intro</title>
+        <subsubsection xml:id="a-notation-intro">
+            <title>Function Notation Intro</title>
 
-        <example>
-            <statement>
-                <p>
-                    <url href="https://youtu.be/Qd4R5QIzBGk">Video</url>
-                </p>
-                <p>
-                    A function is a relation that assigns <alert>exactly one</alert> output to every input. The set of inputs is the <term>domain</term> of the function. The set of outputs is the <term>range</term> of the function.
-                </p>
+            <example>
+                <statement>
+                    <p>
+                        <url href="https://youtu.be/Qd4R5QIzBGk">Video</url>
+                    </p>
+                    <p>
+                        A function is a relation that assigns <alert>exactly one</alert> output to every input. The set of inputs is the <term>domain</term> of the function. The set of outputs is the <term>range</term> of the function.
+                    </p>
 
-                <p>
-                    For a function <m>y = f(x)</m>:
-                    <ul>
-                        <li>
-                            <p>
-                                <m>f</m> is the function name
-                            </p>
-                        </li>
-                        <li>
-                            <p>
-                                <m>x</m> is the input
-                            </p>
-                        </li>
-                        <li>
-                            <p>
-                                <m>f(x)</m> is the output or <m>y-</m>value for the corresponding <m>x</m>
-                            </p>
-                        </li>
-                    </ul>
-                </p>
-                <p>
-                    An important thing to notet is that <m>f(x)</m> does not indicate multiplication between <m>f</m> and <m>x</m>. Rather, <m>f(x)</m> represents the output or <m>y-</m>value obtained by plugging the corresponding <m>x</m> value into the function <m>f</m>. A function can be represented algebraically (with a formula), graphically (with a graph), numerically (with a table), or verbally (with a description.)
-                </p>
-                <image xml:id="a-notation-intro-iodiagram">
-                    <description>
-                        A diagram describing the "function machine"- <m>x</m> is input into the machine called <m>f</m>, and <m>f(x)</m> produced the output <m>y</m>
-                    </description>
-                    <latex-image>
-                        <![CDATA[ 
-                        \begin{tikzpicture}
-                            \node[left] at (0,0) {$x$};
-                            \draw (0,0)--(.5,0)--(.5,-.5);
-                            \draw (1,0) rectangle (3,-1);
-                            \draw[white] (1,-.35)--(1,-.65);
-                            \node[draw, single arrow, minimum height=11.45mm, minimum width=1mm, single arrow head extend = 2mm] at (3.5,-.5) {};
-                            \fill[white] (2.95,-.36) rectangle (3.05,-.64);
-                            \draw[-{Latex[length=2mm, width=2mm]}] (.5,-.5)--(1,-.5);
-                            \node[right] at (4.2,-.55) {$y$};
-                        \end{tikzpicture}
-                        ]]>
-                    </latex-image>
-                </image>
+                    <p>
+                        For a function <m>y = f(x)</m>:
+                        <ul>
+                            <li>
+                                <p>
+                                    <m>f</m> is the function name
+                                </p>
+                            </li>
+                            <li>
+                                <p>
+                                    <m>x</m> is the input
+                                </p>
+                            </li>
+                            <li>
+                                <p>
+                                    <m>f(x)</m> is the output or <m>y-</m>value for the corresponding <m>x</m>
+                                </p>
+                            </li>
+                        </ul>
+                    </p>
+                    <p>
+                        An important thing to note is that <m>f(x)</m> does not indicate multiplication between <m>f</m> and <m>x</m>. Rather, <m>f(x)</m> represents the output or <m>y-</m>value obtained by plugging the corresponding <m>x</m> value into the function <m>f</m>. A function can be represented algebraically (with a formula), graphically (with a graph), numerically (with a table), or verbally (with a description.)
+                    </p>
+                    <image xml:id="a-notation-intro-iodiagram">
+                        <description>
+                            A diagram describing the "function machine"- <m>x</m> is input into the machine called <m>f</m>, and <m>f(x)</m> produced the output <m>y</m>
+                        </description>
+                        <latex-image>
+                            <![CDATA[ 
+                            \begin{tikzpicture}
+                                \node[left] at (0,0) {$x$};
+                                \draw (0,0)--(.5,0)--(.5,-.5);
+                                \draw (1,0) rectangle (3,-1);
+                                \draw[white] (1,-.35)--(1,-.65);
+                                \node[draw, single arrow, minimum height=11.45mm, minimum width=1mm, single arrow head extend = 2mm] at (3.5,-.5) {};
+                                \fill[white] (2.95,-.36) rectangle (3.05,-.64);
+                                \draw[-{Latex[length=2mm, width=2mm]}] (.5,-.5)--(1,-.5);
+                                \node[right] at (4.2,-.55) {$y$};
+                            \end{tikzpicture}
+                            ]]>
+                        </latex-image>
+                    </image>
 
-                <p>
-                    Another important observation is that we can use variables other than <m>x,f,</m> and <m>y</m>!
-                </p>
+                    <p>
+                        Another important observation is that we can use variables other than <m>x,f,</m> and <m>y</m>!
+                    </p>
 
-                <p>
-                    For example, let's identify the function name, input variable, and output variable in the following expressions:
-                    <me>
-                        z = r(w)
-                    </me>
-                    Let's try one more!
-                    <me>
-                        h = x(t)
-                    </me>
-                </p>
+                    <p>
+                        For example, let's identify the function name, input variable, and output variable in the following expressions:
+                        <me>
+                            z = r(w)
+                        </me>
+                        Let's try one more!
+                        <me>
+                            h = x(t)
+                        </me>
+                    </p>
 
-                <p>
-                    Some different types of functions with function notation:    
-                </p>
-                <tabular>
-                    <row>
-                        <cell>Linear Function: <m>f(x) = 3x+1</m></cell>
-                        <cell>Is this different than <m>y=3x+1</m>?</cell>
-                    </row>
-                    <row>
-                        <cell>Quadratic Function: <m>h(t) = 16t^2-8t+20</m></cell>
-                        <cell>Is <m>h(t)</m> the same as <m>h\cdot t</m>?</cell>
-                    </row>
-                </tabular>
-            </statement>
-        </example>
+                    <p>
+                        Some different types of functions with function notation:    
+                    </p>
+                    <tabular>
+                        <row>
+                            <cell>Linear Function: <m>f(x) = 3x+1</m></cell>
+                            <cell>Is this different than <m>y=3x+1</m>?</cell>
+                        </row>
+                        <row>
+                            <cell>Quadratic Function: <m>h(t) = 16t^2-8t+20</m></cell>
+                            <cell>Is <m>h(t)</m> the same as <m>h\cdot t</m>?</cell>
+                        </row>
+                    </tabular>
+                </statement>
+            </example>
 
-        <example>
-            <statement>
-                <p>
-                    Identify the function name, input variable, and output variable: <m>p=g(q)</m>
-                </p>
-            </statement>
-            <solution>
-                <tabular>
-                    <row>
-                        <cell>Function name:</cell>
-                        <cell><m>g</m></cell>
-                    </row>
-                    <row>
-                        <cell>Input variable:</cell>
-                        <cell><m>q</m></cell>
-                    </row>
-                    <row>
-                        <cell>Output variable:</cell>
-                        <cell><m>p</m></cell>
-                    </row>
-                </tabular>
-            </solution>
-        </example>
+            <exercise>
+                <title>(Checkpoint 1.1a)</title>
+                
+                
+                <statement>
+                    <p>
+                        Identify the function name, input variable, and output variable: <m>p=g(q)</m>
+                    </p>
+                </statement>
+                <solution>
+                    <tabular>
+                        <row>
+                            <cell>Function name:</cell>
+                            <cell><m>g</m></cell>
+                        </row>
+                        <row>
+                            <cell>Input variable:</cell>
+                            <cell><m>q</m></cell>
+                        </row>
+                        <row>
+                            <cell>Output variable:</cell>
+                            <cell><m>p</m></cell>
+                        </row>
+                    </tabular>
+                </solution>
+            </exercise>
 
-        <example>
-            <statement>
-                <p>
-                    <m>f(x) = \sqrt{x-4}</m>
-                </p>
-                <p>
-                    <ol marker="a">
-                        <li>
-                            <p>
-                                True or False: We can divide both sides of the above equation by <m>f</m> to get <m>x = \dfrac{\sqrt{x-4}}{f}</m>
-                            </p>
-                        </li>
-                        <li>
-                            <p>
-                                What is the input variable?
-                            </p>
-                        </li>
-                        <li>
-                            <p>
-                                What is the output variable?
-                            </p>
-                        </li>
-                    </ol>
-                </p>
-            </statement>
-            <solution>
-                <p>
-                    <ol marker="a">
-                        <li>
-                            <p>
-                                False: <m>f(x)</m> is not <m>f</m> times <m>x</m>. Rather, <m>f(x)</m> is function notation for the output or <m>y</m> value. Another notation for the given relation would be <m>y = \sqrt{x-4}</m>. <m>f(x)</m> is equivalent to the <m>y</m> value, just in a different notation. Dividing both sides of the equation by <m>f</m> is akin to dividing the function by itself.
-                            </p>
-                        </li>
-                        <li>
-                            <p>
-                                <m>x</m>
-                            </p>
-                        </li>
-                        <li>
-                            <p>
-                                <m>f</m>
-                            </p>
-                        </li>
-                    </ol>
-                </p>
-            </solution>
-        </example>
-    </subsubsection>
+            <exercise>
+                <title>(Checkpoint 1.1b)</title>
+                
+                
+                <statement>
+                    <p>
+                        <m>f(x) = \sqrt{x-4}</m>
+                    </p>
+                    <p>
+                        <ol marker="a">
+                            <li>
+                                <p>
+                                    True or False: We can divide both sides of the above equation by <m>f</m> to get <m>x = \dfrac{\sqrt{x-4}}{f}</m>
+                                </p>
+                            </li>
+                            <li>
+                                <p>
+                                    What is the input variable?
+                                </p>
+                            </li>
+                            <li>
+                                <p>
+                                    What is the output variable?
+                                </p>
+                            </li>
+                        </ol>
+                    </p>
+                </statement>
+                <solution>
+                    <p>
+                        <ol marker="a">
+                            <li>
+                                <p>
+                                    False: <m>f(x)</m> is not <m>f</m> times <m>x</m>. Rather, <m>f(x)</m> is function notation for the output or <m>y</m> value. Another notation for the given relation would be <m>y = \sqrt{x-4}</m>. <m>f(x)</m> is equivalent to the <m>y</m> value, just in a different notation. Dividing both sides of the equation by <m>f</m> is akin to dividing the function by itself.
+                                </p>
+                            </li>
+                            <li>
+                                <p>
+                                    <m>x</m>
+                                </p>
+                            </li>
+                            <li>
+                                <p>
+                                    <m>f</m>
+                                </p>
+                            </li>
+                        </ol>
+                    </p>
+                </solution>
+            </exercise>
+        </subsubsection>
     </subsection>
 
     <subsection xml:id="a-evaluation">
@@ -231,7 +237,10 @@
                 </solution>
             </example>
 
-            <example>
+            <exercise>
+                <title>(Checkpoint 2.1)</title>
+                
+                
                 <statement>
                     <p>
                         <ol marker="a">
@@ -274,7 +283,7 @@
                         </ol>
                     </p>
                 </solution>
-            </example>
+            </exercise>
         </subsubsection>
 
         <subsubsection xml:id="a-evaluation-piecewise">
@@ -299,7 +308,10 @@
                 </solution>
             </example>
 
-            <example>
+            <exercise>
+                <title>(Checkpoint 2.2)</title>
+                
+                
                 <statement>
                     <p>
                         <me>
@@ -313,7 +325,7 @@
                         <m>f(-3) = 3</m>, <m>f(6) = -2</m>, and <m>f(7) = 49</m>
                     </p>
                 </solution>
-            </example>
+            </exercise>
         </subsubsection>
 
         <subsubsection xml:id="a-evaluation-graphical">
@@ -339,7 +351,10 @@
                 </solution>
             </example>
 
-            <example>
+            <exercise>
+                <title>(Checkpoint 2.3)</title>
+                
+                
                 <statement>
                     <p>
                         The graph of <m>y=g(x)</m> is given. Find <m>f(-3)</m>, <m>f(-1)</m>, <m>f(0)</m>, <m>f(1)</m>, and <m>f(2)</m>.
@@ -351,7 +366,7 @@
                         <m>f(-3) = -1</m>, <m>f(-1) = DNE</m>, <m>f(0) = 2</m>, <m>f(1) = -2</m>, and <m>f(2)=0</m>.
                     </p>
                 </solution>
-            </example>
+            </exercise>
         </subsubsection>
 
         <subsubsection xml:id="a-evaluation-numerical">
@@ -399,7 +414,10 @@
                 </solution>
             </example>
 
-            <example>
+            <exercise>
+                <title>(Checkpoint 2.4)</title>
+                
+                
                 <statement>
                     <p>
                         <url href="https://youtu.be/mpE2r0pGWhE">Video</url>
@@ -439,7 +457,50 @@
                         <m>f(-1) = 7</m>, <m>g(3)=-2.6</m>, <m>g(1)-f(5)=15.9-4 = 11.9</m>, and <m>g(-1)\cdot f(7) = -3.14\cdot 3 = -9.42</m>.
                     </p>
                 </solution>
+            </exercise>
+        </subsubsection>
+
+        <subsubsection xml:id="a-evaluation-subtraction">
+            <title>Function Evaluation with Subtraction</title>
+            
+            <example>
+                <statement>
+                    <p>
+                        <url href="https://youtu.be/mpE2r0pGWhE">Video</url>
+                    </p>
+                    <p>
+                        <me>
+                            f(x) = -6x+5
+                        </me>
+                        Find <m>f(3)-f(1)</m>
+                    </p>
+                </statement>
+                <solution>
+                    <p>
+                        <m>-13-(-1) = -12</m>
+                    </p>
+                </solution>
             </example>
+
+            <exercise>
+                <title>(Checkpoint 2.5)</title>
+                
+                
+                <statement>
+                    <p>
+                       <me>
+                        f(x)=x^2-3x+7
+                       </me>
+                        Find <m>f(2)-f(0)</m>
+                    </p>
+                </statement>
+                <solution>
+                    <p>
+                        <m>5-7=2</m>
+                    </p>
+                </solution>
+            </exercise>
+            
         </subsubsection>
 
         <subsubsection xml:id="a-evaluation-symbolic">
@@ -461,7 +522,10 @@
                 </solution>
             </example>
 
-            <example>
+            <exercise>
+                <title>(Checkpoint 2.6)</title>
+                
+                
                 <statement>
                     <p>
                         <m>f(x) = 3x^2</m>. Find the following:
@@ -517,7 +581,7 @@
                         </ol>
                     </p>
                 </solution>
-            </example>
+            </exercise>
         </subsubsection>
     </subsection>
 </section>
